@@ -3840,6 +3840,13 @@ textarea.form-control-lg {
   color: #adb5bd;
 }
 
+.dropdown:hover .dropdown-menu{
+  display: block;
+}
+.dropdown-menu{
+  margin-top: 0;
+}
+
 .btn-group,
 .btn-group-vertical {
   position: relative;
