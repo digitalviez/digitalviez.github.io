@@ -3543,7 +3543,7 @@ textarea.form-control-lg {
   white-space: nowrap;
 }
 .dropdown-toggle::after {
-  display: inline-block;
+  display: none;
   margin-left: 0.255em;
   vertical-align: 0.255em;
   content: "";
@@ -3559,7 +3559,7 @@ textarea.form-control-lg {
 .dropdown-menu {
   position: absolute;
   z-index: 1000;
-  display: none;
+  display: inline-flex;
   min-width: 10rem;
   padding: 0.5rem 0;
   margin: 0;
@@ -3567,11 +3567,10 @@ textarea.form-control-lg {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: transparent;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
-  border-radius: 0.25rem;
 }
+
 .dropdown-menu[data-bs-popper] {
   top: 100%;
   left: 0;
@@ -3737,7 +3736,7 @@ textarea.form-control-lg {
   content: "";
 }
 .dropstart .dropdown-toggle::after {
-  display: none;
+  display: inline-block;
 }
 .dropstart .dropdown-toggle::before {
   display: inline-block;
@@ -3818,7 +3817,7 @@ textarea.form-control-lg {
   color: #dee2e6;
 }
 .dropdown-menu-dark .dropdown-item:hover, .dropdown-menu-dark .dropdown-item:focus {
-  color: #fff;
+  color: rgb(160, 12, 12);
   background-color: rgba(255, 255, 255, 0.15);
 }
 .dropdown-menu-dark .dropdown-item.active, .dropdown-menu-dark .dropdown-item:active {
@@ -6008,16 +6007,18 @@ textarea.form-control-lg {
   content: "";
 }
 
+
 .carousel-item {
   position: relative;
   display: none;
   float: left;
   width: 100%;
   margin-right: -100%;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -webkit-backface-visibility: visible;
+          backface-visibility: visible;
   transition: transform 0.6s ease-in-out;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .carousel-item {
     transition: none;
@@ -11300,7 +11301,12 @@ body {
 }
 
 .page-section {
-  padding: 4rem 0;
+  padding: 3rem 0;
+}
+
+.page-museum {
+  padding: 0.5rem 0;
+  opacity: inherit;
 }
 
 .text-white-75 {
