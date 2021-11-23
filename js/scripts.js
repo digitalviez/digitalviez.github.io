@@ -18,7 +18,8 @@ window.addEventListener('DOMContentLoaded', event => {
         if (window.scrollY === 0) {
             navbarCollapsible.classList.remove('navbar-shrink')
             document.getElementById("logo").src = "../assets/img/icons/logo-white.png"
-        } else {
+        } 
+        else {
             navbarCollapsible.classList.add('navbar-shrink')
             document.getElementById("logo").src = "../assets/img/icons/logo-black.png"
         }
@@ -30,6 +31,7 @@ window.addEventListener('DOMContentLoaded', event => {
 
     // Shrink the navbar when page is scrolled
     document.addEventListener('scroll', navbarShrink);
+
 
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');
