@@ -11422,7 +11422,10 @@ hr.divider-light {
   }
   #mainNav.navbar-shrink {
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-    background-color: transparent;
+    background-color: white;
+  }
+  #mainNav.navbar-shrink .navbar-toggler-icon{
+    background-image: url("https://img.icons8.com/material-outlined/24/000000/menu--v1.png");
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #212529;
