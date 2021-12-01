@@ -1,0 +1,85 @@
+
+    <!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <style>
+      html, body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+      }
+      #map {
+        /* configure the size of the map */
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      // initialize Leaflet
+      var map = L.map('map').setView({lon: 6.63935, lat: 49.75565}, 10); // id of div 
+	  
+      // add the OpenStreetMap tiles
+      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+      }).addTo(map);
+
+      // show the scale bar on the lower left corner
+      L.control.scale({imperial: true, metric: true}).addTo(map);
+
+      // show a marker on the map
+      L.marker({lon: 6.63935, lat: 49.75565}).bindPopup('<p> Ancient Name: Augustus Treverorum</br>														 Founder: Trebeta </br>														 Description: The oldest city of Germany. </br>														 Webseite: <a href = "https://www.trier.de/Startseite/">https://www.trier.de/Startseite/</a></p>').addTo(map); 
+														 
+	var myIcon = L.icon({
+    iconUrl: 'assets/img/Beer_4.png',
+    iconSize: [50, 50],
+    iconAnchor: [25, 25],
+    popupAnchor: [5, -20],
+  //  shadowUrl: 'my-icon-shadow.png',
+  //  shadowSize: [68, 95],
+  //  shadowAnchor: [22, 94]
+});
+
+	L.marker({lon: 6.6866,lat: 49.7474}, {icon: myIcon}).bindPopup('<p>Trier University</br>Description: Location of the Digital Viez Project.</p>').addTo(map); 
+	L.marker({lon: 6.6994781, lat: 49.7440381}, {icon: myIcon}).bindPopup('<p>Weinstube Gehlen</p>').addTo(map);
+L.marker({lon: 6.5095418, lat: 49.7874844}, {icon: myIcon}).bindPopup('<p>Edelobstbrennerei + Viez Klimmes</p>').addTo(map);
+L.marker({lon: 6.4771494, lat: 49.5778305}, {icon: myIcon}).bindPopup('<p>Marys Destille</p>').addTo(map);
+L.marker({lon: 6.6312855, lat: 49.6606055}, {icon: myIcon}).bindPopup('<p>Weingut Hutmacher</p>').addTo(map);
+L.marker({lon: 6.6640250, lat: 49.7791366}, {icon: myIcon}).bindPopup('<p>Weyand\'s Viez und Brennerei</p>').addTo(map);
+L.marker({lon: 6.4985453, lat: 49.6802906}, {icon: myIcon}).bindPopup('<p>Weingut & Brennerei Peter Greif</p>').addTo(map);
+L.marker({lon: 6.6324887, lat: 49.7403804}, {icon: myIcon}).bindPopup('<p>Greifbar</p>').addTo(map);
+L.marker({lon: 6.8483260, lat: 49.8967458}, {icon: myIcon}).bindPopup('<p>Escher Viez</p>').addTo(map);
+L.marker({lon: 6.4901331, lat: 49.6211160}, {icon: myIcon}).bindPopup('<p>Edelobstbrennerei Lutz</p>').addTo(map);
+L.marker({lon: 6.7423429, lat: 49.7469881}, {icon: myIcon}).bindPopup('<p>Viezmosterei Scherf (Scherfsmühle)</p>').addTo(map);
+L.marker({lon: 6.8071950, lat: 49.7429268}, {icon: myIcon}).bindPopup('<p>Kelterei & Brennerei Gorges GmbH</p>').addTo(map);
+L.marker({lon: 6.5874149, lat: 49.8481257}, {icon: myIcon}).bindPopup('<p>Kelterei Conrad</p>').addTo(map);
+L.marker({lon: 6.5109010, lat: 49.6328081}, {icon: myIcon}).bindPopup('<p>STORS Mannebach</p>').addTo(map);
+L.marker({lon: 6.5434803, lat: 49.8512699}, {icon: myIcon}).bindPopup('<p>Bohrshof</p>').addTo(map);
+L.marker({lon: 6.3765033, lat: 49.5639034}, {icon: myIcon}).bindPopup('<p>Otmar Gries Apfelanbau & Viezmosterei</p>').addTo(map);
+L.marker({lon: 6.6242339, lat: 49.6632985}, {icon: myIcon}).bindPopup('<p>BB Viez</p>').addTo(map);
+L.marker({lon: 6.4870730, lat: 49.6212887}, {icon: myIcon}).bindPopup('<p>Viezhof Hunsicker</p>').addTo(map);
+L.marker({lon: 6.8689864, lat: 49.6751344}, {icon: myIcon}).bindPopup('<p>Die Viezgarage</p>').addTo(map);
+L.marker({lon: 7.0076584, lat: 49.9117163}, {icon: myIcon}).bindPopup('<p>Weinküferei Benzmüller GmbH</p>').addTo(map);
+L.marker({lon: 6.7465796, lat: 49.7480499}, {icon: myIcon}).bindPopup('<p>Viezgut Joachim Meyer</p>').addTo(map);
+L.marker({lon: 6.5910658, lat: 49.6615974}, {icon: myIcon}).bindPopup('<p>Wiltinger Viez</p>').addTo(map);
+L.marker({lon: 6.7154539, lat: 49.6879221}, {icon: myIcon}).bindPopup('<p>Apfel- und Viezgut Rudi Müller</p>').addTo(map);
+L.marker({lon: 6.3774124, lat: 49.5656152}, {icon: myIcon}).bindPopup('<p>Weingut Sonenbuerg</p>').addTo(map);
+L.marker({lon: 6.5572624, lat: 49.6278704}, {icon: myIcon}).bindPopup('<p>Weingut Margarethenhof</p>').addTo(map);
+L.marker({lon: 6.5002027, lat: 49.6799148}, {icon: myIcon}).bindPopup('<p>Weingut Biewers</p>').addTo(map);
+L.marker({lon: 7.0271195, lat: 49.9815843}, {icon: myIcon}).bindPopup('<p>Römische Kelteranlage Erden</p>').addTo(map);
+L.marker({lon: 6.9115090, lat: 49.8858678}, {icon: myIcon}).bindPopup('<p>Römische Großkelteranlage Piesport</p>').addTo(map);
+L.marker({lon: 6.6995176, lat: 49.7441518}, {icon: myIcon}).bindPopup('<p>Weingut Gehlen</p>').addTo(map);
+L.marker({lon: 6.7002509, lat: 49.6496474}, {icon: myIcon}).bindPopup('<p>Lampadener Viezjungen GbR</p>').addTo(map);
+L.marker({lon: 6.3779620, lat: 49.5897144}, {icon: myIcon}).bindPopup('<p>Weingut Markushof</p>').addTo(map);
+    </script>
+
+  </body>
+</html>
+    
