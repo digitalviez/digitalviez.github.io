@@ -7337,6 +7337,10 @@ textarea.form-control-lg {
   margin-top: 3rem !important;
 }
 
+.mt-6 {
+  margin-top: 1.5rem !important;
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
@@ -7851,7 +7855,7 @@ textarea.form-control-lg {
 
 .bg-light {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+  background-color: var(--bs-gray-100);
 }
 
 .bg-dark {
@@ -11329,6 +11333,15 @@ body {
   border-radius: 10rem;
 }
 
+.btn-nav {
+  padding: 0.85rem 1.8rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
 hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
@@ -11900,3 +11913,4 @@ header.masthead h1, header.masthead .h1 {
           padding: 15px 30px 15px 55px;
       }
   }
+
