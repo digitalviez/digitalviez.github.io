@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Sitemap der einzelnen Seiten-->
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+  <url>
+    <loc>https://digitalviez.github.io/</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/index.html</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/karte.html</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/museum.html</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/sprache.html</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/projekt.html</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/projekt.html#ueberuns</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/projekt.html#dhmethoden</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+   <url>
+    <loc>https://digitalviez.github.io/projekt.html#impressum</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+   <url>
+    <loc>https://digitalviez.github.io/datenschutz.html</loc>
+    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+  </url>
+
+</urlset>
+
+
+<!--Bilder-Sitemap-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://digitalviez.github.io/museum</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez1.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez2.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez3.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez4.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez5.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez6.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez7.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez8.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez9.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez10.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image><image:image>
+      <image:loc>https://digitalviez.github.io/viez11.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image><image:image>
+      <image:loc>https://digitalviez.github.io/iez12.jpg</image:loc>
+      <image:title> </image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+</urlset>
