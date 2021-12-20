@@ -57,7 +57,7 @@
     --bs-black-rgb: 0, 0, 0;
     --bs-body-color-rgb: 33, 37, 41;
     --bs-body-bg-rgb: 255, 255, 255;
-    --bs-font-sans-serif: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-sans-serif: Roboto, sans-serif;
     --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
     --bs-body-font-family: Merriweather, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
@@ -79,6 +79,19 @@
         scroll-behavior: smooth;
     }
 }
+
+.text-font{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+}
+
+.text-footer{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 0.95rem;
+}
+
 
 body {
     margin: 0;
@@ -3050,16 +3063,16 @@ fieldset:disabled .btn {
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #cf5331;
-    border-color: #c34e2e;
+    color: #f4623a;
+    background-color: white;
+    border-color:white;
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
-    color: #fff;
-    background-color: #cf5331;
-    border-color: #c34e2e;
+    color: #f4623a;
+    background-color: white;
+    border-color: white;
     box-shadow: 0 0 0 0.25rem rgba(246, 122, 88, 0.5);
 }
 
@@ -3068,9 +3081,9 @@ fieldset:disabled .btn {
 .btn-primary:active,
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
-    color: #fff;
-    background-color: #c34e2e;
-    border-color: #b74a2c;
+    color: #f4623a;
+    background-color: white;
+    border-color: white;
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -3833,7 +3846,6 @@ fieldset:disabled .btn {
     list-style: none;
     background-color: #fff;
     background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
     border-radius: 0.25rem;
 }
 
@@ -4044,9 +4056,9 @@ fieldset:disabled .btn {
     width: 100%;
     padding: 0.25rem 1rem;
     clear: both;
-    font-weight: 200;
-    font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 0.9rem;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+    font-size: 0.85rem;
     color: #212529;
     text-align: inherit;
     text-decoration: none;
@@ -4057,20 +4069,20 @@ fieldset:disabled .btn {
 
 .dropdown-item:hover,
 .dropdown-item:focus {
-    color: #1e2125;
-    background-color: #e9ecef;
+    color: #f46239;
+    background-color: white;
 }
 
 .dropdown-item.active,
 .dropdown-item:active {
-    color: #fff;
+    color: #f46239;
     text-decoration: none;
-    background-color: #f4623a;
+    background-color: white;
 }
 
 .dropdown-item.disabled,
 .dropdown-item:disabled {
-    color: #adb5bd;
+    color: #f46239;
     pointer-events: none;
     background-color: transparent;
 }
@@ -8335,7 +8347,7 @@ fieldset:disabled .btn {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+    color: #f4623a !important;
 }
 
 .text-secondary {
@@ -8426,7 +8438,7 @@ fieldset:disabled .btn {
 
 .bg-primary {
     --bs-bg-opacity: 1;
-    background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
+    background-color: #f46239 !important;
 }
 
 .bg-secondary {
@@ -11151,7 +11163,19 @@ body {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 992px){
+    .desktop-width{
+        width: 80%;
+    }
+}
+
+@media (min-width: 992px){
+    .mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 992px) {
     #logo {
         content: url("../assets/img/icons/logo-black-Variante2.png");
     }
@@ -11245,7 +11269,7 @@ hr.divider-light {
         color: #212529;
     }
     #mainNav.navbar-shrink .navbar-brand:hover {
-        color: #f4623a;
+        color: #f46239;
     }
     #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
         color: #212529;
@@ -11258,7 +11282,7 @@ hr.divider-light {
 @media (max-width: 992px) and (min-width: 320px) {
     #mainNav {
         box-shadow: none;
-        background-color: white;
+        background-color: #ffffff;
     }
     #mainNav .navbar-brand {
         color: #212529;

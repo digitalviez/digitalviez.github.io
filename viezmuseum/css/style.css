@@ -8220,13 +8220,13 @@ h1, h2, h3, h4, h5,
           border-color: #fff; }
   .owl-carousel.home-slider {
     position: relative;
-    height: 650px;
+    height: 700px;
     z-index: 0; }
     .owl-carousel.home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 650px;
+      height: 700px;
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
