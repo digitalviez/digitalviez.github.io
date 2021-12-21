@@ -77,41 +77,70 @@
     </image:image>
     <image:image>
       <image:loc>https://digitalviez.github.io/viez5.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Aepfel und Porze mit Viez</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://digitalviez.github.io/viez6.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Aepfel und Porze</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://digitalviez.github.io/viez7.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Aepfel und Porze</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://digitalviez.github.io/viez8.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Aepfel und Porze</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://digitalviez.github.io/viez9.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Porz mit Hand</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
     <image:image>
       <image:loc>https://digitalviez.github.io/viez10.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Porze von oben</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
-    </image:image><image:image>
+    </image:image>
+    <image:image>
       <image:loc>https://digitalviez.github.io/viez11.jpg</image:loc>
-      <image:title> </image:title>
+      <image:title>Aeste eines Apfelbaums</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
-    </image:image><image:image>
-      <image:loc>https://digitalviez.github.io/iez12.jpg</image:loc>
-      <image:title> </image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viez12.jpg</image:loc>
+      <image:title>Streuobstwiese mit Apfelbaeumen</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/team.jpg</image:loc>
+      <image:title>Projektgruppe beim Arbeiten</image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wir.jpg</image:loc>
+      <image:title>Projektgruppe mit Glühviez</image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/porta.jpg</image:loc>
+      <image:title>Porta Nigra Trier</image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/karte.jpg</image:loc>
+      <image:title>Viezkarte</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezmuseum.jpg</image:loc>
+      <image:title>Startseite Viezmuseum</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/sprache.jpg</image:loc>
+      <image:title>Sprache</image:title>
     </image:image>
   </url>
 </urlset>
