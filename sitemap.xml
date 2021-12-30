@@ -142,5 +142,9 @@
       <image:loc>https://digitalviez.github.io/sprache.jpg</image:loc>
       <image:title>Sprache</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloud.png</image:loc>
+      <image:title>Wordcloud</image:title>
+    </image:image>
   </url>
 </urlset>
