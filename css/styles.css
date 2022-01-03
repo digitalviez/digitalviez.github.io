@@ -6168,7 +6168,7 @@ fieldset:disabled .btn {
 @media (min-width: 992px) {
     .modal-lg,
     .modal-xl {
-        max-width: 800px;
+        max-width: 600px;
     }
 }
 
@@ -11922,13 +11922,13 @@ img {
 }
 
 
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     .imgdesktop {
         width: 40%;
     }
 }
 
-@media (max-width: 900px) {
+@media (max-width: 992px) {
     .imgmobile {
         width: 100%;
     }
