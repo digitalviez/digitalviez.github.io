@@ -3068,6 +3068,52 @@ fieldset:disabled .btn {
     border-color:white;
 }
 
+.btn-img {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn-img:hover {
+    color: #fff;
+    background-color: white;
+    border-color:white;
+    border:none;
+}
+
+.btn-check:focus+.btn-img,
+.btn-img:focus {
+    color: #fff;
+    background-color: white;
+    border-color: white;
+    box-shadow: 0 0 0 0.25rem white;
+}
+
+.btn-check:checked+.btn-img,
+.btn-check:active+.btn-img,
+.btn-img:active,
+.btn-img.active,
+.show>.btn-img.dropdown-toggle {
+    color: #fff;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-check:checked+.btn-img:focus,
+.btn-check:active+.btn-img:focus,
+.btn-img:active:focus,
+.btn-img.active:focus,
+.show>.btn-img.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.25rem white;
+}
+
+.btn-img:disabled,
+.btn-img.disabled {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
+
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #f4623a;
@@ -11845,7 +11891,7 @@ img {
 .img-hover img:hover {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    -webkit-transform:translateZ(0) scale(1.50); /* Safari and Chrome */
+    -webkit-transform:translateZ(0) scale(1.5); /* Safari and Chrome */
     -moz-transform:scale(1.50); /* Firefox */
     -ms-transform:scale(1.50); /* IE 9 */
     -o-transform:translatZ(0) scale(1.50); /* Opera */
@@ -11868,3 +11914,43 @@ img {
     -moz-filter: brightness(1.10) grayscale(100%) contrast(90%);
     filter: brightness(1.10) grayscale(100%); 
   }
+
+
+.imgBox {
+    width: 30%;
+    margin: 0 auto;
+}
+
+
+@media (min-width: 900px) {
+    .imgdesktop {
+        width: 40%;
+    }
+}
+
+@media (max-width: 900px) {
+    .imgmobile {
+        width: 100%;
+    }
+}
+
+.img-start {
+    width: 380px;
+    height: 200px;
+}
+
+.imgSize {
+        width: 380px;
+        height: 450px;
+    }
+
+.imgSizeV{
+        width: 450px;
+        height: 450px;
+    }
+    
+.imgSizeI{
+        width: 120px;
+        height: 450px;
+    }
+
