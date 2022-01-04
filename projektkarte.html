@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="css/styles.css" rel="stylesheet" />
     <style>
       html, body {
         height: 100%;
@@ -29,7 +30,7 @@
     popupAnchor: [5, -20],
 });	
 
-var uni_trier = L.marker({lon: 6.6866,lat: 49.7474}, {icon: digital_viez}).bindPopup('<p><b>Universit&auml;t Trier</b></br>Standort des Digital Viez Projekts.<br><a href="mailto:digital-viez@uni-trier.de"><img src= "assets/bootstrap-icons/envelope-fill.svg" alt = "E-Mail" height = "12px" width = "auto"> E-Mail</a></p>')
+var uni_trier = L.marker({lon: 6.6866,lat: 49.7474}, {icon: digital_viez}).bindPopup('<p><b>Universit&auml;t Trier</b></br>Standort des Digital Viez Projekts.<br><a href="mailto:digital-viez@uni-trier.de" target="blank"><img src= "assets/bootstrap-icons/envelope-fill.svg" alt = "E-Mail" height = "12px" width = "auto"> digital-viez@uni-trier.de</a></p>')
 
 var standard = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {id: 'MapID', attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'});
 
