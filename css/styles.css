@@ -8393,7 +8393,7 @@ fieldset:disabled .btn {
 
 .text-primary {
     --bs-text-opacity: 1;
-    color: #f4623a !important;
+    color: #f46239 !important;
 }
 
 .text-secondary {
@@ -11954,3 +11954,78 @@ img {
         height: 450px;
     }
 
+#btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    }
+
+    .btn-totop {
+        color: transparent;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    .btn-totop:hover {
+        color: transparent;
+        background-color: transparent;
+        border-color:transparent;
+        border:transparent;
+    }
+    
+    .btn-check:focus+.btn-totop,
+    .btn-totop:focus {
+        color: transparent;
+        background-color: transparent;
+        border-color: transparent;
+        box-shadow: 0 0 0 0.25rem transparent;
+    }
+    
+    .btn-check:checked+.btn-totop,
+    .btn-check:active+.btn-totop,
+    .btn-totop:active,
+    .btn-totop.active,
+    .show>.btn-totop.dropdown-toggle {
+        color: transparent;
+        background-color: transparent;
+        border-color: transparent;
+    }
+    
+    .btn-check:checked+.btn-totop:focus,
+    .btn-check:active+.btn-totop:focus,
+    .btn-totop:active:focus,
+    .btn-totop.active:focus,
+    .show>.btn-img.dropdown-toggle:focus {
+        box-shadow: 0 0 0 0.25rem transparent;
+    }
+    
+    .btn-totop:disabled,
+    .btn-totop.disabled {
+        color: transparent;
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    .centered {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+* {box-sizing: border-box;}
+
+.img-magnifier-container {
+  position:relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #000;
+  border-radius: 50%;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 125px;
+  height: 125px;
+}

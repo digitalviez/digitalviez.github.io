@@ -21,6 +21,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <script src="js/magnifier.js"></script>
     </head>
     <body id="page-top">
 
@@ -46,6 +47,8 @@
                 </div>
             </div>
         </nav>
+
+        <button type="button" class="btn btn-totop" id="btn-back-to-top"><i class="bi bi-arrow-up-circle-fill fs-1 text-primary"></i></button>
 
         <!-- Header -->
         <section class="page-section bg-primary">
@@ -102,7 +105,9 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
-                        <img class="img-responsive img-rounded" src="assets/img/wordcloud.png" />
+                        <div class="img-magnifier-container">
+                            <img id="myimage" src="assets/img/wordcloud.png" width="600" height="600">
+                        </div>
                     </div>
                 </div>
                 </div>
@@ -126,7 +131,7 @@
                     </div>
                     <div class="col">
                         <a class="portfolio-box" href="assets/img/wordcloudI.png" title="Project Name" data-bs-toggle="modal" data-bs-target="#wordcloud_I">
-                            <img class="imgSizeI" src="assets/img/wordcloudI.png" alt="..." />
+                            <img class="imgSizeI centered" src="assets/img/wordcloudI.png" alt="..." />
                             <div class="portfolio-box-caption">
                                 <div class="project-category text-white-50">TFIDF Maß</div>
                                 <div class="project-name">Durschnitt der Adverben</div>
@@ -206,9 +211,7 @@
         
         <br>
         <br>
-        
-    
-       
+           
                 
         <!-- Footer-->
         <footer class="bg-light py-5">
@@ -218,7 +221,11 @@
             <div class="container px-4 px-lg-5"><div class="text-center text-muted text-footer">&copy; 2021 - Digital Humanities - <a href="https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-ii/faecher/computerlinguistik-und-digital-humanities/digital-humanities" target="blank">Universität Trier</a></div></div>
         </footer>
 
-        
+        <script>
+            /* Initiate Magnify Function
+            with the id of the image, and the strength of the magnifier glass:*/
+            magnify("myimage", 3.5);
+        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
