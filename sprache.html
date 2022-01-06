@@ -21,8 +21,6 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
-        <script src="js/magnifier.js"></script>
-
     </head>
     <body id="page-top">
 
@@ -37,7 +35,7 @@
                         <li class="nav-item"><a class="nav-link" href="museum.html">ViezMuseum</a></li>
                         <li class="nav-item"><a class="nav-link" href="sprache.html">ViezSprache</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="projekt.html" data-bs-toggle="dropdown" aria-expanded="false">Was ist Digital Viez?</a>
+                            <a class="nav-link" href="projekt.html" aria-expanded="false">Was ist Digital Viez?</a>
                             <ul class="dropdown-menu" aria-labelledby="dropdown">
                                 <li><a class="dropdown-item" href="projekt.html">Das Projekt</a></li>
                                 <li><a class="dropdown-item" href="projekt.html#ueberuns">Über uns</a></li>
@@ -60,170 +58,90 @@
                         <br>
                         <br>
                         <h2 class="text-white mt-0">Viez Sprache</h2>
-                        <hr class="divider divider-light" />        
+                        <hr class="divider divider-light" />      
+                        <h5 class="text-white mt-0">Entdecken Sie die Sprache des Viez!</h5>  
                     </div>
                 </div>
             </div>      
         </section>
 
 
-        <!-- Wordcloud Image -->
-        <br>
-
-         <div class="container desktop-width" >
-            <button type="button" class="btn btn-img" data-bs-toggle="modal" data-bs-target="#wordcloud_main">
-                <img class="imgdesktop imgmobile" src="assets/img/wordcloud.png" />
-            </button>
-            <!-- Modal -->
-            <div class="modal fade" id="wordcloud_main" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h6>Bewegen Sie die Maus an die gewünschte Stelle, um die Wörter mit einer Lupe zu entdecken!</h6>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="img-magnifier-container">
-                            <img id="wordcloud" src="assets/img/wordcloud.png" width="600" height="600">
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-            <br>
-            <br>
-        </div>
-
-        <div class="bg-light">
-            <br>
-            <br>
-            <div class="container desktop-width">
-                <h5><strong>Wordcloud</strong></h5>
-                  <p class="text-font">
-                    Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben. Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren.
-                  </p>
-                </div>
-                <br>
-                <br>
-            </div>
-    
-
-        <br>
-        <br>
-
-        <!-- VIEZ Buchstaben Wordcloud-->
-        <div class="container desktop-width">
-        <div id="portfolio">
             <div class="container-fluid p-0">
                 <div class="row g-0">
-                    <div class="col">
-                        <a class="portfolio-box" href="assets/img/wordcloudV.png" title="Project Name" data-bs-toggle="modal" data-bs-target="#wordcloud_V">
-                            <img class="imgSizeV" src="assets/img/wordcloudV.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">TFIDF Maß</div>
-                                <div class="project-name">Durschnitt der Substantive</div>
-                            </div>
+                    <div class="col-4 box">
+                        <a class="box" href="wortherkunft.html" title="Wortherkunft">
+                            <header style="text-align: center;">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h3 style="color:white; font-family: Roboto, sans-serif;">Die Herkunft des Wortes Viez</h3>
+                                <hr style="color: white; height: 2px; width: 80%; margin:auto;">
+                            </header>
                         </a>
                     </div>
-                    <div class="col">
-                        <a class="portfolio-box" href="assets/img/wordcloudI.png" title="Project Name" data-bs-toggle="modal" data-bs-target="#wordcloud_I">
-                            <img class="imgSizeI centered" src="assets/img/wordcloudI.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">TFIDF Maß</div>
-                                <div class="project-name">Durschnitt der Adverben</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a class="portfolio-box" href="assets/img/wordcloudE.png" title="Project Name" data-bs-toggle="modal" data-bs-target="#wordcloud_E">
-                            <img class="imgSize" src="assets/img/wordcloudE.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">TFIDF Maß</div>
-                                <div class="project-name">Durschnitt der Verben</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="col">
-                        <a class="portfolio-box" href="assets/img/wordcloudZ.png" title="Project Name" data-bs-toggle="modal" data-bs-target="#wordcloud_Z">
-                            <img class="imgSize" src="assets/img/wordcloudZ.png" alt="..." />
-                            <div class="portfolio-box-caption">
-                                <div class="project-category text-white-50">TFIDF Maß</div>
-                                <div class="project-name">Durschnitt der Adjektive</div>
-                            </div>
+                    <div class="col-8 box1">
+                        <a class="box" href="wortherkunft.html" title="Wortherkunft">
+                            <header style="text-align: center;">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h3 style="color:white; font-family: Roboto, sans-serif;">Ein Netzwerk der ViezSprache</h3>
+                                <hr style="color: white; height: 2px; width: 50%; margin:auto;">
+                            </header>
                         </a>
                     </div>
                 </div>
-            </div>
-        </div>
-        </div>
-
-        <div class="modal fade" id="wordcloud_V" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6>Bewegen Sie die Maus an die gewünschte Stelle, um die Wörter mit einer Lupe zu entdecken!</h6>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="img-magnifier-container">
-                        <img id="wordcloudV" src="assets/img/wordcloudV.png" width="600" height="600">
+                <div class="row g-0">
+                    <div class="col-8 box2">
+                        <a class="box" href="wortherkunft.html" title="Wortherkunft">
+                            <header style="text-align: center;">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h3 style="color:white; font-family: Roboto, sans-serif;">Die beliebtesten Suchanfragen auf Google</h3>
+                                <hr style="color: white; height: 2px; width: 60%; margin:auto;">
+                            </header>
+                        </a>
+                    </div>
+                    <div class="col-4 box3">
+                        <a class="box" href="wortherkunft.html" title="Wortherkunft">
+                            <header style="text-align: center;">
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <br>
+                                <h3 style="color:white; font-family: Roboto, sans-serif;">Digitaler Textkorpus</h3>
+                                <hr style="color: white; height: 2px; width: 60%; margin:auto;">
+                            </header>
+                        </a>
                     </div>
                 </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="wordcloud_I" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6>Bewegen Sie die Maus an die gewünschte Stelle, um die Wörter mit einer Lupe zu entdecken!</h6>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="img-magnifier-container">
-                        <img id="wordcloudI" src="assets/img/wordcloudI.png" width="600" height="600">
-                    </div>
+                <div class="row g-0 box4">
+                    <a class="box" href="wortherkunft.html" title="Wortherkunft">
+                        <header style="text-align: center;">
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <h3 style="color:white; font-family: Roboto, sans-serif;">VieZitat</h3>
+                            <hr style="color: white; height: 2px; width: 10%; margin:auto;">
+                        </header>
+                    </a>
                 </div>
             </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="wordcloud_E" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6>Bewegen Sie die Maus an die gewünschte Stelle, um die Wörter mit einer Lupe zu entdecken!</h6>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="img-magnifier-container">
-                        <img id="wordcloudE" src="assets/img/wordcloudE.png" width="600" height="600">
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
-
-        <div class="modal fade" id="wordcloud_Z" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h6>Bewegen Sie die Maus an die gewünschte Stelle, um die Wörter mit einer Lupe zu entdecken!</h6>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="img-magnifier-container">
-                        <img id="wordcloudZ" src="assets/img/wordcloudZ.png" width="600" height="600">
-                    </div>
-                </div>
-            </div>
-            </div>
-        </div>
         
-        <br>
-        <br>
-           
+            
+
+    
+
                 
         <!-- Footer-->
         <footer class="bg-light py-5">
@@ -233,15 +151,6 @@
             <div class="container px-4 px-lg-5"><div class="text-center text-muted text-footer">&copy; 2021 - Digital Humanities - <a href="https://www.uni-trier.de/universitaet/fachbereiche-faecher/fachbereich-ii/faecher/computerlinguistik-und-digital-humanities/digital-humanities" target="blank">Universität Trier</a></div></div>
         </footer>
 
-        <script>
-            /* Initiate Magnify Function
-            with the id of the image, and the strength of the magnifier glass:*/
-            magnify("wordcloud", 3.5);
-            magnify("wordcloudV", 3.5);
-            magnify("wordcloudI", 3.5);
-            magnify("wordcloudE", 3.5);
-            magnify("wordcloudZ", 3.5);
-        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->

@@ -11473,7 +11473,7 @@ header.masthead .h1 {
 #portfolio .container-lg .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xl .portfolio-box:hover .portfolio-box-caption,
 #portfolio .container-xxl .portfolio-box:hover .portfolio-box-caption {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 
@@ -12028,4 +12028,76 @@ img {
   /*Set the size of the magnifier glass:*/
   width: 125px;
   height: 125px;
+}
+
+.box{
+    background-color: #2a2f4a;
+    cursor: pointer;
+    opacity: 0.8;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.box:hover{
+    background-color: #2a2f4a;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.box1{
+    background-color: #8078b5;
+    cursor: pointer;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.box1:hover{
+    background-color: #8078b5;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+
+.box2{
+    background-color: #df8c84;
+    cursor: pointer;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.box2:hover{
+    background-color: #df8c84;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+.box3{
+    background-color: #d6ab85;
+    cursor: pointer;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.box3:hover{
+    background-color: #d6ab85;
+    opacity: 0.74;
+    cursor: pointer;
+}
+
+.box4{
+    background-color: #2a2f4a;
+    cursor: pointer;
+    height: 350px;
+    padding: 0;
+    margin: 0;
+}
+
+.box4:hover{
+    background-color: #2a2f4a;
+    opacity: 0.74;
+    cursor: pointer;
 }
