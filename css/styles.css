@@ -12036,7 +12036,7 @@ img {
 
 
 
-.box{
+.sprachbox{
     background: #f8a258;
     cursor: pointer;
     opacity: 0.8;
@@ -12045,7 +12045,7 @@ img {
     margin: 0;
 }
 
-.box:hover{
+.sprachbox:hover{
     background-image: url("../assets/img/wordcloud.png");
     background-repeat: no-repeat;
     background-size: 600px;
@@ -12054,7 +12054,7 @@ img {
     cursor: pointer;
 }
 
-.box1{
+.sprachbox1{
     background-color: #957354;
     cursor: pointer;
     height: 350px;
@@ -12062,14 +12062,14 @@ img {
     margin: 0;
 }
 
-.box1:hover{
+.sprachbox1:hover{
     background-color: #957354;
     opacity: 0.75;
     cursor: pointer;
 }
 
 
-.box2{
+.sprachbox2{
     background-color: #bc6b24;
     cursor: pointer;
     height: 350px;
@@ -12077,13 +12077,13 @@ img {
     margin: 0;
 }
 
-.box2:hover{
+.sprachbox2:hover{
     background-color: #bc6b24;
     opacity: 0.75;
     cursor: pointer;
 }
 
-.box3{
+.sprachbox3{
     background-color: #f8a258;
     cursor: pointer;
     height: 350px;
@@ -12091,13 +12091,13 @@ img {
     margin: 0;
 }
 
-.box3:hover{
+.sprachbox3:hover{
     background-color: #f8a258;
     opacity: 0.74;
     cursor: pointer;
 }
 
-.box4{
+.sprachbox4{
     background-color: #4f5432;
     cursor: pointer;
     height: 350px;
@@ -12105,7 +12105,7 @@ img {
     margin: 0;
 }
 
-.box4:hover{
+.sprachbox4:hover{
     background-color: #4f5432;
     opacity: 0.74;
     cursor: pointer;
