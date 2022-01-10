@@ -12130,19 +12130,27 @@ img {
     cursor: pointer;
 }
 
-.sprachbox4{
-    background-color: #4f5432;
-    cursor: pointer;
-    height: 350px;
-    padding: 0;
-    margin: 0;
-}
+@media (min-width: 960px) {
+    .zitatgenerator{
+        background-color: #b9a972;
+        cursor: pointer;
+        height: 440px;
+        padding: 0;
+        margin: 0;
+    }
+  }
+  
+  @media (max-width: 960px) {
+    .zitatgenerator{
+        background-color: #b9a972;
+        cursor: pointer;
+        height: 520px;
+        padding: 0;
+        margin: 0;
+    }
+  }
 
-.sprachbox4:hover{
-    background-color: #4f5432;
-    opacity: 0.74;
-    cursor: pointer;
-}
+
 
 .timeline {
     position: relative;

@@ -21,6 +21,8 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/genStyle.css"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"/>
     </head>
     <body id="page-top">
 
@@ -67,6 +69,74 @@
 
 
             <div class="container-fluid p-0">
+                <div class="row g-0 zitatgenerator">
+                    <header style="text-align: center;">
+                        <br>
+                        <h3 style="color:white; font-family: Roboto, sans-serif;">VieZitat</h3>
+                        <hr style="color: white; height: 2px; width: 10%; margin:auto;">
+                    </header>
+                    <div>
+                        <!-- Quote Box -->
+                        <div class="block text-center">
+                      
+                          <!-- Front part of the Quote Box -->
+                        <div class = "quote-box block__main block__front">
+                      
+                          <!-- Quote to be Displayed Here -->
+                          <span class = "quote">
+                              
+                            <!-- Hyphen is Displayed  -->
+                            <i class="fas fa-2x fa-quote-left" style="color: #b9a972;"></i>
+                      
+                            <!-- Quote Text -->
+                            <span class = "text">
+                            
+                                   
+                          </span>
+                          
+                          <!-- Hyphen is Displayed  -->
+                           <i class="fas fa-2x fa-quote-right" style="color: #b9a972;"></i> 
+                          
+                          <!-- Translation Text -->
+                          <div class = "translation"></div>
+                            
+                          <!-- Author to be Displayed Here -->
+                          <div class = "author"></div>
+                          <a  class = "new-quote btn btn-primary" 
+                              onclick="newQuote()">Nächstes Zitat</a>
+                          
+                        </div>
+                      
+                        <!-- Back Part of the Quote Box -->
+                        <div class = "quote-box block__main block__back">
+                      
+                          <!-- Quote to be Displayed Here -->
+                          <span class = "quote">
+                              
+                            <!-- Hyphen is Displayed  -->
+                            <i class="fas fa-2x fa-quote-left" style="color: #b9a972;"></i>
+                      
+                            <!-- Quote Text -->
+                            <span class = "text">  
+                     
+                          </span>
+                          
+                           <!-- Hyphen is Displayed  -->
+                           <i class="fas fa-2x fa-quote-right" style="color: #b9a972;"></i> 
+                           
+                          
+                          <!-- Translation Text -->
+                          <div class = "translation"></div>
+                            
+                          <!-- Author to be Displayed Here -->
+                          <div class = "author"></div>
+                            <!-- Button -->
+                            <a  class = "new-quote btn btn-default" 
+                                onclick="newQuote()">Nächstes Zitat</a>
+                        </div>
+                      </div> 
+                    </div>
+                </div>
                 <div class="row g-0">
                     <div class="col-md-5 sprachbox">
                         <a class="sprachbox" href="wortherkunft.html" title="Wortherkunft">
@@ -123,19 +193,6 @@
                         </a>
                     </div>
                 </div>
-                <div class="row g-0 sprachbox4">
-                    <a class="sprachbox4" href="wortherkunft.html" title="Wortherkunft">
-                        <header style="text-align: center;">
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <br>
-                            <h3 style="color:white; font-family: Roboto, sans-serif;">VieZitat</h3>
-                            <hr style="color: white; height: 2px; width: 10%; margin:auto;">
-                        </header>
-                    </a>
-                </div>
             </div>
         
             
@@ -156,5 +213,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/genScript.js"></script>
     </body>
 </html>
