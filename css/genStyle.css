@@ -125,7 +125,7 @@ p{
   .block{
     position: absolute;
     left: 27%;
-    top: 50%;
+    top: 55%;
   }
 }
   
@@ -133,6 +133,7 @@ p{
     min-width: 45vw;
     position: absolute;
     transition: all .8s ease;
+    -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
     box-shadow: 0rem 1.5rem 4rem rgba(0, 0, 0, 0.15);
     border-radius: .5rem; 
