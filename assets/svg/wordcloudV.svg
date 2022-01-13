@@ -1,0 +1,589 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="786">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<text transform="translate(245,649)" font-size="129" style="fill:rgb(155, 50, 3)">Viez</text>
+<text transform="translate(259,689)" font-size="51" style="fill:rgb(236, 98, 15)">Apfelwein</text>
+<text transform="translate(359,733)" font-size="51" style="fill:rgb(253, 213, 171)">Apfel</text>
+<text transform="translate(611,99)" font-size="43" style="fill:rgb(254, 237, 219)">Trier</text>
+<text transform="translate(455,433)" font-size="42" style="fill:rgb(253, 196, 143)">Getränk</text>
+<text transform="translate(210,519)" font-size="40" style="fill:rgb(127, 39, 4)">Wein</text>
+<text transform="translate(607,201) rotate(-90)" font-size="36" style="fill:rgb(254, 235, 216)">Porz</text>
+<text transform="translate(118,237)" font-size="35" style="fill:rgb(185, 61, 2)">Region</text>
+<text transform="translate(607,143)" font-size="35" style="fill:rgb(198, 65, 2)">Most</text>
+<text transform="translate(269,484) rotate(-90)" font-size="34" style="fill:rgb(253, 145, 65)">Streuobstwiesen</text>
+<text transform="translate(549,299)" font-size="31" style="fill:rgb(132, 41, 4)">Kalorie</text>
+<text transform="translate(583,251)" font-size="30" style="fill:rgb(238, 101, 17)">Birne</text>
+<text transform="translate(81,187)" font-size="29" style="fill:rgb(189, 62, 2)">Regel</text>
+<text transform="translate(172,336)" font-size="29" style="fill:rgb(228, 88, 10)">Name</text>
+<text transform="translate(284,765)" font-size="24" style="fill:rgb(253, 157, 83)">Viezbruderschaft</text>
+<text transform="translate(495,531)" font-size="23" style="fill:rgb(254, 221, 188)">Saft</text>
+<text transform="translate(200,539)" font-size="23" style="fill:rgb(253, 179, 115)">Baum</text>
+<text transform="translate(91,129)" font-size="23" style="fill:rgb(243, 110, 25)">Merzig</text>
+<text transform="translate(96,60)" font-size="23" style="fill:rgb(246, 119, 35)">Produkt</text>
+<text transform="translate(501,372)" font-size="23" style="fill:rgb(253, 211, 167)">Viezstraße</text>
+<text transform="translate(502,321)" font-size="23" style="fill:rgb(254, 229, 204)">Bedeutung</text>
+<text transform="translate(529,476)" font-size="22" style="fill:rgb(253, 171, 102)">Menge</text>
+<text transform="translate(97,28)" font-size="22" style="fill:rgb(253, 213, 171)">Liter</text>
+<text transform="translate(153,415)" font-size="21" style="fill:rgb(238, 101, 17)">Mosel</text>
+<text transform="translate(296,467)" font-size="21" style="fill:rgb(219, 75, 3)">Art</text>
+<text transform="translate(132,292)" font-size="21" style="fill:rgb(253, 217, 180)">Saarland</text>
+<text transform="translate(585,216)" font-size="21" style="fill:rgb(251, 135, 53)">Gärung</text>
+<text transform="translate(182,178)" font-size="21" style="fill:rgb(222, 78, 5)">Sorte</text>
+<text transform="translate(456,561)" font-size="21" style="fill:rgb(255, 240, 226)">Jahrgang</text>
+<text transform="translate(649,26)" font-size="21" style="fill:rgb(253, 179, 115)">Verein</text>
+<text transform="translate(631,177)" font-size="21" style="fill:rgb(254, 220, 187)">Stadt</text>
+<text transform="translate(559,595)" font-size="21" style="fill:rgb(248, 125, 41)">g</text>
+<text transform="translate(717,192) rotate(-90)" font-size="21" style="fill:rgb(254, 237, 220)">Obst</text>
+<text transform="translate(514,452)" font-size="21" style="fill:rgb(193, 64, 2)">Säure</text>
+<text transform="translate(38,86)" font-size="21" style="fill:rgb(185, 61, 2)">Viezproduzenten</text>
+<text transform="translate(194,391)" font-size="21" style="fill:rgb(255, 245, 235)">Dorf</text>
+<text transform="translate(292,407) rotate(-90)" font-size="21" style="fill:rgb(253, 165, 95)">Herstellung</text>
+<text transform="translate(459,484) rotate(-90)" font-size="20" style="fill:rgb(244, 113, 28)">Saar</text>
+<text transform="translate(496,340)" font-size="20" style="fill:rgb(251, 135, 53)">Tradition</text>
+<text transform="translate(667,43)" font-size="20" style="fill:rgb(255, 245, 234)">Viezfest</text>
+<text transform="translate(482,476)" font-size="20" style="fill:rgb(247, 123, 40)">l</text>
+<text transform="translate(301,715)" font-size="20" style="fill:rgb(253, 148, 70)">Bier</text>
+<text transform="translate(134,267)" font-size="20" style="fill:rgb(197, 65, 2)">Wasser</text>
+<text transform="translate(155,151)" font-size="20" style="fill:rgb(219, 74, 2)">Frucht</text>
+<text transform="translate(550,539)" font-size="20" style="fill:rgb(187, 61, 2)">Wort</text>
+<text transform="translate(167,366)" font-size="20" style="fill:rgb(245, 116, 31)">Rolle</text>
+<text transform="translate(525,269)" font-size="20" style="fill:rgb(244, 114, 30)">Jahrhundert</text>
+<text transform="translate(293,537)" font-size="20" style="fill:rgb(253, 181, 118)">Viezporz</text>
+<text transform="translate(590,395)" font-size="20" style="fill:rgb(253, 152, 75)">Fisch</text>
+<text transform="translate(632,58)" font-size="20" style="fill:rgb(243, 112, 27)">Flasche</text>
+<text transform="translate(282,436)" font-size="20" style="fill:rgb(253, 219, 184)">Hefe</text>
+<text transform="translate(479,504)" font-size="20" style="fill:rgb(253, 171, 102)">Zucker</text>
+<text transform="translate(538,392)" font-size="20" style="fill:rgb(253, 158, 84)">Raum</text>
+<text transform="translate(334,780)" font-size="20" style="fill:rgb(255, 239, 223)">Kelter</text>
+<text transform="translate(149,102)" font-size="20" style="fill:rgb(253, 214, 174)">Eifel</text>
+<text transform="translate(463,388)" font-size="20" style="fill:rgb(253, 197, 144)">Mensch</text>
+<text transform="translate(19,49)" font-size="20" style="fill:rgb(253, 178, 113)">Stelle</text>
+<text transform="translate(285,483)" font-size="20" style="fill:rgb(129, 40, 4)">Saargau</text>
+<text transform="translate(564,252) rotate(-90)" font-size="20" style="fill:rgb(253, 196, 143)">Luxemburg</text>
+<text transform="translate(601,107) rotate(-90)" font-size="20" style="fill:rgb(253, 189, 131)">Antrag</text>
+<text transform="translate(395,570)" font-size="20" style="fill:rgb(219, 74, 2)">Bauer</text>
+<text transform="translate(312,419) rotate(-90)" font-size="20" style="fill:rgb(253, 209, 163)">Geschmack</text>
+<text transform="translate(59,153)" font-size="20" style="fill:rgb(254, 235, 215)">Trank</text>
+<text transform="translate(108,255) rotate(-90)" font-size="20" style="fill:rgb(253, 182, 120)">Essig</text>
+<text transform="translate(619,195)" font-size="20" style="fill:rgb(255, 239, 224)">Keller</text>
+<text transform="translate(133,204)" font-size="20" style="fill:rgb(251, 135, 53)">Ausdruck</text>
+<text transform="translate(120,306)" font-size="18" style="fill:rgb(253, 218, 182)">Apfelsorten</text>
+<text transform="translate(10,24)" font-size="18" style="fill:rgb(181, 59, 2)">Weiler</text>
+<text transform="translate(612,113)" font-size="18" style="fill:rgb(242, 108, 22)">Kulturerbe</text>
+<text transform="translate(387,637) rotate(-90)" font-size="18" style="fill:rgb(250, 131, 49)">Apfelsaft</text>
+<text transform="translate(284,738)" font-size="18" style="fill:rgb(253, 195, 141)">Form</text>
+<text transform="translate(184,125)" font-size="18" style="fill:rgb(148, 47, 3)">Wagner</text>
+<text transform="translate(741,17)" font-size="18" style="fill:rgb(254, 232, 210)">Leib</text>
+<text transform="translate(605,347)" font-size="18" style="fill:rgb(127, 39, 4)">Winter</text>
+<text transform="translate(580,451)" font-size="18" style="fill:rgb(254, 224, 193)">Hand</text>
+<text transform="translate(187,472) rotate(-90)" font-size="18" style="fill:rgb(151, 48, 3)">Grad</text>
+<text transform="translate(72,106)" font-size="18" style="fill:rgb(253, 193, 137)">Viezes</text>
+<text transform="translate(231,550)" font-size="14" style="fill:rgb(253, 171, 102)">Alkoholgehalt</text>
+<text transform="translate(619,157)" font-size="14" style="fill:rgb(253, 154, 78)">Weise</text>
+<text transform="translate(590,30)" font-size="14" style="fill:rgb(250, 131, 49)">Alkohol</text>
+<text transform="translate(423,516)" font-size="14" style="fill:rgb(147, 47, 3)">Erzeuger</text>
+<text transform="translate(564,518)" font-size="14" style="fill:rgb(253, 163, 92)">Fass</text>
+<text transform="translate(202,513) rotate(-90)" font-size="14" style="fill:rgb(253, 165, 95)">Landschaft</text>
+<text transform="translate(302,628)" font-size="14" style="fill:rgb(253, 218, 182)">Römer</text>
+<text transform="translate(434,776)" font-size="14" style="fill:rgb(184, 60, 2)">Boden</text>
+<text transform="translate(169,30)" font-size="14" style="fill:rgb(253, 146, 67)">Teil</text>
+<text transform="translate(684,70)" font-size="14" style="fill:rgb(254, 233, 211)">Anteil</text>
+<text transform="translate(125,327)" font-size="14" style="fill:rgb(254, 236, 217)">Land</text>
+<text transform="translate(484,626) rotate(-90)" font-size="14" style="fill:rgb(251, 135, 53)">Buche</text>
+<text transform="translate(655,271)" font-size="14" style="fill:rgb(225, 84, 7)">Gefäß</text>
+<text transform="translate(553,668) rotate(-90)" font-size="14" style="fill:rgb(253, 160, 87)">Vieztrinker</text>
+<text transform="translate(751,116) rotate(-90)" font-size="14" style="fill:rgb(206, 68, 1)">Hanspitt</text>
+<text transform="translate(139,379)" font-size="14" style="fill:rgb(181, 59, 2)">Linie</text>
+<text transform="translate(303,509)" font-size="14" style="fill:rgb(220, 76, 3)">Trinkgefäß</text>
+<text transform="translate(150,347)" font-size="14" style="fill:rgb(253, 207, 160)">Viezfreunden</text>
+<text transform="translate(581,163) rotate(-90)" font-size="14" style="fill:rgb(253, 209, 164)">Viertelliter</text>
+<text transform="translate(130,12)" font-size="14" style="fill:rgb(246, 120, 36)">Generation</text>
+<text transform="translate(424,538)" font-size="10" style="fill:rgb(235, 97, 15)">Oberbürgermeister</text>
+<text transform="translate(462,484)" font-size="10" style="fill:rgb(226, 85, 8)">Frankfurt</text>
+<text transform="translate(198,429)" font-size="10" style="fill:rgb(219, 74, 2)">Oktober</text>
+<text transform="translate(677,204)" font-size="10" style="fill:rgb(148, 47, 3)">Herbst</text>
+<text transform="translate(228,160)" font-size="10" style="fill:rgb(230, 90, 11)">Porzen</text>
+<text transform="translate(439,742)" font-size="10" style="fill:rgb(253, 199, 148)">Präsident</text>
+<text transform="translate(83,160)" font-size="10" style="fill:rgb(254, 230, 206)">Verzeichnis</text>
+<text transform="translate(26,62)" font-size="10" style="fill:rgb(255, 238, 222)">Hunsrück</text>
+<text transform="translate(499,573)" font-size="10" style="fill:rgb(219, 75, 3)">Geschichte</text>
+<text transform="translate(521,486)" font-size="10" style="fill:rgb(165, 54, 3)">Eiswein</text>
+<text transform="translate(295,443)" font-size="10" style="fill:rgb(253, 142, 61)">Deutschland</text>
+<text transform="translate(490,347)" font-size="10" style="fill:rgb(254, 237, 220)">Erhaltung</text>
+<text transform="translate(542,459)" font-size="10" style="fill:rgb(142, 45, 4)">Obstwiesen</text>
+<text transform="translate(674,211)" font-size="10" style="fill:rgb(154, 49, 3)">Oechsle</text>
+<text transform="translate(207,458)" font-size="10" style="fill:rgb(245, 118, 34)">kcal</text>
+<text transform="translate(294,773)" font-size="10" style="fill:rgb(253, 163, 92)">Müller</text>
+<text transform="translate(115,35)" font-size="10" style="fill:rgb(131, 40, 4)">Obstwein</text>
+<text transform="translate(628,324)" font-size="10" style="fill:rgb(253, 146, 67)">Mischung</text>
+<text transform="translate(697,124)" font-size="10" style="fill:rgb(254, 236, 217)">Obstbäume</text>
+<text transform="translate(622,229)" font-size="10" style="fill:rgb(250, 131, 49)">Porzellan</text>
+<text transform="translate(522,734) rotate(-90)" font-size="10" style="fill:rgb(253, 215, 177)">Wirkung</text>
+<text transform="translate(227,277) rotate(-90)" font-size="10" style="fill:rgb(255, 244, 233)">Leute</text>
+<text transform="translate(699,131)" font-size="10" style="fill:rgb(217, 72, 1)">Plein</text>
+<text transform="translate(496,288)" font-size="10" style="fill:rgb(248, 126, 43)">Gegensatz</text>
+<text transform="translate(462,398)" font-size="10" style="fill:rgb(254, 224, 195)">Gemeinde</text>
+<text transform="translate(611,277)" font-size="10" style="fill:rgb(255, 239, 224)">Seite</text>
+<text transform="translate(328,519)" font-size="10" style="fill:rgb(131, 40, 4)">Frankreich</text>
+<text transform="translate(563,494)" font-size="10" style="fill:rgb(226, 85, 8)">Mitglied</text>
+<text transform="translate(382,698)" font-size="10" style="fill:rgb(254, 225, 196)">Keltern</text>
+<text transform="translate(90,68)" font-size="10" style="fill:rgb(251, 136, 54)">Hessen</text>
+<text transform="translate(322,600)" font-size="10" style="fill:rgb(217, 72, 1)">Herr</text>
+<text transform="translate(449,573)" font-size="10" style="fill:rgb(253, 193, 137)">Obstbau</text>
+<text transform="translate(196,244)" font-size="10" style="fill:rgb(253, 199, 148)">Mann</text>
+<text transform="translate(319,574)" font-size="10" style="fill:rgb(155, 50, 3)">Prozent</text>
+<text transform="translate(544,503)" font-size="10" style="fill:rgb(254, 234, 213)">Viezbrüder</text>
+<text transform="translate(180,251)" font-size="10" style="fill:rgb(255, 239, 224)">Woche</text>
+<text transform="translate(419,547)" font-size="10" style="fill:rgb(253, 207, 160)">Wolfram</text>
+<text transform="translate(207,212)" font-size="10" style="fill:rgb(241, 105, 19)">Inhalt</text>
+<text transform="translate(459,449)" font-size="10" style="fill:rgb(253, 156, 81)">Kulturgut</text>
+<text transform="translate(251,658) rotate(-90)" font-size="10" style="fill:rgb(159, 51, 3)">Bezeichnung</text>
+<text transform="translate(141,67)" font-size="10" style="fill:rgb(225, 83, 7)">September</text>
+<text transform="translate(319,416) rotate(-90)" font-size="10" style="fill:rgb(179, 59, 2)">Viezherstellung</text>
+<text transform="translate(237,630) rotate(-90)" font-size="10" style="fill:rgb(161, 52, 3)">Unterstützung</text>
+<text transform="translate(47,118)" font-size="10" style="fill:rgb(209, 69, 1)">Speise</text>
+<text transform="translate(517,250)" font-size="10" style="fill:rgb(253, 155, 80)">Route</text>
+<text transform="translate(171,158)" font-size="10" style="fill:rgb(225, 84, 7)">Straße</text>
+<text transform="translate(138,212)" font-size="10" style="fill:rgb(253, 209, 164)">Arbeit</text>
+<text transform="translate(426,494)" font-size="10" style="fill:rgb(255, 243, 231)">Aufnahme</text>
+<text transform="translate(518,403)" font-size="10" style="fill:rgb(217, 72, 1)">Trierer</text>
+<text transform="translate(424,624)" font-size="10" style="fill:rgb(254, 224, 195)">Umgebung</text>
+<text transform="translate(414,526)" font-size="10" style="fill:rgb(144, 46, 4)">Standort</text>
+<text transform="translate(276,559)" font-size="10" style="fill:rgb(253, 159, 86)">mg</text>
+<text transform="translate(426,501)" font-size="10" style="fill:rgb(248, 126, 43)">Michael</text>
+<text transform="translate(321,722)" font-size="10" style="fill:rgb(142, 45, 4)">Cider</text>
+<text transform="translate(501,298)" font-size="10" style="fill:rgb(200, 66, 2)">Dezember</text>
+<text transform="translate(573,248) rotate(-90)" font-size="10" style="fill:rgb(253, 167, 98)">Viezkönigin</text>
+<text transform="translate(181,184)" font-size="7" style="fill:rgb(253, 167, 98)">Nationalgetränk</text>
+<text transform="translate(308,491)" font-size="7" style="fill:rgb(216, 72, 1)">Idee</text>
+<text transform="translate(262,709)" font-size="7" style="fill:rgb(253, 157, 83)">Obstanbau</text>
+<text transform="translate(401,779)" font-size="7" style="fill:rgb(222, 80, 5)">April</text>
+<text transform="translate(335,742)" font-size="7" style="fill:rgb(255, 240, 225)">SPD</text>
+<text transform="translate(610,12)" font-size="7" style="fill:rgb(253, 210, 166)">Äppelwoi</text>
+<text transform="translate(481,439)" font-size="7" style="fill:rgb(253, 202, 153)">Gebiet</text>
+<text transform="translate(290,780)" font-size="7" style="fill:rgb(253, 181, 118)">Beliebtheit</text>
+<text transform="translate(313,609)" font-size="7" style="fill:rgb(253, 167, 98)">Saargaus</text>
+<text transform="translate(427,554)" font-size="7" style="fill:rgb(208, 69, 1)">Verband</text>
+<text transform="translate(211,480)" font-size="7" style="fill:rgb(253, 169, 101)">Karl</text>
+<text transform="translate(667,156)" font-size="7" style="fill:rgb(195, 64, 2)">Angebot</text>
+<text transform="translate(238,491)" font-size="7" style="fill:rgb(164, 53, 3)">Grenze</text>
+<text transform="translate(726,24)" font-size="7" style="fill:rgb(227, 86, 8)">Aepfelwein</text>
+<text transform="translate(412,656)" font-size="7" style="fill:rgb(253, 167, 98)">Landschaftsbild</text>
+<text transform="translate(233,148)" font-size="7" style="fill:rgb(169, 55, 3)">Schmitz</text>
+<text transform="translate(271,697)" font-size="7" style="fill:rgb(136, 42, 4)">Vieze</text>
+<text transform="translate(211,446)" font-size="7" style="fill:rgb(254, 236, 217)">Maschine</text>
+<text transform="translate(207,468)" font-size="7" style="fill:rgb(252, 138, 57)">Saarburg</text>
+<text transform="translate(337,731)" font-size="7" style="fill:rgb(238, 101, 17)">Sidra</text>
+<text transform="translate(635,71)" font-size="7" style="fill:rgb(255, 242, 229)">Ergebnis</text>
+<text transform="translate(548,347)" font-size="7" style="fill:rgb(168, 55, 3)">Wiltingen</text>
+<text transform="translate(668,9)" font-size="7" style="fill:rgb(253, 163, 92)">Erklärung</text>
+<text transform="translate(109,274)" font-size="7" style="fill:rgb(220, 76, 3)">Tranck</text>
+<text transform="translate(715,137)" font-size="7" style="fill:rgb(254, 226, 199)">Erhalt</text>
+<text transform="translate(151,391)" font-size="7" style="fill:rgb(134, 42, 4)">Verwendung</text>
+<text transform="translate(117,42)" font-size="7" style="fill:rgb(253, 196, 143)">Schritt</text>
+<text transform="translate(591,222)" font-size="7" style="fill:rgb(233, 94, 13)">Begriff</text>
+<text transform="translate(344,458)" font-size="7" style="fill:rgb(223, 81, 6)">Stück</text>
+<text transform="translate(643,120)" font-size="7" style="fill:rgb(254, 237, 220)">Chance</text>
+<text transform="translate(645,305)" font-size="7" style="fill:rgb(251, 134, 52)">Gedenktag</text>
+<text transform="translate(440,782)" font-size="7" style="fill:rgb(153, 49, 3)">Initiator</text>
+<text transform="translate(98,167)" font-size="7" style="fill:rgb(241, 105, 19)">Internetseite</text>
+<text transform="translate(351,655)" font-size="7" style="fill:rgb(231, 91, 11)">Identität</text>
+<text transform="translate(545,213) rotate(-90)" font-size="7" style="fill:rgb(253, 155, 80)">Läutern</text>
+<text transform="translate(256,182)" font-size="7" style="fill:rgb(164, 53, 3)">Ziel</text>
+<text transform="translate(298,646)" font-size="7" style="fill:rgb(251, 135, 53)">Steingut</text>
+<text transform="translate(507,655)" font-size="7" style="fill:rgb(227, 86, 8)">Viezkrug</text>
+<text transform="translate(640,358)" font-size="7" style="fill:rgb(252, 137, 55)">Frost</text>
+<text transform="translate(492,544)" font-size="7" style="fill:rgb(253, 164, 93)">Beurteilung</text>
+<text transform="translate(687,236)" font-size="7" style="fill:rgb(253, 154, 78)">Natur</text>
+<text transform="translate(199,67)" font-size="7" style="fill:rgb(211, 70, 1)">Cidre</text>
+<text transform="translate(268,579)" font-size="7" style="fill:rgb(232, 93, 12)">Pflege</text>
+<text transform="translate(29,30)" font-size="7" style="fill:rgb(255, 243, 230)">Kulturlandschaft</text>
+<text transform="translate(670,277)" font-size="7" style="fill:rgb(247, 123, 40)">Andrea</text>
+<text transform="translate(403,748)" font-size="7" style="fill:rgb(225, 84, 7)">Landwirt</text>
+<text transform="translate(300,696)" font-size="7" style="fill:rgb(254, 230, 206)">Streuobstbestände</text>
+<text transform="translate(347,748)" font-size="7" style="fill:rgb(253, 157, 83)">Richtlinie</text>
+<text transform="translate(113,244)" font-size="7" style="fill:rgb(254, 233, 212)">Weinapfel</text>
+<text transform="translate(207,108)" font-size="7" style="fill:rgb(253, 156, 81)">Geburtstag</text>
+<text transform="translate(188,41)" font-size="7" style="fill:rgb(254, 232, 210)">Schnaps</text>
+<text transform="translate(227,247)" font-size="7" style="fill:rgb(217, 72, 1)">Zeit</text>
+<text transform="translate(271,459)" font-size="7" style="fill:rgb(253, 150, 73)">Freund</text>
+<text transform="translate(273,568)" font-size="7" style="fill:rgb(252, 138, 57)">Zustand</text>
+<text transform="translate(489,468)" font-size="7" style="fill:rgb(253, 184, 124)">Nachfrage</text>
+<text transform="translate(676,224)" font-size="7" style="fill:rgb(254, 236, 217)">Verfügung</text>
+<text transform="translate(329,494)" font-size="7" style="fill:rgb(173, 56, 3)">Bruderschaft</text>
+<text transform="translate(285,657)" font-size="7" style="fill:rgb(253, 215, 177)">Initiative</text>
+<text transform="translate(625,36)" font-size="7" style="fill:rgb(246, 120, 36)">Apfelweins</text>
+<text transform="translate(272,718)" font-size="7" style="fill:rgb(253, 197, 144)">Stein</text>
+<text transform="translate(462,463)" font-size="7" style="fill:rgb(190, 63, 2)">Titel</text>
+<text transform="translate(103,92)" font-size="7" style="fill:rgb(246, 119, 35)">Rudi</text>
+<text transform="translate(608,55)" font-size="7" style="fill:rgb(254, 236, 218)">Winzer</text>
+<text transform="translate(47,127)" font-size="7" style="fill:rgb(253, 149, 71)">Birnenwein</text>
+<text transform="translate(267,528)" font-size="7" style="fill:rgb(251, 135, 53)">Zweck</text>
+<text transform="translate(189,313)" font-size="7" style="fill:rgb(253, 215, 177)">Frühjahr</text>
+<text transform="translate(297,634)" font-size="7" style="fill:rgb(228, 88, 10)">Glasurbemalung</text>
+<text transform="translate(136,356)" font-size="7" style="fill:rgb(143, 45, 4)">Rennen</text>
+<text transform="translate(133,138)" font-size="7" style="fill:rgb(251, 134, 52)">Magen</text>
+<text transform="translate(226,405)" font-size="7" style="fill:rgb(218, 73, 2)">Blüte</text>
+<text transform="translate(158,424)" font-size="7" style="fill:rgb(255, 245, 235)">Bohnapfel</text>
+<text transform="translate(272,590)" font-size="7" style="fill:rgb(255, 239, 224)">de</text>
+<text transform="translate(466,640)" font-size="7" style="fill:rgb(253, 177, 112)">Wert</text>
+<text transform="translate(502,275)" font-size="7" style="fill:rgb(253, 209, 163)">Gastronomen</text>
+<text transform="translate(322,395)" font-size="7" style="fill:rgb(253, 147, 68)">Ernte</text>
+<text transform="translate(57,135)" font-size="7" style="fill:rgb(129, 40, 4)">Nebenerwerb</text>
+<text transform="translate(63,7)" font-size="7" style="fill:rgb(253, 199, 148)">Entwicklung</text>
+<text transform="translate(477,780)" font-size="7" style="fill:rgb(184, 60, 2)">Kloster</text>
+<text transform="translate(449,698)" font-size="7" style="fill:rgb(253, 198, 146)">Bewerbung</text>
+<text transform="translate(628,313)" font-size="7" style="fill:rgb(214, 71, 1)">Stockhammer</text>
+<text transform="translate(559,561)" font-size="7" style="fill:rgb(254, 237, 220)">Pörzchen</text>
+<text transform="translate(185,372)" font-size="7" style="fill:rgb(254, 228, 202)">Kulturerbes</text>
+<text transform="translate(324,384)" font-size="7" style="fill:rgb(253, 156, 81)">Fall</text>
+<text transform="translate(543,545)" font-size="7" style="fill:rgb(253, 207, 160)">Schwefeldioxid</text>
+<text transform="translate(673,251)" font-size="7" style="fill:rgb(236, 98, 15)">Anliegen</text>
+<text transform="translate(40,101)" font-size="7" style="fill:rgb(253, 146, 67)">Obstes</text>
+<text transform="translate(610,63)" font-size="7" style="fill:rgb(253, 216, 178)">Erlös</text>
+<text transform="translate(202,435)" font-size="7" style="fill:rgb(231, 91, 11)">Württemberg</text>
+<text transform="translate(275,294) rotate(-90)" font-size="7" style="fill:rgb(253, 167, 98)">Kind</text>
+<text transform="translate(139,273)" font-size="7" style="fill:rgb(253, 190, 132)">Haltbarkeit</text>
+<text transform="translate(584,353)" font-size="7" style="fill:rgb(138, 43, 4)">Thomm</text>
+<text transform="translate(223,413)" font-size="7" style="fill:rgb(253, 171, 102)">Größe</text>
+<text transform="translate(207,555)" font-size="7" style="fill:rgb(253, 164, 93)">Fuder</text>
+<text transform="translate(108,285)" font-size="7" style="fill:rgb(203, 67, 2)">Preis</text>
+<text transform="translate(488,610)" font-size="7" style="fill:rgb(254, 237, 220)">Welt</text>
+<text transform="translate(159,107)" font-size="7" style="fill:rgb(253, 180, 117)">Mostsorten</text>
+<text transform="translate(581,482)" font-size="7" style="fill:rgb(255, 244, 232)">Apfelbäume</text>
+<text transform="translate(465,525)" font-size="7" style="fill:rgb(245, 118, 34)">Gegend</text>
+<text transform="translate(334,467)" font-size="7" style="fill:rgb(253, 171, 102)">Portion</text>
+<text transform="translate(105,261)" font-size="7" style="fill:rgb(140, 44, 4)">Jürgen</text>
+<text transform="translate(479,406)" font-size="7" style="fill:rgb(190, 63, 2)">Schmidt</text>
+<text transform="translate(234,132)" font-size="7" style="fill:rgb(243, 110, 25)">Thema</text>
+<text transform="translate(512,237)" font-size="7" style="fill:rgb(176, 57, 3)">Grundlage</text>
+<text transform="translate(327,414)" font-size="7" style="fill:rgb(231, 92, 12)">Auszug</text>
+<text transform="translate(534,355)" font-size="7" style="fill:rgb(247, 122, 39)">Familie</text>
+<text transform="translate(618,402)" font-size="7" style="fill:rgb(227, 86, 8)">Rohstoff</text>
+<text transform="translate(276,272) rotate(-90)" font-size="7" style="fill:rgb(187, 61, 2)">Obstbaumzucht</text>
+<text transform="translate(107,112)" font-size="7" style="fill:rgb(137, 43, 4)">Ersatzwein</text>
+<text transform="translate(398,629) rotate(-90)" font-size="7" style="fill:rgb(222, 78, 5)">Ladenschluss</text>
+<text transform="translate(516,225)" font-size="7" style="fill:rgb(187, 61, 2)">ViezoMat</text>
+<text transform="translate(193,53)" font-size="7" style="fill:rgb(213, 70, 1)">Regelung</text>
+<text transform="translate(257,660) rotate(-90)" font-size="7" style="fill:rgb(236, 98, 15)">Keltereien</text>
+<text transform="translate(613,183) rotate(-90)" font-size="7" style="fill:rgb(155, 50, 3)">Lebensraum</text>
+<text transform="translate(490,510)" font-size="7" style="fill:rgb(255, 242, 229)">Produzent</text>
+<text transform="translate(296,447)" font-size="5" style="fill:rgb(253, 173, 105)">Sprachwissenschaftler</text>
+<text transform="translate(287,492)" font-size="5" style="fill:rgb(254, 233, 212)">Frau</text>
+<text transform="translate(565,130) rotate(-90)" font-size="5" style="fill:rgb(133, 41, 4)">Entscheidung</text>
+<text transform="translate(645,6)" font-size="5" style="fill:rgb(255, 243, 231)">Gramm</text>
+<text transform="translate(683,241)" font-size="5" style="fill:rgb(128, 39, 4)">Obstweine</text>
+<text transform="translate(117,202)" font-size="5" style="fill:rgb(137, 43, 4)">Brot</text>
+<text transform="translate(321,420)" font-size="5" style="fill:rgb(200, 66, 2)">Produktion</text>
+<text transform="translate(581,112)" font-size="5" style="fill:rgb(253, 161, 89)">Treffen</text>
+<text transform="translate(322,556)" font-size="5" style="fill:rgb(184, 60, 2)">Sommer</text>
+<text transform="translate(467,366)" font-size="5" style="fill:rgb(254, 237, 220)">Tafelbirnen</text>
+<text transform="translate(138,362)" font-size="5" style="fill:rgb(253, 207, 160)">Erfahrung</text>
+<text transform="translate(296,358) rotate(-90)" font-size="5" style="fill:rgb(133, 41, 4)">Förderung</text>
+<text transform="translate(11,5)" font-size="5" style="fill:rgb(173, 56, 3)">Unterscheidung</text>
+<text transform="translate(319,402)" font-size="5" style="fill:rgb(254, 222, 191)">Erntemenge</text>
+<text transform="translate(448,631)" font-size="5" style="fill:rgb(181, 59, 2)">Streuobstanbau</text>
+<text transform="translate(269,535)" font-size="5" style="fill:rgb(250, 133, 50)">Vitamin</text>
+<text transform="translate(140,311)" font-size="5" style="fill:rgb(173, 56, 3)">Apfeltrank</text>
+<text transform="translate(697,215)" font-size="5" style="fill:rgb(150, 48, 3)">Gehalt</text>
+<text transform="translate(69,67)" font-size="5" style="fill:rgb(253, 144, 64)">Anbau</text>
+<text transform="translate(489,770)" font-size="5" style="fill:rgb(249, 130, 48)">Handbuch</text>
+<text transform="translate(627,328)" font-size="5" style="fill:rgb(253, 182, 120)">Eisdiele</text>
+<text transform="translate(130,144)" font-size="5" style="fill:rgb(253, 171, 102)">Roland</text>
+<text transform="translate(755,58)" font-size="5" style="fill:rgb(213, 70, 1)">Lutz</text>
+<text transform="translate(85,16)" font-size="5" style="fill:rgb(216, 72, 1)">Bild</text>
+<text transform="translate(268,426)" font-size="5" style="fill:rgb(254, 236, 218)">Glas</text>
+<text transform="translate(603,76)" font-size="5" style="fill:rgb(253, 193, 137)">Konz</text>
+<text transform="translate(626,199)" font-size="5" style="fill:rgb(254, 237, 219)">Veranstaltung</text>
+<text transform="translate(536,168)" font-size="5" style="fill:rgb(253, 151, 74)">Wahl</text>
+<text transform="translate(771,59) rotate(-90)" font-size="5" style="fill:rgb(255, 244, 232)">Viezproduktion</text>
+<text transform="translate(72,187) rotate(-90)" font-size="5" style="fill:rgb(153, 49, 3)">Kilometer</text>
+<text transform="translate(214,395)" font-size="5" style="fill:rgb(174, 57, 3)">Churfürstl</text>
+<text transform="translate(293,743)" font-size="5" style="fill:rgb(230, 90, 11)">Hochwürden</text>
+<text transform="translate(221,580) rotate(-90)" font-size="5" style="fill:rgb(254, 233, 212)">Landtag</text>
+<text transform="translate(716,47)" font-size="5" style="fill:rgb(154, 49, 3)">Landesregierung</text>
+<text transform="translate(507,741)" font-size="5" style="fill:rgb(239, 102, 18)">Soldat</text>
+<text transform="translate(150,252)" font-size="5" style="fill:rgb(254, 227, 200)">Hunsicker</text>
+<text transform="translate(429,596)" font-size="5" style="fill:rgb(149, 47, 3)">Christ</text>
+<text transform="translate(614,43)" font-size="5" style="fill:rgb(255, 240, 226)">Beginn</text>
+<text transform="translate(482,354) rotate(-90)" font-size="5" style="fill:rgb(253, 190, 132)">Schale</text>
+<text transform="translate(576,400)" font-size="5" style="fill:rgb(253, 179, 115)">Vergärung</text>
+<text transform="translate(502,457)" font-size="5" style="fill:rgb(253, 213, 171)">Juni</text>
+<text transform="translate(649,333)" font-size="5" style="fill:rgb(254, 221, 188)">Schleen</text>
+<text transform="translate(196,272)" font-size="5" style="fill:rgb(139, 44, 4)">Zugabe</text>
+<text transform="translate(611,376)" font-size="5" style="fill:rgb(140, 44, 4)">Aufmerksamkeit</text>
+<text transform="translate(96,192)" font-size="5" style="fill:rgb(255, 240, 225)">Patt</text>
+<text transform="translate(466,582)" font-size="5" style="fill:rgb(228, 87, 9)">Kläs</text>
+<text transform="translate(453,437)" font-size="5" style="fill:rgb(254, 233, 212)">Gewicht</text>
+<text transform="translate(517,631)" font-size="5" style="fill:rgb(145, 46, 4)">Traube</text>
+<text transform="translate(203,544)" font-size="5" style="fill:rgb(255, 242, 230)">Bestand</text>
+<text transform="translate(643,363)" font-size="5" style="fill:rgb(159, 51, 3)">Zusatz</text>
+<text transform="translate(591,406)" font-size="5" style="fill:rgb(253, 172, 103)">Vater</text>
+<text transform="translate(150,396)" font-size="5" style="fill:rgb(250, 131, 49)">Wanderer</text>
+<text transform="translate(222,92)" font-size="5" style="fill:rgb(254, 222, 191)">maßen</text>
+<text transform="translate(537,510)" font-size="5" style="fill:rgb(176, 57, 3)">Bereich</text>
+<text transform="translate(548,579)" font-size="5" style="fill:rgb(242, 109, 23)">Faex</text>
+<text transform="translate(151,158)" font-size="5" style="fill:rgb(128, 39, 4)">Wurzel</text>
+<text transform="translate(688,135)" font-size="5" style="fill:rgb(228, 87, 9)">Heimat</text>
+<text transform="translate(500,593)" font-size="5" style="fill:rgb(253, 154, 78)">Konsum</text>
+<text transform="translate(601,467)" font-size="5" style="fill:rgb(253, 177, 112)">Aepfel</text>
+<text transform="translate(389,575)" font-size="5" style="fill:rgb(253, 140, 59)">Stellvertreter</text>
+<text transform="translate(524,204)" font-size="5" style="fill:rgb(252, 137, 55)">Marx</text>
+<text transform="translate(720,55)" font-size="5" style="fill:rgb(245, 117, 32)">Fest</text>
+<text transform="translate(278,247)" font-size="5" style="fill:rgb(179, 59, 2)">Geist</text>
+<text transform="translate(185,129)" font-size="5" style="fill:rgb(242, 108, 22)">Humpen</text>
+<text transform="translate(578,250) rotate(-90)" font-size="5" style="fill:rgb(231, 92, 12)">Presse</text>
+<text transform="translate(270,416)" font-size="5" style="fill:rgb(254, 224, 195)">Dienstag</text>
+<text transform="translate(127,331)" font-size="5" style="fill:rgb(228, 88, 10)">Obstproduktion</text>
+<text transform="translate(728,183) rotate(-90)" font-size="5" style="fill:rgb(253, 164, 93)">Töpfertradition</text>
+<text transform="translate(591,303)" font-size="5" style="fill:rgb(214, 71, 1)">Steinzeug</text>
+<text transform="translate(552,376)" font-size="5" style="fill:rgb(253, 196, 143)">Wiesenbewässerung</text>
+<text transform="translate(704,5)" font-size="5" style="fill:rgb(189, 62, 2)">Queichwiesen</text>
+<text transform="translate(488,331) rotate(-90)" font-size="5" style="fill:rgb(252, 138, 57)">Liste</text>
+<text transform="translate(560,551)" font-size="5" style="fill:rgb(253, 189, 131)">Landau</text>
+<text transform="translate(576,325)" font-size="5" style="fill:rgb(253, 190, 132)">Germersheim</text>
+<text transform="translate(459,748)" font-size="5" style="fill:rgb(227, 86, 8)">Unesco</text>
+<text transform="translate(112,249)" font-size="5" style="fill:rgb(216, 72, 1)">Reihe</text>
+<text transform="translate(166,165)" font-size="5" style="fill:rgb(253, 183, 122)">Grund</text>
+<text transform="translate(324,562)" font-size="5" style="fill:rgb(255, 241, 227)">Kultur</text>
+<text transform="translate(204,485)" font-size="5" style="fill:rgb(149, 47, 3)">Aufschwung</text>
+<text transform="translate(293,306)" font-size="5" style="fill:rgb(247, 122, 39)">Anzahl</text>
+<text transform="translate(353,737)" font-size="5" style="fill:rgb(255, 240, 225)">Bevölkerung</text>
+<text transform="translate(238,289) rotate(-90)" font-size="5" style="fill:rgb(251, 134, 52)">Dreiländereck</text>
+<text transform="translate(42,91)" font-size="5" style="fill:rgb(253, 211, 169)">Hoteliers</text>
+<text transform="translate(317,579)" font-size="5" style="fill:rgb(253, 153, 77)">Aktion</text>
+<text transform="translate(177,399)" font-size="5" style="fill:rgb(249, 129, 46)">Brauchtum</text>
+<text transform="translate(437,602)" font-size="5" style="fill:rgb(128, 39, 4)">Stoff</text>
+<text transform="translate(81,53)" font-size="5" style="fill:rgb(132, 41, 4)">Sack</text>
+<text transform="translate(335,546)" font-size="5" style="fill:rgb(142, 45, 4)">Zuckergehalt</text>
+<text transform="translate(564,174)" font-size="5" style="fill:rgb(254, 221, 188)">Segen</text>
+<text transform="translate(572,568)" font-size="5" style="fill:rgb(247, 123, 40)">Freude</text>
+<text transform="translate(208,155)" font-size="5" style="fill:rgb(254, 230, 206)">Gruppe</text>
+<text transform="translate(231,137)" font-size="5" style="fill:rgb(253, 208, 162)">Aktivität</text>
+<text transform="translate(318,615)" font-size="5" style="fill:rgb(253, 142, 61)">Verbreitung</text>
+<text transform="translate(101,133)" font-size="5" style="fill:rgb(242, 107, 21)">Viezhumpen</text>
+<text transform="translate(230,370)" font-size="5" style="fill:rgb(255, 238, 221)">Bommes</text>
+<text transform="translate(31,66)" font-size="5" style="fill:rgb(255, 242, 229)">Feldarbeiten</text>
+<text transform="translate(227,354)" font-size="5" style="fill:rgb(162, 53, 3)">Fleisch</text>
+<text transform="translate(245,671)" font-size="5" style="fill:rgb(237, 99, 16)">Monat</text>
+<text transform="translate(403,738)" font-size="5" style="fill:rgb(255, 244, 232)">Viezfestes</text>
+<text transform="translate(684,191)" font-size="5" style="fill:rgb(254, 222, 189)">Alpe</text>
+<text transform="translate(554,273)" font-size="5" style="fill:rgb(254, 227, 200)">Viezfreunde</text>
+<text transform="translate(659,255)" font-size="5" style="fill:rgb(226, 85, 8)">Apfelweine</text>
+<text transform="translate(264,654) rotate(-90)" font-size="5" style="fill:rgb(195, 64, 2)">Bohr</text>
+<text transform="translate(282,255)" font-size="5" style="fill:rgb(176, 57, 3)">Jakob</text>
+<text transform="translate(40,106)" font-size="5" style="fill:rgb(249, 128, 45)">Reifegrad</text>
+<text transform="translate(509,258)" font-size="5" style="fill:rgb(253, 142, 61)">Moscht</text>
+<text transform="translate(571,613) rotate(-90)" font-size="5" style="fill:rgb(255, 239, 224)">Haus</text>
+<text transform="translate(214,97)" font-size="5" style="fill:rgb(236, 98, 15)">Mostobst</text>
+<text transform="translate(125,149)" font-size="5" style="fill:rgb(253, 176, 110)">Obstbauern</text>
+<text transform="translate(486,351)" font-size="5" style="fill:rgb(254, 226, 198)">Gasthäuser</text>
+<text transform="translate(484,599)" font-size="5" style="fill:rgb(195, 64, 2)">Viezproben</text>
+<text transform="translate(270,450)" font-size="5" style="fill:rgb(249, 130, 48)">Stunde</text>
+<text transform="translate(319,747)" font-size="5" style="fill:rgb(254, 232, 210)">portio</text>
+<text transform="translate(273,386) rotate(-90)" font-size="5" style="fill:rgb(253, 178, 113)">Getränkebehältnis</text>
+<text transform="translate(557,646) rotate(-90)" font-size="5" style="fill:rgb(138, 43, 4)">Verwandtschaft</text>
+<text transform="translate(199,21)" font-size="5" style="fill:rgb(253, 209, 164)">Schema</text>
+<text transform="translate(313,585)" font-size="5" style="fill:rgb(253, 146, 67)">Bierglas</text>
+<text transform="translate(202,162)" font-size="5" style="fill:rgb(203, 67, 2)">Stefan</text>
+<text transform="translate(96,32)" font-size="5" style="fill:rgb(253, 199, 148)">Barme</text>
+<text transform="translate(459,453)" font-size="5" style="fill:rgb(128, 39, 4)">Baumzucht</text>
+<text transform="translate(281,236) rotate(-90)" font-size="5" style="fill:rgb(136, 42, 4)">Besucher</text>
+<text transform="translate(585,75) rotate(-90)" font-size="5" style="fill:rgb(253, 178, 113)">Apfelbäumen</text>
+<text transform="translate(622,175) rotate(-90)" font-size="5" style="fill:rgb(231, 91, 11)">Wissen</text>
+<text transform="translate(549,138)" font-size="5" style="fill:rgb(254, 230, 207)">Sprache</text>
+<text transform="translate(518,622)" font-size="5" style="fill:rgb(201, 66, 2)">Gang</text>
+<text transform="translate(734,105) rotate(-90)" font-size="5" style="fill:rgb(249, 128, 45)">Anregung</text>
+<text transform="translate(607,458)" font-size="5" style="fill:rgb(145, 46, 4)">Vorteil</text>
+<text transform="translate(335,431)" font-size="5" style="fill:rgb(244, 113, 28)">Rezept</text>
+<text transform="translate(78,198) rotate(-90)" font-size="5" style="fill:rgb(253, 186, 127)">Traubenwein</text>
+<text transform="translate(723,111)" font-size="5" style="fill:rgb(248, 125, 41)">Lokal</text>
+<text transform="translate(388,548)" font-size="5" style="fill:rgb(254, 230, 207)">Maß</text>
+<text transform="translate(474,371)" font-size="5" style="fill:rgb(253, 214, 174)">Regierung</text>
+<text transform="translate(241,615) rotate(-90)" font-size="5" style="fill:rgb(222, 80, 5)">Verkehrsbezeichnung</text>
+<text transform="translate(602,89)" font-size="5" style="fill:rgb(253, 147, 68)">Lust</text>
+<text transform="translate(563,523)" font-size="5" style="fill:rgb(137, 43, 4)">Vielfalt</text>
+<text transform="translate(539,697) rotate(-90)" font-size="5" style="fill:rgb(253, 211, 167)">Getränkemarkt</text>
+<text transform="translate(247,164)" font-size="5" style="fill:rgb(255, 240, 225)">Nuzzen</text>
+<text transform="translate(322,373)" font-size="5" style="fill:rgb(247, 122, 39)">Gast</text>
+<text transform="translate(130,341)" font-size="5" style="fill:rgb(142, 45, 4)">Körper</text>
+<text transform="translate(560,576)" font-size="5" style="fill:rgb(134, 42, 4)">Wittlich</text>
+<text transform="translate(235,200)" font-size="5" style="fill:rgb(253, 154, 78)">März</text>
+<text transform="translate(119,90)" font-size="5" style="fill:rgb(254, 227, 200)">Attraktion</text>
+<text transform="translate(642,368)" font-size="5" style="fill:rgb(253, 199, 148)">Strecke</text>
+<text transform="translate(278,505) rotate(-90)" font-size="5" style="fill:rgb(151, 48, 3)">Edelobstbrenner</text>
+<text transform="translate(403,626) rotate(-90)" font-size="5" style="fill:rgb(242, 108, 22)">Moselfränkische</text>
+<text transform="translate(405,670) rotate(-90)" font-size="5" style="fill:rgb(137, 43, 4)">Viezhochburg</text>
+<text transform="translate(343,711)" font-size="5" style="fill:rgb(187, 61, 2)">Schild</text>
+<text transform="translate(574,226)" font-size="5" style="fill:rgb(254, 225, 196)">Rathaus</text>
+<text transform="translate(634,442) rotate(-90)" font-size="5" style="fill:rgb(127, 39, 4)">Augustinerhof</text>
+<text transform="translate(303,514)" font-size="5" style="fill:rgb(253, 164, 93)">Lagerung</text>
+<text transform="translate(225,316)" font-size="5" style="fill:rgb(253, 174, 106)">Sekt</text>
+<text transform="translate(562,637) rotate(-90)" font-size="5" style="fill:rgb(221, 77, 4)">Anerkennung</text>
+<text transform="translate(529,708)" font-size="5" style="fill:rgb(253, 198, 146)">Weg</text>
+<text transform="translate(256,432)" font-size="5" style="fill:rgb(154, 49, 3)">Fischer</text>
+<text transform="translate(501,747)" font-size="5" style="fill:rgb(253, 157, 83)">Qualität</text>
+<text transform="translate(452,716) rotate(-90)" font-size="5" style="fill:rgb(255, 245, 234)">Armin</text>
+<text transform="translate(728,12)" font-size="5" style="fill:rgb(254, 221, 188)">tock</text>
+<text transform="translate(222,189)" font-size="5" style="fill:rgb(133, 41, 4)">Schwefel</text>
+<text transform="translate(543,303)" font-size="5" style="fill:rgb(230, 90, 11)">Erntezeit</text>
+<text transform="translate(162,171)" font-size="5" style="fill:rgb(255, 239, 224)">Stapel</text>
+<text transform="translate(509,722) rotate(-90)" font-size="5" style="fill:rgb(235, 96, 14)">Quellwasser</text>
+<text transform="translate(174,135)" font-size="5" style="fill:rgb(140, 44, 4)">Abschnitt</text>
+<text transform="translate(523,407)" font-size="4" style="fill:rgb(235, 97, 15)">Menschengedenken</text>
+<text transform="translate(494,489)" font-size="4" style="fill:rgb(168, 55, 3)">Landkreis</text>
+<text transform="translate(666,181)" font-size="4" style="fill:rgb(254, 235, 216)">Projekt</text>
+<text transform="translate(491,616)" font-size="4" style="fill:rgb(243, 112, 27)">Küche</text>
+<text transform="translate(161,180)" font-size="4" style="fill:rgb(253, 213, 171)">Frage</text>
+<text transform="translate(157,112)" font-size="4" style="fill:rgb(254, 232, 210)">Eigenschaft</text>
+<text transform="translate(120,209)" font-size="4" style="fill:rgb(220, 76, 3)">Verzehr</text>
+<text transform="translate(363,570)" font-size="4" style="fill:rgb(242, 108, 22)">Song</text>
+<text transform="translate(517,457)" font-size="4" style="fill:rgb(253, 207, 160)">Jahrzehnt</text>
+<text transform="translate(177,477)" font-size="4" style="fill:rgb(253, 174, 106)">Pressen</text>
+<text transform="translate(439,729)" font-size="4" style="fill:rgb(177, 58, 3)">Trunk</text>
+<text transform="translate(498,577)" font-size="4" style="fill:rgb(253, 176, 110)">Verbindung</text>
+<text transform="translate(169,35)" font-size="4" style="fill:rgb(228, 87, 9)">Ursprung</text>
+<text transform="translate(316,523)" font-size="4" style="fill:rgb(231, 92, 12)">Situation</text>
+<text transform="translate(643,62)" font-size="4" style="fill:rgb(169, 55, 3)">Streuobstwiese</text>
+<text transform="translate(292,719)" font-size="4" style="fill:rgb(216, 72, 1)">Traubenweins</text>
+<text transform="translate(655,91)" font-size="4" style="fill:rgb(255, 239, 223)">Variante</text>
+<text transform="translate(604,351)" font-size="4" style="fill:rgb(253, 160, 87)">Speierling</text>
+<text transform="translate(468,725)" font-size="4" style="fill:rgb(164, 53, 3)">Viezkultur</text>
+<text transform="translate(372,681)" font-size="4" style="fill:rgb(206, 68, 1)">Wertigkeit</text>
+<text transform="translate(530,536)" font-size="4" style="fill:rgb(253, 175, 108)">Maische</text>
+<text transform="translate(515,325)" font-size="4" style="fill:rgb(253, 210, 166)">Spezialität</text>
+<text transform="translate(177,226)" font-size="4" style="fill:rgb(134, 42, 4)">Stamm</text>
+<text transform="translate(406,702)" font-size="4" style="fill:rgb(252, 139, 58)">vice</text>
+<text transform="translate(155,71)" font-size="4" style="fill:rgb(245, 116, 31)">Gartenbauvereine</text>
+<text transform="translate(502,280)" font-size="4" style="fill:rgb(147, 47, 3)">Säuregehalt</text>
+<text transform="translate(363,467)" font-size="4" style="fill:rgb(253, 147, 68)">Hof</text>
+<text transform="translate(191,190)" font-size="4" style="fill:rgb(227, 86, 8)">Äbbelwoi</text>
+<text transform="translate(470,414)" font-size="4" style="fill:rgb(254, 228, 202)">Motiv</text>
+<text transform="translate(516,636)" font-size="4" style="fill:rgb(253, 215, 175)">Abfüllen</text>
+<text transform="translate(405,552)" font-size="4" style="fill:rgb(253, 140, 59)">Geruch</text>
+<text transform="translate(172,458) rotate(-90)" font-size="4" style="fill:rgb(185, 61, 2)">Alexander</text>
+<text transform="translate(493,335) rotate(-90)" font-size="4" style="fill:rgb(235, 96, 14)">Verordnung</text>
+<text transform="translate(358,523)" font-size="4" style="fill:rgb(253, 145, 65)">Ausschankgefäß</text>
+<text transform="translate(505,474)" font-size="4" style="fill:rgb(253, 147, 68)">Trinker</text>
+<text transform="translate(752,63)" font-size="4" style="fill:rgb(253, 199, 148)">Mittelalter</text>
+<text transform="translate(451,577)" font-size="4" style="fill:rgb(200, 66, 2)">Mund</text>
+<text transform="translate(324,362)" font-size="4" style="fill:rgb(251, 136, 54)">Wirt</text>
+<text transform="translate(602,97)" font-size="4" style="fill:rgb(253, 215, 177)">fassen</text>
+<text transform="translate(463,504)" font-size="4" style="fill:rgb(253, 208, 162)">Krug</text>
+<text transform="translate(82,215) rotate(-90)" font-size="4" style="fill:rgb(131, 40, 4)">Besonderheit</text>
+<text transform="translate(556,437)" font-size="4" style="fill:rgb(255, 245, 235)">Naturschutz</text>
+<text transform="translate(578,552)" font-size="4" style="fill:rgb(248, 126, 43)">Feiertag</text>
+<text transform="translate(585,177) rotate(-90)" font-size="4" style="fill:rgb(253, 182, 120)">Apfelweinbegeisterte</text>
+<text transform="translate(279,466)" font-size="4" style="fill:rgb(224, 82, 6)">Führung</text>
+<text transform="translate(140,383)" font-size="4" style="fill:rgb(254, 232, 210)">Verkostungen</text>
+<text transform="translate(733,170) rotate(-90)" font-size="4" style="fill:rgb(222, 78, 5)">Apfelweinsorten</text>
+<text transform="translate(247,263) rotate(-90)" font-size="4" style="fill:rgb(253, 215, 175)">Apfelweinwirtschaften</text>
+<text transform="translate(204,26)" font-size="4" style="fill:rgb(160, 52, 3)">Berlin</text>
+<text transform="translate(534,490)" font-size="4" style="fill:rgb(254, 224, 195)">Viezbrüdern</text>
+<text transform="translate(200,419)" font-size="4" style="fill:rgb(190, 63, 2)">Ausdrucksformen</text>
+<text transform="translate(379,666)" font-size="4" style="fill:rgb(254, 228, 202)">Dreyer</text>
+<text transform="translate(199,263)" font-size="4" style="fill:rgb(198, 65, 2)">Schluck</text>
+<text transform="translate(161,17)" font-size="4" style="fill:rgb(244, 114, 30)">Apfelmost</text>
+<text transform="translate(217,523)" font-size="4" style="fill:rgb(253, 200, 149)">Streuobstwiesenkultur</text>
+<text transform="translate(595,438)" font-size="4" style="fill:rgb(253, 145, 65)">Moselstadt</text>
+<text transform="translate(196,516)" font-size="4" style="fill:rgb(177, 58, 3)">Dorado</text>
+<text transform="translate(665,147)" font-size="4" style="fill:rgb(144, 46, 4)">Radfahrer</text>
+<text transform="translate(570,278)" font-size="4" style="fill:rgb(253, 177, 112)">Landleben</text>
+<text transform="translate(671,215)" font-size="4" style="fill:rgb(253, 201, 151)">Verweilen</text>
+<text transform="translate(342,701)" font-size="4" style="fill:rgb(240, 103, 18)">Honig</text>
+<text transform="translate(203,34)" font-size="4" style="fill:rgb(255, 245, 235)">Marmelade</text>
+<text transform="translate(275,601)" font-size="4" style="fill:rgb(254, 230, 206)">Fahrt</text>
+<text transform="translate(577,507)" font-size="4" style="fill:rgb(254, 222, 191)">Entdeckungstour</text>
+<text transform="translate(578,255)" font-size="4" style="fill:rgb(255, 242, 230)">Sehenswürdigkeiten</text>
+<text transform="translate(541,160)" font-size="4" style="fill:rgb(254, 226, 199)">Villa</text>
+<text transform="translate(595,473)" font-size="4" style="fill:rgb(247, 123, 40)">Mosaikfußboden</text>
+<text transform="translate(244,554)" font-size="4" style="fill:rgb(220, 76, 3)">Skulpturenweg</text>
+<text transform="translate(410,783)" font-size="4" style="fill:rgb(149, 47, 3)">Traktorfreude</text>
+<text transform="translate(464,681)" font-size="4" style="fill:rgb(253, 169, 101)">Apfelfeste</text>
+<text transform="translate(380,702)" font-size="4" style="fill:rgb(148, 47, 3)">Bauernfeste</text>
+<text transform="translate(280,585)" font-size="4" style="fill:rgb(253, 206, 158)">Tür</text>
+<text transform="translate(721,198) rotate(-90)" font-size="4" style="fill:rgb(255, 243, 230)">Edeldestillatverkostungen</text>
+<text transform="translate(432,467)" font-size="4" style="fill:rgb(253, 158, 84)">Borg</text>
+<text transform="translate(80,220)" font-size="4" style="fill:rgb(253, 167, 98)">Nennig</text>
+<text transform="translate(32,54)" font-size="4" style="fill:rgb(255, 245, 235)">Kreuzweiler</text>
+<text transform="translate(249,172)" font-size="4" style="fill:rgb(254, 231, 209)">Weingesetz</text>
+<text transform="translate(242,267)" font-size="4" style="fill:rgb(253, 197, 144)">Bembel</text>
+<text transform="translate(464,469)" font-size="4" style="fill:rgb(187, 61, 2)">Handarbeit</text>
+<text transform="translate(284,261)" font-size="4" style="fill:rgb(253, 213, 171)">Europa</text>
+<text transform="translate(439,505)" font-size="4" style="fill:rgb(245, 117, 32)">Kernscheid</text>
+<text transform="translate(621,255)" font-size="4" style="fill:rgb(253, 149, 71)">Pflanzung</text>
+<text transform="translate(502,758)" font-size="4" style="fill:rgb(252, 139, 58)">Mostbirne</text>
+<text transform="translate(756,74)" font-size="4" style="fill:rgb(227, 86, 8)">Henkel</text>
+<text transform="translate(662,162)" font-size="4" style="fill:rgb(253, 183, 122)">Leben</text>
+<text transform="translate(551,519)" font-size="4" style="fill:rgb(253, 185, 125)">Käse</text>
+<text transform="translate(238,450)" font-size="4" style="fill:rgb(254, 226, 198)">Rest</text>
+<text transform="translate(618,303)" font-size="4" style="fill:rgb(222, 78, 5)">Verbesserung</text>
+<text transform="translate(477,504) rotate(-90)" font-size="4" style="fill:rgb(254, 228, 202)">Mark</text>
+<text transform="translate(180,45) rotate(-90)" font-size="4" style="fill:rgb(211, 70, 1)">Lage</text>
+<text transform="translate(507,263)" font-size="4" style="fill:rgb(179, 59, 2)">Moselfisch</text>
+<text transform="translate(444,459) rotate(-90)" font-size="4" style="fill:rgb(185, 61, 2)">Stärke</text>
+<text transform="translate(522,577)" font-size="4" style="fill:rgb(229, 89, 10)">Quitte</text>
+<text transform="translate(211,133)" font-size="4" style="fill:rgb(148, 47, 3)">Mouscht</text>
+<text transform="translate(130,250)" font-size="4" style="fill:rgb(253, 195, 141)">Stöffche</text>
+<text transform="translate(539,638) rotate(-90)" font-size="4" style="fill:rgb(249, 130, 48)">Landbevölkerung</text>
+<text transform="translate(520,392)" font-size="4" style="fill:rgb(246, 120, 36)">Schorle</text>
+<text transform="translate(408,770)" font-size="4" style="fill:rgb(179, 59, 2)">Basisprodukt</text>
+<text transform="translate(472,358)" font-size="4" style="fill:rgb(253, 172, 103)">Sommergetränk</text>
+<text transform="translate(227,591) rotate(-90)" font-size="4" style="fill:rgb(143, 45, 4)">Viezspezialitäten</text>
+<text transform="translate(91,39)" font-size="4" style="fill:rgb(253, 215, 177)">Apfelsecco</text>
+<text transform="translate(275,214) rotate(-90)" font-size="4" style="fill:rgb(254, 236, 218)">Eisleseviez</text>
+<text transform="translate(425,631)" font-size="4" style="fill:rgb(231, 92, 12)">Spektrum</text>
+<text transform="translate(477,675) rotate(-90)" font-size="4" style="fill:rgb(181, 59, 2)">Saarschleifenland</text>
+<text transform="translate(102,266)" font-size="4" style="fill:rgb(253, 146, 67)">vinum</text>
+<text transform="translate(296,406) rotate(-90)" font-size="4" style="fill:rgb(227, 86, 8)">Streuobstbestand</text>
+<text transform="translate(280,755) rotate(-90)" font-size="4" style="fill:rgb(253, 215, 175)">Edelbrände</text>
+<text transform="translate(72,21)" font-size="4" style="fill:rgb(253, 207, 160)">Naturfreund</text>
+<text transform="translate(613,381)" font-size="4" style="fill:rgb(253, 216, 178)">Naherholung</text>
+<text transform="translate(265,726)" font-size="4" style="fill:rgb(229, 89, 10)">Blütezeit</text>
+<text transform="translate(524,217)" font-size="4" style="fill:rgb(203, 67, 2)">Pflanzenarten</text>
+<text transform="translate(294,724)" font-size="4" style="fill:rgb(235, 96, 14)">Altbeständen</text>
+<text transform="translate(352,684) rotate(-90)" font-size="4" style="fill:rgb(181, 59, 2)">Junganlagen</text>
+<text transform="translate(296,554)" font-size="4" style="fill:rgb(253, 193, 137)">Altbestände</text>
+<text transform="translate(292,289)" font-size="4" style="fill:rgb(165, 54, 3)">Hunsrücks</text>
+<text transform="translate(127,348)" font-size="4" style="fill:rgb(254, 224, 195)">Domfreihof</text>
+<text transform="translate(107,4)" font-size="4" style="fill:rgb(254, 225, 196)">Auspressen</text>
+<text transform="translate(154,40)" font-size="4" style="fill:rgb(231, 92, 12)">Ort</text>
+<text transform="translate(600,188)" font-size="4" style="fill:rgb(255, 240, 226)">Wohlstand</text>
+<text transform="translate(575,204)" font-size="4" style="fill:rgb(182, 60, 2)">Sinn</text>
+<text transform="translate(272,442)" font-size="4" style="fill:rgb(253, 196, 143)">Betracht</text>
+<text transform="translate(526,732) rotate(-90)" font-size="4" style="fill:rgb(248, 126, 43)">Kultusministerin</text>
+<text transform="translate(273,329) rotate(-90)" font-size="4" style="fill:rgb(235, 96, 14)">Kulturausschusses</text>
+<text transform="translate(516,305)" font-size="4" style="fill:rgb(238, 100, 16)">Walter</text>
+<text transform="translate(112,290)" font-size="4" style="fill:rgb(253, 162, 90)">Speicher</text>
+<text transform="translate(294,294)" font-size="4" style="fill:rgb(253, 155, 80)">Streuobst</text>
+<text transform="translate(422,601)" font-size="4" style="fill:rgb(223, 81, 6)">Untz</text>
+<text transform="translate(242,664)" font-size="4" style="fill:rgb(253, 177, 112)">Fachwissen</text>
+<text transform="translate(117,314)" font-size="4" style="fill:rgb(182, 60, 2)">Tafeläpfel</text>
+<text transform="translate(253,443)" font-size="4" style="fill:rgb(254, 231, 208)">Aroma</text>
+<text transform="translate(647,97)" font-size="4" style="fill:rgb(254, 233, 211)">Birnwein</text>
+<text transform="translate(183,241)" font-size="4" style="fill:rgb(254, 237, 220)">Jahr</text>
+<text transform="translate(475,565)" font-size="4" style="fill:rgb(254, 222, 191)">Apfelernte</text>
+<text transform="translate(658,44)" font-size="4" style="fill:rgb(253, 179, 115)">Geld</text>
+<text transform="translate(679,74)" font-size="4" style="fill:rgb(231, 91, 11)">Holzfass</text>
+<text transform="translate(212,60)" font-size="4" style="fill:rgb(253, 215, 177)">Norden</text>
+<text transform="translate(729,128)" font-size="4" style="fill:rgb(253, 207, 160)">Lothringen</text>
+<text transform="translate(137,99)" font-size="4" style="fill:rgb(211, 70, 1)">Milch</text>
+<text transform="translate(534,174)" font-size="4" style="fill:rgb(198, 65, 2)">Gründung</text>
+<text transform="translate(71,110)" font-size="4" style="fill:rgb(228, 87, 9)">Holzäpfel</text>
+<text transform="translate(258,700) rotate(-90)" font-size="4" style="fill:rgb(254, 224, 195)">Ruwer</text>
+<text transform="translate(774,23)" font-size="4" style="fill:rgb(244, 113, 28)">Betrieb</text>
+<text transform="translate(531,182)" font-size="4" style="fill:rgb(253, 190, 132)">Verschnitt</text>
+<text transform="translate(460,474)" font-size="4" style="fill:rgb(253, 217, 181)">Bereitung</text>
+<text transform="translate(478,670)" font-size="4" style="fill:rgb(230, 90, 11)">Flur</text>
+<text transform="translate(541,423)" font-size="4" style="fill:rgb(255, 245, 234)">Feige</text>
+<text transform="translate(499,682) rotate(-90)" font-size="4" style="fill:rgb(253, 164, 93)">Versuchsanstalt</text>
+<text transform="translate(292,299)" font-size="4" style="fill:rgb(253, 202, 153)">Hausmacher</text>
+<text transform="translate(258,636)" font-size="4" style="fill:rgb(185, 61, 2)">Mostes</text>
+<text transform="translate(752,91)" font-size="4" style="fill:rgb(253, 190, 132)">Onkel</text>
+<text transform="translate(75,58)" font-size="4" style="fill:rgb(148, 47, 3)">Obstmühle</text>
+<text transform="translate(254,615)" font-size="4" style="fill:rgb(249, 130, 48)">Zug</text>
+<text transform="translate(486,458)" font-size="4" style="fill:rgb(253, 217, 181)">Bericht</text>
+<text transform="translate(698,185) rotate(-90)" font-size="4" style="fill:rgb(140, 44, 4)">Inhaltsstoffe</text>
+<text transform="translate(428,483)" font-size="4" style="fill:rgb(254, 222, 191)">Anfang</text>
+<text transform="translate(591,16)" font-size="4" style="fill:rgb(253, 167, 98)">Vorhaben</text>
+</svg>

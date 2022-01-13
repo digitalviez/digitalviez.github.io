@@ -1,0 +1,545 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="786">
+<style>@font-face{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;src:url("data:application/font-woff;charset=utf-8;base64,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")format("woff");}</style>
+<style>text{font-family:'Droid Sans Mono';font-weight:normal;font-style:normal;}</style>
+<text transform="translate(71,755)" font-size="157" style="fill:rgb(155, 50, 3)">Trierer</text>
+<text transform="translate(378,84)" font-size="117" style="fill:rgb(236, 98, 15)">gut</text>
+<text transform="translate(95,100)" font-size="106" style="fill:rgb(238, 100, 16)">alt</text>
+<text transform="translate(448,127)" font-size="54" style="fill:rgb(177, 58, 3)">regional</text>
+<text transform="translate(93,141)" font-size="41" style="fill:rgb(254, 230, 206)">traditionell</text>
+<text transform="translate(505,176)" font-size="40" style="fill:rgb(128, 39, 4)">gleich</text>
+<text transform="translate(491,400) rotate(-90)" font-size="39" style="fill:rgb(166, 54, 3)">verschieden</text>
+<text transform="translate(190,517)" font-size="37" style="fill:rgb(185, 61, 2)">sogenannt</text>
+<text transform="translate(350,660)" font-size="36" style="fill:rgb(198, 65, 2)">alkoholisch</text>
+<text transform="translate(325,399)" font-size="35" style="fill:rgb(253, 145, 65)">hoch</text>
+<text transform="translate(179,574)" font-size="35" style="fill:rgb(132, 41, 4)">wichtig</text>
+<text transform="translate(332,461)" font-size="33" style="fill:rgb(238, 101, 17)">süß</text>
+<text transform="translate(123,618)" font-size="33" style="fill:rgb(189, 62, 2)">zahlreich</text>
+<text transform="translate(631,70)" font-size="32" style="fill:rgb(228, 88, 10)">groß</text>
+<text transform="translate(431,463) rotate(-90)" font-size="31" style="fill:rgb(131, 40, 4)">regionale</text>
+<text transform="translate(124,779)" font-size="31" style="fill:rgb(249, 130, 48)">saarländisch</text>
+<text transform="translate(501,223)" font-size="31" style="fill:rgb(251, 135, 53)">bekannt</text>
+<text transform="translate(159,648)" font-size="31" style="fill:rgb(253, 205, 156)">genannt</text>
+<text transform="translate(607,41)" font-size="30" style="fill:rgb(246, 119, 35)">früh</text>
+<text transform="translate(246,484)" font-size="30" style="fill:rgb(253, 211, 167)">zahlreiche</text>
+<text transform="translate(454,396) rotate(-90)" font-size="30" style="fill:rgb(254, 229, 204)">kalorienarm</text>
+<text transform="translate(266,421)" font-size="29" style="fill:rgb(140, 44, 4)">heutig</text>
+<text transform="translate(494,300)" font-size="28" style="fill:rgb(148, 47, 3)">herb</text>
+<text transform="translate(300,53)" font-size="28" style="fill:rgb(253, 142, 61)">letzt</text>
+<text transform="translate(606,654)" font-size="27" style="fill:rgb(238, 101, 17)">frisch</text>
+<text transform="translate(503,250)" font-size="27" style="fill:rgb(219, 75, 3)">typisch</text>
+<text transform="translate(432,773)" font-size="24" style="fill:rgb(253, 217, 180)">vielfältig</text>
+<text transform="translate(199,20)" font-size="24" style="fill:rgb(251, 135, 53)">Frankfurter</text>
+<text transform="translate(616,777)" font-size="24" style="fill:rgb(253, 211, 167)">ähnlich</text>
+<text transform="translate(263,71)" font-size="24" style="fill:rgb(245, 118, 34)">typische</text>
+<text transform="translate(259,534)" font-size="22" style="fill:rgb(245, 117, 32)">ökologisch</text>
+<text transform="translate(528,193)" font-size="22" style="fill:rgb(253, 196, 143)">lateinisch</text>
+<text transform="translate(486,716)" font-size="22" style="fill:rgb(248, 125, 41)">jung</text>
+<text transform="translate(390,351) rotate(-90)" font-size="22" style="fill:rgb(254, 237, 220)">ander</text>
+<text transform="translate(180,538)" font-size="22" style="fill:rgb(193, 64, 2)">fein</text>
+<text transform="translate(336,370)" font-size="22" style="fill:rgb(185, 61, 2)">rein</text>
+<text transform="translate(206,732)" font-size="22" style="fill:rgb(255, 245, 235)">gesund</text>
+<text transform="translate(336,700) rotate(-90)" font-size="22" style="fill:rgb(253, 165, 95)">gewiß</text>
+<text transform="translate(156,732) rotate(-90)" font-size="22" style="fill:rgb(244, 113, 28)">Ewer</text>
+<text transform="translate(91,779) rotate(-90)" font-size="22" style="fill:rgb(251, 135, 53)">natürlich</text>
+<text transform="translate(89,21)" font-size="22" style="fill:rgb(255, 245, 234)">sauer</text>
+<text transform="translate(495,273)" font-size="22" style="fill:rgb(247, 123, 40)">wertvoll</text>
+<text transform="translate(276,101)" font-size="22" style="fill:rgb(253, 213, 171)">besonder</text>
+<text transform="translate(233,447)" font-size="18" style="fill:rgb(253, 140, 59)">vergorene</text>
+<text transform="translate(185,661)" font-size="16" style="fill:rgb(254, 226, 199)">einzigartig</text>
+<text transform="translate(360,776)" font-size="16" style="fill:rgb(176, 57, 3)">blau</text>
+<text transform="translate(183,588)" font-size="16" style="fill:rgb(253, 211, 167)">sortenreine</text>
+<text transform="translate(425,141)" font-size="16" style="fill:rgb(253, 160, 87)">römische</text>
+<text transform="translate(551,141)" font-size="16" style="fill:rgb(255, 241, 227)">aktuell</text>
+<text transform="translate(565,61)" font-size="16" style="fill:rgb(254, 237, 220)">gering</text>
+<text transform="translate(352,12)" font-size="14" style="fill:rgb(235, 97, 15)">qualitätsvoll</text>
+<text transform="translate(594,665)" font-size="14" style="fill:rgb(253, 146, 67)">Westerwälder</text>
+<text transform="translate(86,635)" font-size="14" style="fill:rgb(255, 238, 221)">positiv</text>
+<text transform="translate(269,113)" font-size="14" style="fill:rgb(254, 226, 199)">echte</text>
+<text transform="translate(603,14)" font-size="14" style="fill:rgb(187, 61, 2)">bundesweite</text>
+<text transform="translate(118,588)" font-size="14" style="fill:rgb(243, 111, 26)">hessisch</text>
+<text transform="translate(509,316)" font-size="14" style="fill:rgb(254, 230, 206)">korrekt</text>
+<text transform="translate(446,415)" font-size="14" style="fill:rgb(245, 117, 32)">junge</text>
+<text transform="translate(303,361)" font-size="14" style="fill:rgb(255, 240, 225)">weiß</text>
+<text transform="translate(103,760) rotate(-90)" font-size="14" style="fill:rgb(137, 43, 4)">ungewöhnliche</text>
+<text transform="translate(654,144)" font-size="14" style="fill:rgb(160, 52, 3)">schöne</text>
+<text transform="translate(123,114)" font-size="14" style="fill:rgb(158, 51, 3)">sauber</text>
+<text transform="translate(245,432)" font-size="14" style="fill:rgb(254, 235, 215)">immateriellen</text>
+<text transform="translate(217,73) rotate(-90)" font-size="14" style="fill:rgb(253, 182, 120)">echt</text>
+<text transform="translate(501,327)" font-size="14" style="fill:rgb(255, 239, 224)">stehend</text>
+<text transform="translate(570,728)" font-size="14" style="fill:rgb(147, 47, 3)">öffentlich</text>
+<text transform="translate(388,730)" font-size="14" style="fill:rgb(253, 157, 83)">bestimmen</text>
+<text transform="translate(578,88)" font-size="12" style="fill:rgb(255, 239, 223)">kleinwüchsigen</text>
+<text transform="translate(121,33)" font-size="12" style="fill:rgb(254, 231, 209)">römisch</text>
+<text transform="translate(685,737)" font-size="12" style="fill:rgb(213, 70, 1)">einzig</text>
+<text transform="translate(329,556)" font-size="12" style="fill:rgb(253, 195, 141)">normal</text>
+<text transform="translate(394,290) rotate(-90)" font-size="12" style="fill:rgb(253, 206, 158)">gesamt</text>
+<text transform="translate(207,698)" font-size="12" style="fill:rgb(254, 223, 192)">saarländische</text>
+<text transform="translate(141,745)" font-size="12" style="fill:rgb(223, 81, 6)">harten</text>
+<text transform="translate(210,710)" font-size="12" style="fill:rgb(192, 63, 2)">Merziger</text>
+<text transform="translate(497,696)" font-size="12" style="fill:rgb(151, 48, 3)">deutsch</text>
+<text transform="translate(397,121)" font-size="12" style="fill:rgb(253, 193, 137)">gelegen</text>
+<text transform="translate(408,367) rotate(-90)" font-size="12" style="fill:rgb(253, 171, 102)">weit</text>
+<text transform="translate(456,11)" font-size="12" style="fill:rgb(253, 154, 78)">französisch</text>
+<text transform="translate(352,744) rotate(-90)" font-size="12" style="fill:rgb(253, 206, 158)">erfrischend</text>
+<text transform="translate(149,550)" font-size="12" style="fill:rgb(140, 44, 4)">heimisch</text>
+<text transform="translate(464,399) rotate(-90)" font-size="12" style="fill:rgb(253, 163, 92)">Immateriellen</text>
+<text transform="translate(462,706) rotate(-90)" font-size="12" style="fill:rgb(253, 165, 95)">reich</text>
+<text transform="translate(216,749)" font-size="12" style="fill:rgb(158, 51, 3)">wachsend</text>
+<text transform="translate(329,331)" font-size="12" style="fill:rgb(209, 69, 1)">wilde</text>
+<text transform="translate(330,340)" font-size="12" style="fill:rgb(255, 242, 229)">altern</text>
+<text transform="translate(410,291) rotate(-90)" font-size="12" style="fill:rgb(187, 61, 2)">trocken</text>
+<text transform="translate(232,491)" font-size="9" style="fill:rgb(255, 245, 234)">regionaltypische</text>
+<text transform="translate(307,78)" font-size="9" style="fill:rgb(162, 53, 3)">jahrhundertalte</text>
+<text transform="translate(131,673)" font-size="9" style="fill:rgb(222, 78, 5)">offizielle</text>
+<text transform="translate(505,751)" font-size="9" style="fill:rgb(218, 73, 2)">kulturelle</text>
+<text transform="translate(383,493)" font-size="9" style="fill:rgb(255, 242, 230)">einzelne</text>
+<text transform="translate(136,757)" font-size="9" style="fill:rgb(171, 56, 3)">zart</text>
+<text transform="translate(483,730)" font-size="9" style="fill:rgb(254, 225, 196)">touristische</text>
+<text transform="translate(689,700)" font-size="9" style="fill:rgb(253, 160, 87)">richtig</text>
+<text transform="translate(511,334)" font-size="9" style="fill:rgb(253, 145, 65)">einmalig</text>
+<text transform="translate(279,384)" font-size="9" style="fill:rgb(253, 191, 134)">folgend</text>
+<text transform="translate(160,690)" font-size="9" style="fill:rgb(253, 154, 78)">wild</text>
+<text transform="translate(431,433)" font-size="9" style="fill:rgb(235, 97, 15)">gewonnen</text>
+<text transform="translate(151,625)" font-size="9" style="fill:rgb(226, 85, 8)">moselfränkischen</text>
+<text transform="translate(676,715)" font-size="9" style="fill:rgb(219, 74, 2)">gekeltert</text>
+<text transform="translate(196,80)" font-size="9" style="fill:rgb(148, 47, 3)">plausibel</text>
+<text transform="translate(464,92)" font-size="9" style="fill:rgb(230, 90, 11)">erhalten</text>
+<text transform="translate(222,459)" font-size="9" style="fill:rgb(244, 114, 30)">abgemessen</text>
+<text transform="translate(324,28)" font-size="9" style="fill:rgb(254, 230, 206)">Abgemessener</text>
+<text transform="translate(561,38)" font-size="9" style="fill:rgb(255, 238, 222)">berühmte</text>
+<text transform="translate(296,592)" font-size="9" style="fill:rgb(219, 75, 3)">bayerisch</text>
+<text transform="translate(449,780)" font-size="9" style="fill:rgb(165, 54, 3)">entsprechend</text>
+<text transform="translate(514,738)" font-size="9" style="fill:rgb(253, 142, 61)">deftig</text>
+<text transform="translate(272,400)" font-size="9" style="fill:rgb(254, 237, 220)">westlich</text>
+<text transform="translate(312,491)" font-size="9" style="fill:rgb(253, 184, 124)">vorzüglich</text>
+<text transform="translate(672,157)" font-size="9" style="fill:rgb(229, 89, 10)">rote</text>
+<text transform="translate(95,148)" font-size="9" style="fill:rgb(209, 69, 1)">berauschend</text>
+<text transform="translate(431,246) rotate(-90)" font-size="9" style="fill:rgb(190, 63, 2)">gütig</text>
+<text transform="translate(670,753)" font-size="9" style="fill:rgb(253, 155, 80)">schäzbare</text>
+<text transform="translate(261,28)" font-size="9" style="fill:rgb(254, 236, 217)">geistig</text>
+<text transform="translate(198,31)" font-size="9" style="fill:rgb(250, 131, 49)">weiniger</text>
+<text transform="translate(416,268) rotate(-90)" font-size="9" style="fill:rgb(253, 215, 177)">vergorener</text>
+<text transform="translate(158,102) rotate(-90)" font-size="9" style="fill:rgb(255, 244, 233)">touristischen</text>
+<text transform="translate(171,148)" font-size="9" style="fill:rgb(217, 72, 1)">kennzeichnend</text>
+<text transform="translate(518,780)" font-size="9" style="fill:rgb(254, 237, 220)">prägend</text>
+<text transform="translate(300,148)" font-size="9" style="fill:rgb(253, 191, 134)">einheimisch</text>
+<text transform="translate(450,77) rotate(-90)" font-size="9" style="fill:rgb(227, 86, 8)">kulturell</text>
+<text transform="translate(573,201)" font-size="9" style="fill:rgb(253, 158, 84)">Wilder</text>
+<text transform="translate(530,87) rotate(-90)" font-size="9" style="fill:rgb(235, 96, 14)">gemacht</text>
+<text transform="translate(702,658)" font-size="9" style="fill:rgb(254, 236, 217)">warm</text>
+<text transform="translate(372,416)" font-size="9" style="fill:rgb(254, 225, 196)">geeignet</text>
+<text transform="translate(680,38)" font-size="9" style="fill:rgb(251, 136, 54)">teuer</text>
+<text transform="translate(524,667)" font-size="9" style="fill:rgb(217, 72, 1)">Gärender</text>
+<text transform="translate(208,595)" font-size="9" style="fill:rgb(253, 193, 137)">Neuer</text>
+<text transform="translate(544,150)" font-size="9" style="fill:rgb(253, 199, 148)">Frischer</text>
+<text transform="translate(278,541)" font-size="9" style="fill:rgb(253, 163, 92)">notwendig</text>
+<text transform="translate(599,735)" font-size="9" style="fill:rgb(253, 215, 175)">verbreiten</text>
+<text transform="translate(552,45)" font-size="9" style="fill:rgb(254, 224, 193)">Hessische</text>
+<text transform="translate(382,148)" font-size="9" style="fill:rgb(254, 226, 198)">kostenfrei</text>
+<text transform="translate(323,614) rotate(-90)" font-size="9" style="fill:rgb(253, 193, 137)">halb</text>
+<text transform="translate(614,48)" font-size="9" style="fill:rgb(243, 112, 27)">rekonstruieren</text>
+<text transform="translate(251,676)" font-size="9" style="fill:rgb(254, 228, 202)">offen</text>
+<text transform="translate(322,566)" font-size="9" style="fill:rgb(253, 186, 127)">begleiten</text>
+<text transform="translate(154,8)" font-size="9" style="fill:rgb(224, 82, 6)">zunehmend</text>
+<text transform="translate(390,134)" font-size="9" style="fill:rgb(209, 69, 1)">nächst</text>
+<text transform="translate(493,344)" font-size="9" style="fill:rgb(253, 155, 80)">gewöhnlich</text>
+<text transform="translate(646,168)" font-size="9" style="fill:rgb(225, 84, 7)">durstig</text>
+<text transform="translate(336,315)" font-size="9" style="fill:rgb(253, 209, 164)">perlend</text>
+<text transform="translate(287,455)" font-size="9" style="fill:rgb(255, 243, 231)">edelsüßen</text>
+<text transform="translate(692,665)" font-size="9" style="fill:rgb(253, 181, 118)">desolat</text>
+<text transform="translate(557,10)" font-size="9" style="fill:rgb(219, 74, 2)">gefährden</text>
+<text transform="translate(137,571)" font-size="9" style="fill:rgb(253, 160, 87)">passend</text>
+<text transform="translate(685,723)" font-size="9" style="fill:rgb(253, 159, 86)">heimlich</text>
+<text transform="translate(590,644)" font-size="9" style="fill:rgb(248, 126, 43)">arm</text>
+<text transform="translate(336,541)" font-size="9" style="fill:rgb(142, 45, 4)">hochwertig</text>
+<text transform="translate(166,91) rotate(-90)" font-size="9" style="fill:rgb(200, 66, 2)">angepflanzt</text>
+<text transform="translate(432,448)" font-size="9" style="fill:rgb(253, 167, 98)">findig</text>
+<text transform="translate(662,77)" font-size="9" style="fill:rgb(253, 167, 98)">vorhanden</text>
+<text transform="translate(433,737)" font-size="9" style="fill:rgb(216, 72, 1)">modern</text>
+<text transform="translate(431,667)" font-size="9" style="fill:rgb(253, 157, 83)">Trierische</text>
+<text transform="translate(116,595)" font-size="9" style="fill:rgb(222, 80, 5)">verwenden</text>
+<text transform="translate(345,758)" font-size="9" style="fill:rgb(255, 240, 225)">stark</text>
+<text transform="translate(256,39)" font-size="9" style="fill:rgb(253, 210, 166)">heilend</text>
+<text transform="translate(491,353)" font-size="9" style="fill:rgb(253, 202, 153)">rheinische</text>
+<text transform="translate(208,476)" font-size="9" style="fill:rgb(253, 219, 184)">Roter</text>
+<text transform="translate(498,246) rotate(-90)" font-size="9" style="fill:rgb(176, 57, 3)">haltbar</text>
+<text transform="translate(92,767)" font-size="9" style="fill:rgb(253, 216, 178)">lang</text>
+<text transform="translate(234,625)" font-size="9" style="fill:rgb(255, 238, 222)">richtige</text>
+<text transform="translate(516,232)" font-size="9" style="fill:rgb(247, 122, 39)">divers</text>
+<text transform="translate(585,72)" font-size="9" style="fill:rgb(255, 241, 227)">flüchtig</text>
+<text transform="translate(572,775)" font-size="9" style="fill:rgb(222, 78, 5)">schlecht</text>
+<text transform="translate(250,683)" font-size="9" style="fill:rgb(153, 49, 3)">kurz</text>
+<text transform="translate(248,148)" font-size="9" style="fill:rgb(139, 44, 4)">trierische</text>
+<text transform="translate(370,425)" font-size="9" style="fill:rgb(245, 116, 31)">selten</text>
+<text transform="translate(401,780)" font-size="9" style="fill:rgb(252, 137, 55)">zuständig</text>
+<text transform="translate(480,69) rotate(-90)" font-size="9" style="fill:rgb(225, 83, 7)">Rheinischer</text>
+<text transform="translate(622,141)" font-size="9" style="fill:rgb(253, 210, 166)">weiße</text>
+<text transform="translate(496,362)" font-size="9" style="fill:rgb(226, 85, 8)">möglich</text>
+<text transform="translate(564,232)" font-size="9" style="fill:rgb(253, 150, 73)">einzeln</text>
+<text transform="translate(88,34)" font-size="9" style="fill:rgb(253, 217, 180)">scharf</text>
+<text transform="translate(550,280)" font-size="9" style="fill:rgb(251, 134, 52)">rechtliche</text>
+<text transform="translate(313,114)" font-size="9" style="fill:rgb(198, 65, 2)">lieb</text>
+<text transform="translate(206,87)" font-size="9" style="fill:rgb(254, 221, 188)">hiesig</text>
+<text transform="translate(92,62)" font-size="9" style="fill:rgb(227, 86, 8)">bestimmt</text>
+<text transform="translate(134,744) rotate(-90)" font-size="9" style="fill:rgb(255, 245, 235)">Lampadener</text>
+<text transform="translate(562,17)" font-size="9" style="fill:rgb(253, 150, 73)">bewähren</text>
+<text transform="translate(93,780)" font-size="9" style="fill:rgb(254, 237, 220)">Escher</text>
+<text transform="translate(154,15)" font-size="9" style="fill:rgb(253, 218, 182)">Passender</text>
+<text transform="translate(641,713) rotate(-90)" font-size="9" style="fill:rgb(255, 242, 229)">gepflanzt</text>
+<text transform="translate(446,718) rotate(-90)" font-size="9" style="fill:rgb(127, 39, 4)">tatkräftig</text>
+<text transform="translate(517,92) rotate(-90)" font-size="9" style="fill:rgb(254, 227, 200)">gerbstoffreichen</text>
+<text transform="translate(192,105)" font-size="6" style="fill:rgb(164, 53, 3)">Geringwertige</text>
+<text transform="translate(92,617)" font-size="6" style="fill:rgb(251, 135, 53)">einfach</text>
+<text transform="translate(643,782)" font-size="6" style="fill:rgb(200, 66, 2)">wirtschaftlich</text>
+<text transform="translate(233,542)" font-size="6" style="fill:rgb(222, 80, 5)">hölzern</text>
+<text transform="translate(318,345)" font-size="6" style="fill:rgb(253, 167, 98)">ausgezeichnet</text>
+<text transform="translate(391,327)" font-size="6" style="fill:rgb(253, 198, 146)">neu</text>
+<text transform="translate(667,19)" font-size="6" style="fill:rgb(254, 232, 210)">nachhaltig</text>
+<text transform="translate(519,202)" font-size="6" style="fill:rgb(224, 82, 6)">heiß</text>
+<text transform="translate(626,199)" font-size="6" style="fill:rgb(253, 205, 156)">saftig</text>
+<text transform="translate(383,762)" font-size="6" style="fill:rgb(139, 44, 4)">minderwertig</text>
+<text transform="translate(576,780)" font-size="6" style="fill:rgb(154, 49, 3)">vorräthige</text>
+<text transform="translate(358,737) rotate(-90)" font-size="6" style="fill:rgb(254, 230, 206)">Wohlgebohrner</text>
+<text transform="translate(129,661)" font-size="6" style="fill:rgb(255, 243, 231)">eingestelten</text>
+<text transform="translate(489,67) rotate(-90)" font-size="6" style="fill:rgb(255, 241, 227)">publicationem</text>
+<text transform="translate(312,84)" font-size="6" style="fill:rgb(254, 237, 219)">gemeldet</text>
+<text transform="translate(496,146)" font-size="6" style="fill:rgb(147, 47, 3)">schehenes</text>
+<text transform="translate(350,781)" font-size="6" style="fill:rgb(208, 69, 1)">diesfällige</text>
+<text transform="translate(724,773) rotate(-90)" font-size="6" style="fill:rgb(253, 145, 65)">gemeltem</text>
+<text transform="translate(332,375)" font-size="6" style="fill:rgb(224, 82, 6)">geneigtwillige</text>
+<text transform="translate(500,278)" font-size="6" style="fill:rgb(139, 44, 4)">getrocknet</text>
+<text transform="translate(235,477)" font-size="6" style="fill:rgb(254, 236, 217)">rot</text>
+<text transform="translate(383,507)" font-size="6" style="fill:rgb(173, 56, 3)">fertig</text>
+<text transform="translate(267,708)" font-size="6" style="fill:rgb(253, 215, 177)">gekocht</text>
+<text transform="translate(181,82) rotate(-90)" font-size="6" style="fill:rgb(246, 120, 36)">alljährlichen</text>
+<text transform="translate(392,436)" font-size="6" style="fill:rgb(229, 89, 10)">grün</text>
+<text transform="translate(624,746)" font-size="6" style="fill:rgb(253, 163, 92)">faul</text>
+<text transform="translate(300,368)" font-size="6" style="fill:rgb(254, 233, 211)">hinter</text>
+<text transform="translate(396,315)" font-size="6" style="fill:rgb(255, 240, 225)">dünn</text>
+<text transform="translate(372,404)" font-size="6" style="fill:rgb(253, 149, 71)">beteiligen</text>
+<text transform="translate(347,571)" font-size="6" style="fill:rgb(251, 135, 53)">hart</text>
+<text transform="translate(439,423)" font-size="6" style="fill:rgb(253, 215, 177)">dazugehörig</text>
+<text transform="translate(388,735)" font-size="6" style="fill:rgb(228, 88, 10)">benachbart</text>
+<text transform="translate(492,369)" font-size="6" style="fill:rgb(143, 45, 4)">steigend</text>
+<text transform="translate(617,231)" font-size="6" style="fill:rgb(251, 134, 52)">spät</text>
+<text transform="translate(136,560)" font-size="6" style="fill:rgb(218, 73, 2)">niedrig</text>
+<text transform="translate(355,665)" font-size="6" style="fill:rgb(255, 245, 235)">klassische</text>
+<text transform="translate(236,758)" font-size="6" style="fill:rgb(139, 44, 4)">trockene</text>
+<text transform="translate(635,150)" font-size="6" style="fill:rgb(254, 223, 192)">gepresste</text>
+<text transform="translate(620,672)" font-size="6" style="fill:rgb(253, 209, 163)">nah</text>
+<text transform="translate(385,697)" font-size="6" style="fill:rgb(253, 147, 68)">gesellig</text>
+<text transform="translate(454,257)" font-size="6" style="fill:rgb(129, 40, 4)">eng</text>
+<text transform="translate(434,194)" font-size="6" style="fill:rgb(253, 199, 148)">feucht</text>
+<text transform="translate(159,704)" font-size="6" style="fill:rgb(179, 59, 2)">baldig</text>
+<text transform="translate(362,16)" font-size="5" style="fill:rgb(219, 75, 3)">dickbauchigen</text>
+<text transform="translate(577,762)" font-size="5" style="fill:rgb(253, 206, 158)">mitgenommen</text>
+<text transform="translate(345,660) rotate(-90)" font-size="5" style="fill:rgb(220, 76, 3)">gewünscht</text>
+<text transform="translate(284,84)" font-size="5" style="fill:rgb(253, 163, 92)">streng</text>
+<text transform="translate(434,146)" font-size="5" style="fill:rgb(253, 191, 134)">immaterielle</text>
+<text transform="translate(244,736)" font-size="5" style="fill:rgb(253, 161, 89)">zuckerfreien</text>
+<text transform="translate(197,483)" font-size="5" style="fill:rgb(254, 230, 207)">persönlich</text>
+<text transform="translate(397,90)" font-size="5" style="fill:rgb(254, 237, 220)">entstanden</text>
+<text transform="translate(572,92)" font-size="5" style="fill:rgb(254, 222, 191)">lebensmittelrechtlichen</text>
+<text transform="translate(102,602)" font-size="5" style="fill:rgb(253, 167, 98)">schwer</text>
+<text transform="translate(212,715)" font-size="5" style="fill:rgb(253, 190, 132)">säuerlich</text>
+<text transform="translate(194,490)" font-size="5" style="fill:rgb(138, 43, 4)">angefault</text>
+<text transform="translate(402,464)" font-size="5" style="fill:rgb(253, 171, 102)">verschworen</text>
+<text transform="translate(484,664)" font-size="5" style="fill:rgb(252, 138, 57)">hausgemacht</text>
+<text transform="translate(437,463)" font-size="5" style="fill:rgb(253, 147, 68)">weich</text>
+<text transform="translate(408,66)" font-size="5" style="fill:rgb(155, 50, 3)">Sievenicher</text>
+<text transform="translate(156,753)" font-size="5" style="fill:rgb(184, 60, 2)">betucht</text>
+<text transform="translate(334,105)" font-size="5" style="fill:rgb(253, 179, 115)">deutschsprachig</text>
+<text transform="translate(238,464)" font-size="5" style="fill:rgb(218, 73, 2)">herrlich</text>
+<text transform="translate(434,17)" font-size="5" style="fill:rgb(254, 232, 210)">sortenreinen</text>
+<text transform="translate(570,697)" font-size="5" style="fill:rgb(190, 63, 2)">unvergorenen</text>
+<text transform="translate(523,91)" font-size="5" style="fill:rgb(243, 110, 25)">staatlich</text>
+<text transform="translate(434,748)" font-size="5" style="fill:rgb(176, 57, 3)">Saure</text>
+<text transform="translate(492,394)" font-size="5" style="fill:rgb(231, 92, 12)">wahr</text>
+<text transform="translate(391,299)" font-size="5" style="fill:rgb(247, 122, 39)">Reiner</text>
+<text transform="translate(258,595)" font-size="5" style="fill:rgb(227, 86, 8)">sonnig</text>
+<text transform="translate(548,198)" font-size="5" style="fill:rgb(187, 61, 2)">giftig</text>
+<text transform="translate(323,546)" font-size="5" style="fill:rgb(137, 43, 4)">Schwäbischer</text>
+<text transform="translate(286,622)" font-size="5" style="fill:rgb(222, 78, 5)">Fränkischer</text>
+<text transform="translate(146,678)" font-size="5" style="fill:rgb(187, 61, 2)">Überlagerter</text>
+<text transform="translate(280,50)" font-size="5" style="fill:rgb(213, 70, 1)">Echter</text>
+<text transform="translate(462,242) rotate(-90)" font-size="5" style="fill:rgb(155, 50, 3)">Äpfelstehler</text>
+<text transform="translate(674,741)" font-size="5" style="fill:rgb(255, 242, 229)">verschrumpeln</text>
+<text transform="translate(704,642)" font-size="5" style="fill:rgb(253, 151, 74)">Eurener</text>
+<text transform="translate(223,550)" font-size="5" style="fill:rgb(254, 233, 212)">klein</text>
+<text transform="translate(474,124) rotate(-90)" font-size="5" style="fill:rgb(133, 41, 4)">letzter</text>
+<text transform="translate(577,24)" font-size="5" style="fill:rgb(255, 243, 231)">notwendige</text>
+<text transform="translate(493,190)" font-size="5" style="fill:rgb(128, 39, 4)">gepressten</text>
+<text transform="translate(650,175)" font-size="5" style="fill:rgb(137, 43, 4)">Ländlicher</text>
+<text transform="translate(157,729)" font-size="5" style="fill:rgb(200, 66, 2)">Deutsche</text>
+<text transform="translate(92,104)" font-size="5" style="fill:rgb(253, 161, 89)">Weißer</text>
+<text transform="translate(289,628)" font-size="5" style="fill:rgb(184, 60, 2)">stürmisch</text>
+<text transform="translate(559,284)" font-size="5" style="fill:rgb(254, 237, 220)">französische</text>
+<text transform="translate(385,497)" font-size="5" style="fill:rgb(253, 207, 160)">mannigfaltig</text>
+<text transform="translate(338,740) rotate(-90)" font-size="5" style="fill:rgb(133, 41, 4)">umfangreich</text>
+<text transform="translate(345,32)" font-size="5" style="fill:rgb(173, 56, 3)">kommend</text>
+<text transform="translate(107,639)" font-size="5" style="fill:rgb(254, 222, 191)">unverzichtbar</text>
+<text transform="translate(634,213)" font-size="5" style="fill:rgb(243, 111, 26)">starke</text>
+<text transform="translate(530,672)" font-size="5" style="fill:rgb(220, 76, 3)">gezielt</text>
+<text transform="translate(329,578)" font-size="5" style="fill:rgb(254, 225, 196)">geworden</text>
+<text transform="translate(429,292) rotate(-90)" font-size="5" style="fill:rgb(255, 241, 228)">dorfeigenen</text>
+<text transform="translate(537,637)" font-size="5" style="fill:rgb(189, 62, 2)">kühlen</text>
+<text transform="translate(345,302)" font-size="5" style="fill:rgb(253, 182, 120)">preußische</text>
+<text transform="translate(602,149)" font-size="5" style="fill:rgb(253, 171, 102)">golden</text>
+<text transform="translate(93,5)" font-size="5" style="fill:rgb(213, 70, 1)">unterschiedlich</text>
+<text transform="translate(400,768)" font-size="5" style="fill:rgb(155, 50, 3)">zyprischen</text>
+<text transform="translate(651,714) rotate(-90)" font-size="5" style="fill:rgb(253, 200, 149)">alexandrinischen</text>
+<text transform="translate(597,169) rotate(-90)" font-size="5" style="fill:rgb(254, 236, 218)">syrisch</text>
+<text transform="translate(405,665)" font-size="5" style="fill:rgb(255, 239, 223)">versetzt</text>
+<text transform="translate(157,715)" font-size="5" style="fill:rgb(203, 67, 2)">angenehm</text>
+<text transform="translate(482,738)" font-size="5" style="fill:rgb(253, 157, 83)">übermäßig</text>
+<text transform="translate(102,38)" font-size="5" style="fill:rgb(138, 43, 4)">charakteristisch</text>
+<text transform="translate(222,62)" font-size="5" style="fill:rgb(138, 43, 4)">kalten</text>
+<text transform="translate(298,28)" font-size="5" style="fill:rgb(252, 139, 58)">klaren</text>
+<text transform="translate(477,400)" font-size="5" style="fill:rgb(255, 241, 227)">markant</text>
+<text transform="translate(622,752)" font-size="5" style="fill:rgb(253, 155, 80)">ausgereift</text>
+<text transform="translate(320,724) rotate(-90)" font-size="5" style="fill:rgb(253, 196, 143)">Lebensmittelrechtliche</text>
+<text transform="translate(213,37)" font-size="5" style="fill:rgb(154, 49, 3)">arbeitend</text>
+<text transform="translate(184,667)" font-size="5" style="fill:rgb(251, 135, 53)">bäuerlich</text>
+<text transform="translate(356,146)" font-size="5" style="fill:rgb(255, 242, 229)">kräftig</text>
+<text transform="translate(296,742) rotate(-90)" font-size="5" style="fill:rgb(251, 134, 52)">verbreitet</text>
+<text transform="translate(352,432)" font-size="5" style="fill:rgb(253, 200, 149)">initiierende</text>
+<text transform="translate(392,444)" font-size="5" style="fill:rgb(253, 179, 115)">toll</text>
+<text transform="translate(338,351)" font-size="5" style="fill:rgb(253, 187, 129)">materiell</text>
+<text transform="translate(517,151)" font-size="5" style="fill:rgb(168, 55, 3)">voll</text>
+<text transform="translate(441,437)" font-size="5" style="fill:rgb(253, 217, 180)">robuste</text>
+<text transform="translate(452,720) rotate(-90)" font-size="5" style="fill:rgb(253, 150, 73)">klar</text>
+<text transform="translate(717,784) rotate(-90)" font-size="5" style="fill:rgb(253, 207, 160)">hohl</text>
+<text transform="translate(490,378)" font-size="5" style="fill:rgb(231, 91, 11)">flüssige</text>
+<text transform="translate(244,665)" font-size="5" style="fill:rgb(155, 50, 3)">strukturiert</text>
+<text transform="translate(294,658)" font-size="5" style="fill:rgb(158, 51, 3)">saubere</text>
+<text transform="translate(300,389)" font-size="5" style="fill:rgb(253, 208, 162)">reif</text>
+<text transform="translate(494,60) rotate(-90)" font-size="5" style="fill:rgb(205, 68, 1)">herkömmlich</text>
+<text transform="translate(87,622)" font-size="5" style="fill:rgb(253, 197, 144)">ideal</text>
+<text transform="translate(702,118) rotate(-90)" font-size="5" style="fill:rgb(253, 181, 118)">ausgepresste</text>
+<text transform="translate(476,332)" font-size="5" style="fill:rgb(254, 222, 191)">vollgefüllt</text>
+<text transform="translate(528,679)" font-size="5" style="fill:rgb(253, 210, 166)">genießbar</text>
+<text transform="translate(463,187) rotate(-90)" font-size="5" style="fill:rgb(254, 226, 198)">ausgegorenen</text>
+<text transform="translate(254,546)" font-size="5" style="fill:rgb(255, 240, 225)">Weinähnliche</text>
+<text transform="translate(139,718) rotate(-90)" font-size="5" style="fill:rgb(253, 184, 124)">vorgeschrieben</text>
+<text transform="translate(326,740) rotate(-90)" font-size="5" style="fill:rgb(160, 52, 3)">alkoholhaltige</text>
+<text transform="translate(561,289)" font-size="5" style="fill:rgb(143, 45, 4)">allergener</text>
+<text transform="translate(234,531)" font-size="5" style="fill:rgb(255, 245, 235)">Folgende</text>
+<text transform="translate(298,665)" font-size="5" style="fill:rgb(253, 140, 59)">Hefe</text>
+<text transform="translate(541,254)" font-size="5" style="fill:rgb(252, 137, 55)">gemeinsam</text>
+<text transform="translate(684,42)" font-size="5" style="fill:rgb(245, 117, 32)">Pleiner</text>
+<text transform="translate(495,152)" font-size="5" style="fill:rgb(179, 59, 2)">dick</text>
+<text transform="translate(535,70) rotate(-90)" font-size="5" style="fill:rgb(242, 108, 22)">untergeordnet</text>
+<text transform="translate(373,294) rotate(-90)" font-size="5" style="fill:rgb(254, 222, 189)">komplett</text>
+<text transform="translate(706,649)" font-size="5" style="fill:rgb(254, 224, 195)">mittler</text>
+<text transform="translate(159,694)" font-size="5" style="fill:rgb(184, 60, 2)">ehemalig</text>
+<text transform="translate(673,704)" font-size="5" style="fill:rgb(252, 137, 55)">entscheidend</text>
+<text transform="translate(171,63) rotate(-90)" font-size="5" style="fill:rgb(253, 164, 93)">menschlich</text>
+<text transform="translate(526,304)" font-size="5" style="fill:rgb(214, 71, 1)">süßlich</text>
+<text transform="translate(491,256)" font-size="5" style="fill:rgb(253, 196, 143)">spezielle</text>
+<text transform="translate(353,83)" font-size="5" style="fill:rgb(189, 62, 2)">unerwartet</text>
+<text transform="translate(498,175) rotate(-90)" font-size="5" style="fill:rgb(252, 138, 57)">Eifeler</text>
+<text transform="translate(350,637)" font-size="5" style="fill:rgb(253, 189, 131)">fehlend</text>
+<text transform="translate(95,98) rotate(-90)" font-size="5" style="fill:rgb(253, 190, 132)">ursprünglich</text>
+<text transform="translate(596,254)" font-size="5" style="fill:rgb(236, 98, 15)">jeweilig</text>
+<text transform="translate(156,534)" font-size="5" style="fill:rgb(253, 172, 103)">allgemein</text>
+<text transform="translate(636,205)" font-size="5" style="fill:rgb(253, 150, 73)">lecker</text>
+<text transform="translate(502,700)" font-size="5" style="fill:rgb(253, 169, 101)">entstehend</text>
+<text transform="translate(358,677)" font-size="5" style="fill:rgb(174, 57, 3)">bunt</text>
+<text transform="translate(394,364) rotate(-90)" font-size="5" style="fill:rgb(143, 45, 4)">regelmäßig</text>
+<text transform="translate(420,289) rotate(-90)" font-size="5" style="fill:rgb(255, 240, 225)">griechische</text>
+<text transform="translate(320,465)" font-size="4" style="fill:rgb(251, 134, 52)">landschaftsprägende</text>
+<text transform="translate(676,83)" font-size="4" style="fill:rgb(253, 211, 169)">negativ</text>
+<text transform="translate(254,717)" font-size="4" style="fill:rgb(253, 153, 77)">staatliche</text>
+<text transform="translate(427,470)" font-size="4" style="fill:rgb(249, 129, 46)">geschützt</text>
+<text transform="translate(449,751)" font-size="4" style="fill:rgb(248, 125, 41)">üblich</text>
+<text transform="translate(570,665)" font-size="4" style="fill:rgb(241, 104, 19)">damalig</text>
+<text transform="translate(258,783)" font-size="4" style="fill:rgb(253, 193, 137)">Kunstkeramischen</text>
+<text transform="translate(406,95)" font-size="4" style="fill:rgb(192, 63, 2)">wesentlich</text>
+<text transform="translate(103,609)" font-size="4" style="fill:rgb(254, 230, 206)">deutlich</text>
+<text transform="translate(504,182) rotate(-90)" font-size="4" style="fill:rgb(190, 63, 2)">kleinfrüchtige</text>
+<text transform="translate(91,109)" font-size="4" style="fill:rgb(254, 221, 188)">ungeahnte</text>
+<text transform="translate(107,126)" font-size="4" style="fill:rgb(253, 208, 162)">regen</text>
+<text transform="translate(426,675)" font-size="4" style="fill:rgb(253, 142, 61)">dicke</text>
+<text transform="translate(333,437)" font-size="4" style="fill:rgb(242, 107, 21)">fröhlich</text>
+<text transform="translate(296,374)" font-size="4" style="fill:rgb(255, 238, 221)">ordentliche</text>
+<text transform="translate(646,155)" font-size="4" style="fill:rgb(255, 242, 229)">geschlossen</text>
+<text transform="translate(564,295)" font-size="4" style="fill:rgb(162, 53, 3)">ländlich</text>
+<text transform="translate(158,783)" font-size="4" style="fill:rgb(184, 60, 2)">lateinische</text>
+<text transform="translate(150,19)" font-size="4" style="fill:rgb(253, 199, 148)">schön</text>
+<text transform="translate(441,105)" font-size="4" style="fill:rgb(255, 240, 225)">tief</text>
+<text transform="translate(446,91)" font-size="4" style="fill:rgb(253, 185, 125)">riesig</text>
+<text transform="translate(582,734)" font-size="4" style="fill:rgb(226, 85, 8)">lokal</text>
+<text transform="translate(435,344) rotate(-90)" font-size="4" style="fill:rgb(253, 184, 124)">gesundheitliche</text>
+<text transform="translate(619,783)" font-size="4" style="fill:rgb(253, 183, 122)">liegend</text>
+<text transform="translate(271,55)" font-size="4" style="fill:rgb(253, 195, 141)">fest</text>
+<text transform="translate(699,155) rotate(-90)" font-size="4" style="fill:rgb(253, 142, 61)">naß</text>
+<text transform="translate(262,422) rotate(-90)" font-size="4" style="fill:rgb(255, 239, 224)">klassisch</text>
+<text transform="translate(222,96)" font-size="4" style="fill:rgb(236, 98, 15)">besagen</text>
+<text transform="translate(230,111)" font-size="4" style="fill:rgb(253, 176, 110)">Wiltinger</text>
+<text transform="translate(689,690)" font-size="4" style="fill:rgb(254, 226, 198)">fruchttypische</text>
+<text transform="translate(297,783)" font-size="4" style="fill:rgb(195, 64, 2)">anorganische</text>
+<text transform="translate(202,783)" font-size="4" style="fill:rgb(153, 49, 3)">brennend</text>
+<text transform="translate(259,88)" font-size="4" style="fill:rgb(253, 154, 78)">genau</text>
+<text transform="translate(218,736)" font-size="4" style="fill:rgb(238, 101, 17)">verblieben</text>
+<text transform="translate(557,49)" font-size="4" style="fill:rgb(154, 49, 3)">regionaltypischen</text>
+<text transform="translate(728,700) rotate(-90)" font-size="4" style="fill:rgb(253, 202, 153)">immaterielles</text>
+<text transform="translate(401,17)" font-size="4" style="fill:rgb(253, 209, 164)">hervorragend</text>
+<text transform="translate(160,759)" font-size="4" style="fill:rgb(253, 146, 67)">passionierte</text>
+<text transform="translate(234,129)" font-size="4" style="fill:rgb(203, 67, 2)">arme</text>
+<text transform="translate(401,41)" font-size="4" style="fill:rgb(253, 199, 148)">verbessern</text>
+<text transform="translate(172,514)" font-size="4" style="fill:rgb(128, 39, 4)">eigen</text>
+<text transform="translate(119,141) rotate(-90)" font-size="4" style="fill:rgb(136, 42, 4)">nötig</text>
+<text transform="translate(677,27)" font-size="4" style="fill:rgb(253, 178, 113)">moussierenden</text>
+<text transform="translate(673,115) rotate(-90)" font-size="4" style="fill:rgb(231, 91, 11)">spitz</text>
+<text transform="translate(498,118)" font-size="4" style="fill:rgb(254, 230, 207)">gelungen</text>
+<text transform="translate(306,552)" font-size="4" style="fill:rgb(201, 66, 2)">begeistern</text>
+<text transform="translate(202,62) rotate(-90)" font-size="4" style="fill:rgb(249, 128, 45)">organisatorisch</text>
+<text transform="translate(431,398)" font-size="4" style="fill:rgb(254, 226, 199)">begehrt</text>
+<text transform="translate(226,783)" font-size="4" style="fill:rgb(253, 174, 106)">unterhaltsam</text>
+<text transform="translate(395,138)" font-size="4" style="fill:rgb(254, 232, 210)">musikalische</text>
+<text transform="translate(629,19)" font-size="4" style="fill:rgb(254, 224, 195)">berühmt</text>
+<text transform="translate(75,781) rotate(-90)" font-size="4" style="fill:rgb(254, 230, 207)">eigentlich</text>
+<text transform="translate(410,637)" font-size="4" style="fill:rgb(253, 214, 174)">versierten</text>
+<text transform="translate(386,515)" font-size="4" style="fill:rgb(222, 80, 5)">Trierischen</text>
+<text transform="translate(325,783)" font-size="4" style="fill:rgb(254, 232, 210)">vorbereiten</text>
+<text transform="translate(272,391)" font-size="4" style="fill:rgb(137, 43, 4)">wirksam</text>
+<text transform="translate(212,665)" font-size="4" style="fill:rgb(253, 211, 167)">ausgewogen</text>
+<text transform="translate(424,452)" font-size="4" style="fill:rgb(255, 240, 225)">weinähnlichen</text>
+<text transform="translate(492,384)" font-size="4" style="fill:rgb(247, 122, 39)">wäßrigen</text>
+<text transform="translate(325,598)" font-size="4" style="fill:rgb(142, 45, 4)">abgepreßt</text>
+<text transform="translate(105,759)" font-size="4" style="fill:rgb(134, 42, 4)">zusätzliche</text>
+<text transform="translate(465,353)" font-size="4" style="fill:rgb(253, 154, 78)">weinähnliche</text>
+<text transform="translate(244,105)" font-size="4" style="fill:rgb(254, 227, 200)">gesetzlich</text>
+<text transform="translate(289,759)" font-size="4" style="fill:rgb(253, 199, 148)">weiterverarbeiteten</text>
+<text transform="translate(454,72) rotate(-90)" font-size="4" style="fill:rgb(151, 48, 3)">Lebensmittelchemischer</text>
+<text transform="translate(442,84)" font-size="4" style="fill:rgb(242, 108, 22)">genormt</text>
+<text transform="translate(446,637)" font-size="4" style="fill:rgb(137, 43, 4)">rückverdünntem</text>
+<text transform="translate(156,734)" font-size="4" style="fill:rgb(251, 135, 53)">zulässig</text>
+<text transform="translate(229,451)" font-size="4" style="fill:rgb(253, 174, 106)">rechtsverbindlich</text>
+<text transform="translate(580,739)" font-size="4" style="fill:rgb(206, 68, 1)">gutachterliche</text>
+<text transform="translate(578,76)" font-size="4" style="fill:rgb(253, 150, 73)">bundesrechtliche</text>
+<text transform="translate(539,110)" font-size="4" style="fill:rgb(253, 198, 146)">schnell</text>
+<text transform="translate(433,741)" font-size="4" style="fill:rgb(253, 191, 134)">nährstoffreiche</text>
+<text transform="translate(543,685)" font-size="4" style="fill:rgb(128, 39, 4)">rauen</text>
+<text transform="translate(662,181)" font-size="4" style="fill:rgb(236, 98, 15)">köstliche</text>
+<text transform="translate(638,759)" font-size="4" style="fill:rgb(253, 157, 83)">geschälten</text>
+<text transform="translate(157,721)" font-size="4" style="fill:rgb(253, 210, 166)">eingemeinden</text>
+<text transform="translate(527,15)" font-size="4" style="fill:rgb(243, 112, 27)">leer</text>
+<text transform="translate(646,132)" font-size="4" style="fill:rgb(243, 110, 25)">gehörig</text>
+<text transform="translate(258,81)" font-size="4" style="fill:rgb(133, 41, 4)">geschikter</text>
+<text transform="translate(673,118)" font-size="4" style="fill:rgb(230, 90, 11)">kluge</text>
+<text transform="translate(434,126)" font-size="4" style="fill:rgb(255, 239, 224)">lokkeres</text>
+<text transform="translate(306,616) rotate(-90)" font-size="4" style="fill:rgb(235, 96, 14)">frühern</text>
+<text transform="translate(310,35)" font-size="4" style="fill:rgb(140, 44, 4)">zuträglich</text>
+<text transform="translate(142,629)" font-size="4" style="fill:rgb(254, 222, 191)">garen</text>
+<text transform="translate(454,296)" font-size="4" style="fill:rgb(253, 181, 118)">zamen</text>
+<text transform="translate(217,542)" font-size="4" style="fill:rgb(238, 101, 17)">sauern</text>
+<text transform="translate(575,691)" font-size="4" style="fill:rgb(253, 156, 81)">vortheilhafte</text>
+<text transform="translate(169,519)" font-size="4" style="fill:rgb(245, 116, 31)">füßen</text>
+<text transform="translate(364,327)" font-size="4" style="fill:rgb(253, 186, 127)">rasch</text>
+<text transform="translate(596,265)" font-size="4" style="fill:rgb(220, 76, 3)">bälderer</text>
+<text transform="translate(338,319)" font-size="4" style="fill:rgb(254, 237, 219)">vortreflichsten</text>
+<text transform="translate(277,43)" font-size="4" style="fill:rgb(243, 112, 27)">vortreflichen</text>
+<text transform="translate(655,637)" font-size="4" style="fill:rgb(233, 94, 13)">Magenstärkenden</text>
+<text transform="translate(548,734) rotate(-90)" font-size="4" style="fill:rgb(217, 72, 1)">gewürzhaften</text>
+<text transform="translate(391,452)" font-size="4" style="fill:rgb(253, 186, 127)">angenemen</text>
+<text transform="translate(288,741) rotate(-90)" font-size="4" style="fill:rgb(255, 240, 225)">Regionales</text>
+<text transform="translate(121,577)" font-size="4" style="fill:rgb(197, 65, 2)">Traditionelles</text>
+<text transform="translate(695,114) rotate(-90)" font-size="4" style="fill:rgb(231, 91, 11)">moselfränkische</text>
+<text transform="translate(403,329)" font-size="4" style="fill:rgb(131, 40, 4)">gegoren</text>
+<text transform="translate(126,783)" font-size="4" style="fill:rgb(253, 173, 105)">säurehaltigen</text>
+<text transform="translate(342,748)" font-size="4" style="fill:rgb(236, 98, 15)">eingekocht</text>
+<text transform="translate(331,736) rotate(-90)" font-size="4" style="fill:rgb(195, 64, 2)">alkoholhaltiges</text>
+<text transform="translate(265,131) rotate(-90)" font-size="4" style="fill:rgb(253, 153, 77)">ausgeprägt</text>
+<text transform="translate(454,712)" font-size="4" style="fill:rgb(253, 154, 78)">Weiß</text>
+<text transform="translate(435,290) rotate(-90)" font-size="4" style="fill:rgb(251, 135, 53)">gerbstoffreicher</text>
+<text transform="translate(620,131)" font-size="4" style="fill:rgb(158, 51, 3)">beschränken</text>
+<text transform="translate(452,404)" font-size="4" style="fill:rgb(187, 61, 2)">besetzen</text>
+<text transform="translate(361,133)" font-size="4" style="fill:rgb(253, 144, 64)">absolut</text>
+<text transform="translate(356,670)" font-size="4" style="fill:rgb(253, 185, 125)">vorbildlich</text>
+<text transform="translate(539,118)" font-size="4" style="fill:rgb(127, 39, 4)">Fuder</text>
+<text transform="translate(465,245)" font-size="4" style="fill:rgb(254, 225, 196)">unerfahren</text>
+<text transform="translate(255,602)" font-size="4" style="fill:rgb(153, 49, 3)">cool</text>
+<text transform="translate(425,478)" font-size="4" style="fill:rgb(227, 86, 8)">sozial</text>
+<text transform="translate(488,752)" font-size="4" style="fill:rgb(254, 234, 213)">mühsam</text>
+<text transform="translate(502,649) rotate(-90)" font-size="4" style="fill:rgb(253, 140, 59)">eiskalt</text>
+<text transform="translate(201,607) rotate(-90)" font-size="4" style="fill:rgb(185, 61, 2)">gestellt</text>
+<text transform="translate(301,565) rotate(-90)" font-size="4" style="fill:rgb(235, 96, 14)">unerwünscht</text>
+<text transform="translate(74,660)" font-size="4" style="fill:rgb(253, 145, 65)">erwähnen</text>
+<text transform="translate(293,633)" font-size="4" style="fill:rgb(253, 147, 68)">anstrengend</text>
+<text transform="translate(221,68)" font-size="4" style="fill:rgb(253, 199, 148)">heimatlich</text>
+<text transform="translate(196,521)" font-size="4" style="fill:rgb(200, 66, 2)">dunkel</text>
+<text transform="translate(323,605)" font-size="4" style="fill:rgb(251, 136, 54)">geliebt</text>
+<text transform="translate(281,686)" font-size="4" style="fill:rgb(133, 41, 4)">damalige</text>
+<text transform="translate(232,134)" font-size="4" style="fill:rgb(246, 119, 35)">optimale</text>
+<text transform="translate(431,757)" font-size="4" style="fill:rgb(138, 43, 4)">verdienen</text>
+<text transform="translate(413,217)" font-size="4" style="fill:rgb(211, 70, 1)">tägliche</text>
+<text transform="translate(220,753)" font-size="4" style="fill:rgb(253, 177, 112)">dortig</text>
+<text transform="translate(555,69)" font-size="4" style="fill:rgb(253, 182, 120)">unregelmäßig</text>
+<text transform="translate(563,302)" font-size="4" style="fill:rgb(224, 82, 6)">heutige</text>
+<text transform="translate(398,740)" font-size="4" style="fill:rgb(254, 220, 185)">mangelnd</text>
+<text transform="translate(388,689)" font-size="4" style="fill:rgb(254, 236, 217)">Verschiedene</text>
+<text transform="translate(489,17)" font-size="4" style="fill:rgb(248, 126, 43)">erheblich</text>
+<text transform="translate(603,197)" font-size="4" style="fill:rgb(255, 242, 229)">elektrisch</text>
+<text transform="translate(590,651)" font-size="4" style="fill:rgb(254, 224, 195)">tüchtige</text>
+<text transform="translate(660,188)" font-size="4" style="fill:rgb(190, 63, 2)">leicht</text>
+<text transform="translate(171,106)" font-size="4" style="fill:rgb(241, 105, 19)">direkt</text>
+<text transform="translate(470,145)" font-size="4" style="fill:rgb(198, 65, 2)">goldgelben</text>
+<text transform="translate(521,47) rotate(-90)" font-size="4" style="fill:rgb(244, 114, 30)">Dreißigjährige</text>
+<text transform="translate(387,369)" font-size="4" style="fill:rgb(253, 200, 149)">häufig</text>
+<text transform="translate(222,467)" font-size="4" style="fill:rgb(253, 145, 65)">vorige</text>
+<text transform="translate(92,150) rotate(-90)" font-size="4" style="fill:rgb(245, 116, 31)">kulturhistorisch</text>
+<text transform="translate(339,583)" font-size="4" style="fill:rgb(253, 179, 115)">bewusste</text>
+<text transform="translate(497,720)" font-size="4" style="fill:rgb(134, 42, 4)">hochstämmigen</text>
+<text transform="translate(457,303)" font-size="4" style="fill:rgb(253, 200, 149)">Klare</text>
+<text transform="translate(107,716) rotate(-90)" font-size="4" style="fill:rgb(238, 101, 17)">landschaftsästhetischen</text>
+<text transform="translate(385,291) rotate(-90)" font-size="4" style="fill:rgb(250, 133, 50)">Wirtschaftliche</text>
+<text transform="translate(114,82)" font-size="4" style="fill:rgb(149, 47, 3)">innovative</text>
+<text transform="translate(685,131)" font-size="4" style="fill:rgb(248, 127, 44)">hochwerten</text>
+<text transform="translate(440,60) rotate(-90)" font-size="4" style="fill:rgb(253, 195, 141)">auskömmliches</text>
+<text transform="translate(438,183)" font-size="4" style="fill:rgb(226, 85, 8)">erfolgen</text>
+<text transform="translate(394,305)" font-size="4" style="fill:rgb(198, 65, 2)">künftig</text>
+<text transform="translate(622,240)" font-size="4" style="fill:rgb(255, 240, 226)">breit</text>
+<text transform="translate(216,135) rotate(-90)" font-size="4" style="fill:rgb(255, 242, 229)">vereinseigene</text>
+<text transform="translate(215,687)" font-size="4" style="fill:rgb(234, 95, 14)">anfallend</text>
+<text transform="translate(129,749)" font-size="4" style="fill:rgb(190, 63, 2)">bemessener</text>
+<text transform="translate(487,307)" font-size="4" style="fill:rgb(254, 220, 185)">finanziell</text>
+<text transform="translate(670,727)" font-size="4" style="fill:rgb(253, 178, 113)">körperlich</text>
+<text transform="translate(313,391)" font-size="4" style="fill:rgb(253, 167, 98)">kalt</text>
+<text transform="translate(183,783)" font-size="4" style="fill:rgb(254, 236, 217)">irdisch</text>
+<text transform="translate(494,196)" font-size="4" style="fill:rgb(226, 85, 8)">weinechtem</text>
+<text transform="translate(234,594)" font-size="4" style="fill:rgb(253, 183, 122)">anmutig</text>
+<text transform="translate(654,198)" font-size="4" style="fill:rgb(253, 168, 99)">süßen</text>
+<text transform="translate(365,465)" font-size="4" style="fill:rgb(231, 91, 11)">gestoßen</text>
+<text transform="translate(387,75) rotate(-90)" font-size="4" style="fill:rgb(255, 239, 223)">wohlriechend</text>
+<text transform="translate(89,47)" font-size="4" style="fill:rgb(255, 245, 234)">stetem</text>
+<text transform="translate(631,712) rotate(-90)" font-size="4" style="fill:rgb(254, 233, 212)">wohlschmeckensten</text>
+<text transform="translate(204,747) rotate(-90)" font-size="4" style="fill:rgb(235, 97, 15)">schwachzitternde</text>
+<text transform="translate(572,118) rotate(-90)" font-size="4" style="fill:rgb(208, 69, 1)">verfinsterte</text>
+<text transform="translate(484,745)" font-size="4" style="fill:rgb(249, 130, 48)">hitzig</text>
+<text transform="translate(632,223)" font-size="4" style="fill:rgb(253, 168, 99)">geimpft</text>
+<text transform="translate(406,99)" font-size="4" style="fill:rgb(253, 153, 77)">zarte</text>
+<text transform="translate(476,340)" font-size="4" style="fill:rgb(139, 44, 4)">schwarz</text>
+<text transform="translate(263,464)" font-size="4" style="fill:rgb(155, 50, 3)">zufrieden</text>
+<text transform="translate(554,755)" font-size="4" style="fill:rgb(225, 84, 7)">feste</text>
+<text transform="translate(217,55)" font-size="4" style="fill:rgb(185, 61, 2)">Regelmäßiger</text>
+<text transform="translate(146,638)" font-size="4" style="fill:rgb(229, 89, 10)">Alte</text>
+<text transform="translate(614,165)" font-size="4" style="fill:rgb(148, 47, 3)">Junge</text>
+<text transform="translate(398,260) rotate(-90)" font-size="4" style="fill:rgb(253, 195, 141)">wechselhafte</text>
+<text transform="translate(461,129)" font-size="4" style="fill:rgb(249, 130, 48)">Luxemburger</text>
+<text transform="translate(395,457)" font-size="4" style="fill:rgb(246, 120, 36)">günstig</text>
+<text transform="translate(454,265)" font-size="4" style="fill:rgb(246, 121, 37)">böse</text>
+<text transform="translate(467,231) rotate(-90)" font-size="4" style="fill:rgb(159, 51, 3)">gewachsen</text>
+<text transform="translate(387,136) rotate(-90)" font-size="4" style="fill:rgb(187, 61, 2)">bewirtschaften</text>
+<text transform="translate(538,766)" font-size="4" style="fill:rgb(155, 50, 3)">mild</text>
+<text transform="translate(629,78) rotate(-90)" font-size="4" style="fill:rgb(165, 54, 3)">unentbehrlich</text>
+<text transform="translate(435,388) rotate(-90)" font-size="4" style="fill:rgb(231, 92, 12)">vierkantigen</text>
+<text transform="translate(450,706) rotate(-90)" font-size="4" style="fill:rgb(181, 59, 2)">weitgeöffneten</text>
+<text transform="translate(190,517) rotate(-90)" font-size="4" style="fill:rgb(219, 74, 2)">geschehlten</text>
+<text transform="translate(661,94)" font-size="4" style="fill:rgb(136, 42, 4)">erstklassig</text>
+<text transform="translate(554,783)" font-size="4" style="fill:rgb(253, 215, 175)">notorisch</text>
+<text transform="translate(172,89) rotate(-90)" font-size="4" style="fill:rgb(253, 207, 160)">übertrieben</text>
+<text transform="translate(215,523)" font-size="4" style="fill:rgb(253, 216, 178)">mildern</text>
+<text transform="translate(491,311)" font-size="4" style="fill:rgb(254, 225, 196)">Saurer</text>
+<text transform="translate(344,133) rotate(-90)" font-size="4" style="fill:rgb(255, 238, 221)">säurehaltiger</text>
+</svg>
