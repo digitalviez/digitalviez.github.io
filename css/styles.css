@@ -11943,7 +11943,12 @@ img {
 
 .img-start {
     width: 380px;
-    height: 200px;
+    height: 220px;
+}
+
+.img-start1 {
+    width: 280px;
+    height: 220px;
 }
 
 .imgSize {
