@@ -6,18 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-    <style>
-      html, body {
-        height: 100%;
-        padding: 0;
-        margin: 0;
-      }
-      #map {
-        /* configure the size of the map */
-        width: 100%;
-        height: 100%;
-      }
-    </style>
+	<link rel="stylesheet" href="css/viezkarte.css" />
   </head>
   <body>
     <div id="map"></div>
@@ -1388,7 +1377,7 @@ var gastro_petrusschnke = L.marker({lon: 6.6493476, lat: 49.7609604}, {icon: gas
 var gastro_monopol = L.marker({lon: 6.6512698, lat: 49.7571070}, {icon: gastro}).bindPopup('<p><b>Monopol</b><br>Bar<br>Bahnhofsplatz 7<br>54292 Trier<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 651 91893493<br><a href ="https://www.facebook.com/CheckpointAliMonopol/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
 var gastro_newtons = L.marker({lon: 6.6398151, lat: 49.7589792}, {icon: gastro}).bindPopup('<p><b>Newton\'s</b><br>Bar<br>Moselstra&szlig;e 8<br>54290 Trier<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 651 4686452<br><a href ="https://www.facebook.com/Newtons-Tag-und-Nachtcaf%C3%A9-Trier-111144338952028/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
 var gastro_genussfabrik = L.marker({lon: 6.6409376, lat: 49.7429327}, {icon: gastro}).bindPopup('<p><b>Genussfabrik</b><br>Pub<br>Bernhardstra&szlig;e 47<br>54295 Trier<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 651 307231<br><a href ="https://www.genussfabrik-trier.de/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
-var vs_saarlndischesbrennereimuseum = L.marker({lon: 6.4199506, lat: 49.5197062}, {icon: viezstrasse}).bindPopup('<p><b>Saarl&auml;ndisches Brennereimuseum</b><br>Lindenstra&szlig;e 11<br>66706 Perl<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 6866 556<br><a href="mailto:info@saarländisches-brennereimuseum.de"><img src= "assets/bootstrap-icons/envelope-fill.svg" alt = "E-Mail" height = "12px" width = "auto"> E-Mail</a><br><a href ="http://www.saarländisches-brennereimuseum.de/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
+var vs_saarlndischesbrennereimuseum = L.marker({lon: 6.4199506, lat: 49.5197062}, {icon: viezstrasse}).bindPopup('<p><b>Saarl&auml;ndisches Brennereimuseum</b><br>Lindenstra&szlig;e 11<br>66706 Perl<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 6866 556<br><a href="mailto:info@saarl�ndisches-brennereimuseum.de"><img src= "assets/bootstrap-icons/envelope-fill.svg" alt = "E-Mail" height = "12px" width = "auto"> E-Mail</a><br><a href ="http://www.saarl�ndisches-brennereimuseum.de/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
 var gastro_treff39beijacek = L.marker({lon: 6.6349215, lat: 49.7447808}, {icon: gastro}).bindPopup('<p><b>Treff39 bei Jacek</b><br>Bar<br>Saarstra&szlig;e 87<br>54290 Trier<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 651 9933129<br><a href ="https://www.facebook.com/profile.php?id=100057531035816" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
 var gastro_cupcakekitchen = L.marker({lon: 6.6378403, lat: 49.7555230}, {icon: gastro}).bindPopup('<p><b>Cupcake Kitchen</b><br>Caf&eacute;<br>Fleischstra&szlig;e 56-60<br>54290 Trier<br><img src="assets/bootstrap-icons/telephone-fill.svg" alt = "Telefon" height = "12px" width = "auto">+49 176 46093899<br><a href="mailto:cupcakekitchen@web.de"><img src= "assets/bootstrap-icons/envelope-fill.svg" alt = "E-Mail" height = "12px" width = "auto"> E-Mail</a><br><a href ="https://www.facebook.com/CupcakeTrier/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
 var greifbar = L.marker({lon: 6.6324887, lat: 49.7403804}, {icon: verkaufsstelle}).bindPopup('<p><b>Greifbar</b><br>Matthiasstra&szlig;e 41<br>54290 Trier<br><a href ="https://weinvongreif.de/" target = "_blank"><img src= "assets/bootstrap-icons/box-arrow-up-right.svg" alt = "Zur Webseite" height = "12px" width = "auto">Zur Webseite</a></p>');
@@ -1442,16 +1431,17 @@ var standardMaps = {
 };
 
 var overlayMaps = {
-    "DigitalViez" : organisationen,
-    "Vereine" : vereine,
-    "Gastronomien" : gastro,
-	"Keltereien" : keltereien,
-    "Automaten" : vending_machine,
-    "Sehensw&uuml;rdigkeiten": sehenswuerdigkeiten,
-    "Viezstra&szlig;e" : viezstrasse,
-    "Mitglieder der Viezstra&szlig;e" : mitglieder_viezstrasse,
-    "Verkaufsstellen":verkaufsstellen
+    "<div><img class = 'legend' src = 'assets/legende-icon/projekt-icon-leg.png'><p>DigitalViez</p></div>" : organisationen,
+    "<div><img class = 'legend' src = 'assets/legende-icon/vereine-icon-leg.png'><p>Vereine</p></div>" : vereine,
+    "<div><img class = 'legend' src = 'assets/legende-icon/gastro-icon-leg.png'><p>Gastronomien</p></div>" : gastro,
+	"<div><img class = 'legend' src = 'assets/legende-icon/hersteller-icon-leg.png'><p>Keltereien</p></div>" : keltereien,
+    "<div><img class = 'legend' src = 'assets/legende-icon/automaten-icon-leg.png'><p>Automaten</p></div>" : vending_machine,
+    "<div><img class = 'legend' src = 'assets/legende-icon/attraktionen-icon-leg.png'><p>Sehensw&uuml;rdigkeiten</p></div>": sehenswuerdigkeiten,
+    "<div><img class = 'legend' src = 'assets/legende-icon/viezstrasse-icon-leg.png'><p>Viezstra&szlig;e</p></div>" : viezstrasse,
+    "<div><img class = 'legend' src = 'assets/legende-icon/viezstrasse-icon-leg.png'><p>Mitglieder der Viezstra&szlig;e</p></div>" : mitglieder_viezstrasse,
+    "<div><img class = 'legend' src = 'assets/legende-icon/verkauf-icon-leg.png'><p>Verkaufsstellen</p></div>":verkaufsstellen
 };
+
 
 L.control.layers(standardMaps, overlayMaps).addTo(map);
 // show the scale bar on the lower left corner

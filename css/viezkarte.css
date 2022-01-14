@@ -1,0 +1,57 @@
+
+html, body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+      }
+	  
+#map {
+ /* configure the size of the map */
+    width: 100%;
+    height: 100%;
+}
+
+/* configure the legend style */
+
+img.legend{
+	max-height: 20px;
+	max-width: 20px;
+	float: left;
+	padding-right: 5px;
+}
+
+input.leaflet-control-layers-selector{
+	float: right;
+}
+
+.leaflet-control-layers{
+	background-color: black;
+	color: white;
+}
+
+.leaflet-control-layers-expanded {
+	width: 180px;
+	opacity: 0.9;
+	background-color: black;
+}
+
+.leaflet-control-layers-list {
+	width: 180px;
+	}
+
+
+
+	a {
+		color: #f4623a;
+		text-decoration: none;
+	}
+	
+	a:hover {
+		color: #c34e2e;
+	}
+	
+	a:not([href]):not([class]),
+	a:not([href]):not([class]):hover {
+		color: inherit;
+		text-decoration: none;
+	}
