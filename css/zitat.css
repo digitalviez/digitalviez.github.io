@@ -9,17 +9,17 @@
     padding: 3rem;
     transition: 0.5s;
     transition-timing-function: ease-in;
-    background-color: #7c7440;
+    background-color: #dddddd;
     
  }
     
   .text{
-    font-size:20px;
+    font-size:16px;
     padding-left:10px;
     transition: 0.5s;
     transition-timing-function: ease-in;
     font-family: 'Merriweather Sans', sans-serif;
-    color: white;
+    color: #414342;
     
   }
 
@@ -29,7 +29,8 @@
     transition: 0.5s;
     transition-timing-function: ease-in;
     font-family: 'Merriweather Sans', sans-serif;
-    color: white;
+    color: #323232;
+    margin-top: 20px;
     
   }
 
@@ -48,7 +49,7 @@ i {
   }
   
   .new-quote{
-      font-size: 15px;
+      font-size: 16px;
       font-family: 'Merriweather Sans', sans-serif;
       border-radius: 20px;
       border: rgb(244, 98, 58);
@@ -77,11 +78,11 @@ i {
   
   .author{
     margin: 10px;
-    font-size: 14px;
+    font-size: 18px;
     transition: 0.5s;
     transition-timing-function: ease-in;
     font-family: 'Merriweather Sans', sans-serif;
-    color: #b9a972;
+    color: #323232;
     padding-bottom:15px;
   }
     
@@ -117,15 +118,15 @@ p{
 
 @media (max-width: 960px) {
   .block{
-    height: 400px;
+    height: 330px;
   }
 }
 
 @media (min-width: 960px) {
   .block{
     position: absolute;
-    left: 27%;
-    top: 55%;
+    left: 47%;
+    top: 26%;
   }
 }
   
@@ -150,4 +151,10 @@ p{
   
 .rotateB{
   transform: rotate(0deg);
+}
+
+.btn-zitat{
+  color: white;
+  background-color: #323232;
+  width: 150px;
 }
