@@ -124,9 +124,8 @@ p{
 
 @media (min-width: 960px) {
   .block{
-    position: absolute;
-    left: 47%;
-    top: 26%;
+    position: relative;
+    width: 200px;
   }
 }
   
