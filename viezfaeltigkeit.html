@@ -72,7 +72,7 @@
             </div>      
         </section>
 
-        <div class="mobile" style="background-color: #e9ecef;">
+        <div class="mobile" style="background-color: #f8f9fa;">
             <br>
         </div>
 
@@ -184,7 +184,7 @@
                 <div class="row">
                   <div class="col-md-6 gx-5 mb-4">
                     <div class="bg-image hover-overlay ripple shadow-2-strong rounded-5" data-mdb-ripple-color="light">
-                      <img src="assets/img/viezfacts.png" class="img-fluid" />
+                      <img src="assets/img/viezfacts.png" class="img-fluid1" />
                       <a href="#!">
                         <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                       </a>
@@ -247,14 +247,79 @@
         <br>
 
           <!--ViezRezepte-->
-        <section class="page-section" id="viezrezepte">
+        <section class="page-section bg-light" id="viezrezepte" >
           <div class="container">
+            <br>
               <div>
                   <h2 style="text-align: right;"> ViezRezepte </h2>
                   <hr style="height:5px;border-width:0;color:#f4623a;background-color:#f4623a; opacity:1;width: 15%;margin-left: 85%;">
               </div>
-          </div>
+              <br>
+              <div class="row  accordionOne">
+                <div class="col-lg-6 col-md-12 mb-4">
+                  <div class="card text-center bg-light" style="border: 0em;">
+                    <div class="card-header">
+                      <h3 class="card-title">Viezkuchen</h3>
+                    </div>
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                      <a data-toggle="collapse" data-parent="#accordionRez" href="#collapseRezOne" aria-expanded="false" class="collapsed">
+                        <img src="assets/img/viezkuchen.jpeg" class="img-rezept" />
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <div class="panel-group" id="accordionRez">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordionRez" href="#collapseRezOne" aria-expanded="false" class="collapsed"> Das Rezept</a> </h4>
+                            </div>
+                            <div id="collapseRezOne" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
+                                <div class="panel-body"> 
+                                  <br>
+                                  <img src="assets/img/viezkuchenrezept.png" />
+                                  <br>
+                                  <br>
+                                  <a href="http://www.haag-bull.de/pdf/VIEZKUCHEN.pdf" target="blank" class="btn btn-primary">Link zum Rezept</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    </div>
+                  </div>
+                </div>
+      
+                <div class="col-lg-6 col-md-12 mb-4">
+                  <div class="card text-center bg-light" style="border: 0em;">
+                    <div class="card-header">
+                      <h3 class="card-title">Glühviez</h3>
+                    </div>
+                    <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                      <a data-toggle="collapse" data-parent="#accordionRez" href="#collapseRezTwo" aria-expanded="false" class="collapsed">
+                        <img src="assets/img/img_projekt/projektgruppe_mit_gluehviez.jpg" class="img-rezept" />
+                        <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                      </a>
+                    </div>
+                    <div class="card-body accordionOne">
+                      <div class="panel-group" id="accordionRez">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4 class="panel-title"> <a data-toggle="collapse" data-parent="#accordionRez" href="#collapseRezTwo" aria-expanded="false" class="collapsed"> Das Rezept</a> </h4>
+                            </div>
+                            <div id="collapseRezTwo" class="panel-collapse collapse" aria-expanded="false" role="tablist" style="height: 0px;">
+                                <div class="panel-body"> 
+                                  <br>
+                                  <br>
+                                  <a href="..." target="blank" class="btn btn-primary">Link zum Rezept</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
 
+          <br>
           <br>
 
           <!--ViezGeschmack-->
@@ -264,14 +329,28 @@
                     <h2 style="text-align: left;"> ViezGeschmack </h2>
                     <hr style="height:5px;border-width:0;color:#f4623a;background-color:#f4623a; opacity:1;width: 15%;">
                 </div>
+                <div>
+                  <p class="text-font">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. 
+                  </p>
+                  <p class="text-font"><strong>Bewertet wurde der Viez auf einer Süß-Sauer Skaler. Süß stellt dabei den oberen Wert einer 10 dar und Sauer eine 0.</strong></p>
+                  <p class="text-font">
+                    Die Graphik präsentiert die subjektive Bewertung eines jeden Teilnehmers. Jeder Teilnehmer stellt dabei einen Buchstaben dar. Die einzelnen Graphiken können ein- und ausgeblendet werden bei Klick auf den Buchstaben.  
+                  </p>
+                </div>
+                <canvas id="bar-chart" width="400px" height="150px"></canvas>
+                <br>
+                <canvas id="bar-chart-2" width="400px" height="180px"></canvas>
             </div>
-
-
-
+            <br>
+            <!-- https://tobiasahlin.com/blog/chartjs-charts-to-get-you-started/ -->
+            </section>
+        
+    
+        
 
             <br>
             <br>
-
 
  
 
@@ -290,6 +369,7 @@
         <script src="viezmuseum/js/bootstrap.min.js"></script>
         <script src="viezmuseum/js/owl.carousel.min.js"></script>
         <script src="viezmuseum/js/main.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->

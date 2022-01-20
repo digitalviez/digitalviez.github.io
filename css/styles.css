@@ -680,6 +680,10 @@ progress {
     max-width: 100%;
     height: auto;
 }
+.img-fluid1 {
+    max-width: 80%;
+    height: auto;
+}
 
 .img-thumbnail {
     padding: 0.25rem;
@@ -5041,8 +5045,6 @@ fieldset:disabled .btn {
 .card-header {
     padding: 0.5rem 1rem;
     margin-bottom: 0;
-    background-color: rgba(0, 0, 0, 0.03);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 .card-header:first-child {
@@ -11948,13 +11950,13 @@ img {
 }
 
 .img-start {
-    width: 380px;
-    height: 220px;
+    width: 360px;
+    height: 170px;
 }
 
 .img-start1 {
-    width: 280px;
-    height: 220px;
+    width: 200px;
+    height: 170px;
 }
 
 .imgSize {
@@ -12503,4 +12505,73 @@ img {
 
 a:link {
     text-decoration: none
+}
+
+.img-rezept {
+    width: 380px;
+    height: 360px;
+    border-radius: 10%;
+}
+
+.accordionOne .panel .panel-heading a.collapsed {
+    color: #f46239;
+    background-color: #f8f9fa ;
+    display: block;
+    padding: 12px 20px
+}
+
+.accordionOne .panel .panel-heading a {
+    display: block;
+    padding: 12px 20px;
+    color: #fff;
+    background-color: #f46239;
+
+}
+
+.accordion-wrap .panel .panel-heading a {
+    font-size: 14px
+}
+
+.accordionOne .panel-group .panel-heading+.panel-collapse>.panel-body {
+    border-top: 0;
+    padding-top: 0;
+    padding: 20px 20px 20px 30px;
+    background: #f8f9fa;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    color: #404342;
+}
+
+.accordionOne .panel .panel-heading a:after {
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    color: #e9ecef;
+    background: #f8f9fa
+}
+
+.accordionOne .panel .panel-heading a:after,
+.accordionOne .panel .panel-heading a.collapsed:after {
+    font-family: 'FontAwesome';
+    font-size: 18px;
+    float: right;
+    margin-right: 100px;
+    width: 24px;
+    display: block;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    color: #FFF
+}
+
+.accordionOne .panel .panel-heading a.collapsed:after {
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    color: #404342;
+    background-color: #f8f9fa
+}
+
+.accordionOne .panel .panel-heading a:after {
+    content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
+    color: #f46239;
+    background: #f46239
 }

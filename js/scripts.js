@@ -95,4 +95,75 @@ document.body.scrollTop = 0;
 document.documentElement.scrollTop = 0;
 }
 
+var canvas = document.getElementById('bar-chart');
+new Chart(canvas, {
+  type: 'line',
+  data: {
+    labels: ['RömerViez', 'FrancoViez', 'WiltingerViez', 'WeyandsViez', 'Weingut Gehlen'],
+    datasets: [{
+      label: 'A',
+      yAxesID: 'A',
+      data: [6, 2, 9, 4, 5],
+      borderColor: "#307a44",
+      backgroundColor: "rgba(48, 122, 68,0.2)"
+    }, {
+      label: 'B',
+      yAxesID: 'B',
+      data: [3, 4, 5, 6, 2],
+      borderColor: "#c97a38",
+      backgroundColor: "rgba(201, 122, 56,0.2)"
+    },
+    {
+        label: 'C',
+        yAxesID: 'C',
+        data: [7, 8, 9, 10, 10],
+        borderColor: "#503ade",
+        backgroundColor: "rgba(80, 58, 222,0.2)"
+      }]
+  },
+  options: {
+    scales: {
+      yAxes: [{
+        id: 'A',
+        position: 'left',
+        ticks: {
+            max: 10,
+            min: 0
+          },
+      }, {
+        id: 'B',
+        position: {display:false},
+      },
+      {
+        id: 'C',
+        position: {display:false},
+      }]
+    }
+  }
+});
 
+
+new Chart(document.getElementById("bar-chart-2"), {
+    type: 'bar',
+    data: {
+      labels: ['RömerViez', 'FrancoViez', 'WiltingerViez', 'WeyandsViez', 'Weingut Gehlen'],
+      datasets: [
+        {
+          label: "Süß (10) - Sauer (0)",
+          backgroundColor: ["#fbb373", "#f46239","#a73616","#e8c3b9","#c45850"],
+          data: [1,5,7,2,4]
+        }
+      ]
+    },
+    options: {
+      legend: { display: false },
+      scales: {
+          yAxes: [{
+            ticks:{
+                max:10,
+                min:0
+            }
+          }]
+        }
+    }
+});
