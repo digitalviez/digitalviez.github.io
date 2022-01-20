@@ -6806,6 +6806,7 @@ fieldset:disabled .btn {
     margin-bottom: 1rem;
     margin-left: 15%;
     list-style: none;
+    cursor: pointer;
 }
 
 .carousel-indicators [data-bs-target] {
