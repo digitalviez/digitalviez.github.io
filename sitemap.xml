@@ -8,43 +8,91 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
   <url>
     <loc>https://digitalviez.github.io/</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/index.html</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/karte.html</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/museum.html</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/timeline.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/3digitalisierung.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/streuobst.html</loc>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/sprache.html</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/wortherkunft.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/netzwerk.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/vieztrends.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/textkorpus.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/viezfaeltigkeit.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezfacts</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezrezepte</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezgeschmack</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/stories.html</loc>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/projekt.html</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/projekt.html#ueberuns</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/projekt.html#dhmethoden</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
    <url>
     <loc>https://digitalviez.github.io/projekt.html#impressum</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
    <url>
     <loc>https://digitalviez.github.io/datenschutz.html</loc>
-    <lastmod>2021-11-23T12:23:06+00:00</lastmod>
+    <lastmod>2022-02-08</lastmod>
   </url>
 
 </urlset>
@@ -53,8 +101,33 @@
 <!--Bilder-Sitemap-->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+    <loc>https://digitalviez.github.io/index.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/aepfel_porze.jpg</image:loc>
+      <image:title>Aepfel und Porze</image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/porta.jpg</image:loc>
+      <image:title>Porta Nigra Trier</image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/karte.jpg</image:loc>
+      <image:title>Viezkarte</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezmuseum.jpg</image:loc>
+      <image:title>Startseite Viezmuseum</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloud_preview.svg</image:loc>
+      <image:title>Wordcloud</image:title>
+    </image:image>
+  </url>
   <url>
-    <loc>https://digitalviez.github.io/museum</loc>
+    <loc>https://digitalviez.github.io/museum.html</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/gaehrkeller_mit_stahltanks.jpg</image:loc>
       <image:title>Gaehrkeller mit Stahltanks</image:title>
@@ -78,11 +151,6 @@
     <image:image>
       <image:loc>https://digitalviez.github.io/aepfel_porze_mit_viez.jpg</image:loc>
       <image:title>Aepfel und Porze mit Viez</image:title>
-      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/aepfel_porze.jpg</image:loc>
-      <image:title>Aepfel und Porze</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
     <image:image>
@@ -115,6 +183,9 @@
       <image:title>Streuobstwiese mit Apfelbaeumen</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/projekt.html#ueberuns</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/projektgruppe.jpg</image:loc>
       <image:title>Projektgruppe beim Arbeiten</image:title>
@@ -124,27 +195,6 @@
       <image:loc>https://digitalviez.github.io/projektgruppe_mit_gluehviez.jpg</image:loc>
       <image:title>Projektgruppe mit Glühviez</image:title>
       <image:geo_location>Trier, Germany</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/porta.jpg</image:loc>
-      <image:title>Porta Nigra Trier</image:title>
-      <image:geo_location>Trier, Germany</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/karte.jpg</image:loc>
-      <image:title>Viezkarte</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/viezmuseum.jpg</image:loc>
-      <image:title>Startseite Viezmuseum</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/sprache.jpg</image:loc>
-      <image:title>Sprache</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/wordcloud.png</image:loc>
-      <image:title>Wordcloud</image:title>
     </image:image>
   </url>
 </urlset>
