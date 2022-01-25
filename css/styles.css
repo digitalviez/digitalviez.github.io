@@ -12124,7 +12124,7 @@ img {
 
 .sprachbox2:hover{
     background-image: url("../assets/img/preview_GT_oranges.png");
-    background-size: 720px 350px;
+    background-size: 760px 350px;
     cursor: pointer;
     color: white;
 }
@@ -12147,7 +12147,7 @@ img {
   .museumsbox{
     background-color: #7a311d;
     cursor: pointer;
-    height: 350px;
+    height: 300px;
     padding: 0;
     margin: 0;
     color: white;
@@ -12163,7 +12163,7 @@ img {
 .museumsbox1{
     background-color: #fdb373;
     cursor: pointer;
-    height: 350px;
+    height: 300px;
     padding: 0;
     margin: 0;
     color: white;
@@ -12179,7 +12179,7 @@ img {
 .museumsbox2{
     background-color: #f46239;
     cursor: pointer;
-    height: 350px;
+    height: 300px;
     padding: 0;
     margin: 0;
     color: white;
@@ -12241,6 +12241,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
+    background-color: #f8f9fa;
   }
   
   .bg-box img {
@@ -12294,10 +12295,11 @@ img {
   .slider_section #customCarousel1 {
     width: 100%;
     position: unset;
+    background-color: #f8f9fa;
   }
   
   .slider_section .detail-box {
-    color: #ffffff;
+    background-color: #f8f9fa;
     margin-bottom: 50px;
   }
   
@@ -12369,44 +12371,6 @@ img {
     background-color: #f46239;
   }
 
- 
-@media (max-width: 992px) {
-    .container-slider {
-        width: 100%;
-        padding-right: var(--bs-gutter-x, 0.75rem);
-        padding-left: var(--bs-gutter-x, 0.75rem);
-        margin-right: auto;
-        margin-left: 10px;
-    }
-    
-    .viezbox{
-        background-color: #f8f9fa;
-        cursor: pointer;
-        height: 380px;
-        padding: 0;
-        margin: 0;
-        color: white;
-    }
-}
-
-@media (min-width: 992px) {
-    .container-slider {
-        width: 100%;
-        padding-right: var(--bs-gutter-x, 0.75rem);
-        padding-left: var(--bs-gutter-x, 0.75rem);
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-    .viezbox{
-        background-color: #f8f9fa;
-        cursor: pointer;
-        height: 380px;
-        padding: 0;
-        margin: 0;
-        color: white;
-    }
-}
 
 .accordion_two_section {
     background: #f7f7f7
@@ -12516,8 +12480,8 @@ a:link {
 }
 
 .img-rezept {
-    width: 380px;
-    height: 360px;
+    width: 280px;
+    height: 260px;
     border-radius: 10%;
 }
 

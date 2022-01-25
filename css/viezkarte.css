@@ -29,29 +29,31 @@ input.leaflet-control-layers-selector{
 	color: white;
 }
 
+
 .leaflet-control-layers-expanded {
 	width: 180px;
-	opacity: 0.9;
-	background-color: black;
+	opacity: 0.8;
 }
 
 .leaflet-control-layers-list {
 	width: 180px;
 	}
+img.popup{
+	height: "12px";
+	width:"auto";
+}
 
+a {
+	color: #f4623a;
+	text-decoration: none;
+}
 
+a:hover {
+	color: #c34e2e;
+}
 
-	a {
-		color: #f4623a;
-		text-decoration: none;
-	}
-	
-	a:hover {
-		color: #c34e2e;
-	}
-	
-	a:not([href]):not([class]),
-	a:not([href]):not([class]):hover {
-		color: inherit;
-		text-decoration: none;
-	}
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+	color: inherit;
+	text-decoration: none;
+}
