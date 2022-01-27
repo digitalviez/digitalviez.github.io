@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3d Web Loader</title>
+    <style>
+        body {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <script src="https://threejs.org/build/three.js"></script>
+    <script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://threejs.org/examples/js/loaders/OBJLoader.js"></script>
+    <script>
+        const scene = new THREE.Scene();
+        scene.background = new THREE.Color(0x2a2e2e)
+        const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 0.1, 100);
+
+        const renderer = new THREE.WebGLRenderer();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+        document.body.appendChild(renderer.domElement);
+
+        const loader = new THREE.OBJLoader();
+
+        // load a resource
+        loader.load(
+            'assets/3d/kelter.obj',
+            function ( object ) {
+                object.scale.set(20,20, 20)
+                scene.add( object );
+            },
+            function ( xhr ) {
+                console.log( ( xhr.loaded / xhr.total * 100 ) + '% loaded' );
+            },
+            function ( error ) {
+                console.log( 'An error happened' );
+            }
+        );
+
+
+        const light = new THREE.DirectionalLight(0xffffff, 1)
+        //const light = new THREE.HemisphereLight(0xffffff, 0xdddddd, 1);
+        light.position.set(1, 1, 2)
+        //light.position.x = 0;
+        //ight.position.y = 2;
+        //light.position.z = 8;
+        scene.add(light)
+
+        const controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+        camera.position.x = -2;
+        camera.position.y = -0.8;
+        camera.position.z = 6;
+        controls.update();
+
+        const animate = function() {
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene, camera);
+        };
+
+        animate();
+    </script>
+</body>
+
+</html>

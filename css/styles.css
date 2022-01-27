@@ -12140,6 +12140,7 @@ img {
 
 .sprachbox3:hover{
     background-image: url("../assets/svg/wordcloud.svg");
+    background-size: 550px 380px;
     background-color: #a73616;
     cursor: pointer;
     color: white;
@@ -12320,7 +12321,7 @@ img {
   
   
   .slider_section .detail-box p {
-    font-size: 16px;
+    font-size: 18px;
     color: #404342;
     font-family: Roboto, sans-serif;
   }
@@ -12486,6 +12487,11 @@ a:link {
     border-radius: 10%;
 }
 
+.img-3d {
+    width: 450px;
+    height: 350px;
+}
+
 .accordionOne .panel .panel-heading a.collapsed {
     color: #f46239;
     background-color: #f8f9fa ;
@@ -12550,7 +12556,7 @@ a:link {
 }
 
 .img-interview{
-    width: 380px;
-    height: 220px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
 }
