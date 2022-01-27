@@ -12090,7 +12090,7 @@ img {
 }
 
 .sprachbox:hover{
-    background-image: url("../assets/img/wordcloud.png");
+    background-image: url("../assets/svg/etymWordcloud.svg");
     background-size: 600px;
     opacity: 0.7;
     cursor: pointer;
@@ -12139,6 +12139,7 @@ img {
 }
 
 .sprachbox3:hover{
+    background-image: url("../assets/svg/wordcloud.svg");
     background-color: #a73616;
     cursor: pointer;
     color: white;
