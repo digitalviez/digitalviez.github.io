@@ -74,6 +74,22 @@
     <loc>https://digitalviez.github.io/stories.html</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
+    <url>
+    <loc>https://digitalviez.github.io/stories.html#rudi</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+    <url>
+    <loc>https://digitalviez.github.io/stories.html#zapotex</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+    <url>
+    <loc>https://digitalviez.github.io/stories.html#wiltingerviez</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+    <url>
+    <loc>https://digitalviez.github.io/stories.html#viezbruder</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
   <url>
     <loc>https://digitalviez.github.io/projekt.html</loc>
     <lastmod>2022-02-08</lastmod>
@@ -126,6 +142,7 @@
       <image:title>Wordcloud</image:title>
     </image:image>
   </url>
+
   <url>
     <loc>https://digitalviez.github.io/museum.html</loc>
     <image:image>
@@ -184,6 +201,52 @@
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
   </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezrezepte</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/</image:loc>
+      <image:title></image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/stories.html#rudi</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/</image:loc>
+      <image:title></image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+    <url>
+  <loc>https://digitalviez.github.io/stories.html#zapotex</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/</image:loc>
+      <image:title></image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+    <url>
+  <loc>https://digitalviez.github.io/stories.html#wiltingerviez</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/</image:loc>
+      <image:title></image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+    <url>
+  <loc>https://digitalviez.github.io/stories.html#viezbruder</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/</image:loc>
+      <image:title></image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
   <url>
     <loc>https://digitalviez.github.io/projekt.html#ueberuns</loc>
     <image:image>
@@ -197,4 +260,5 @@
       <image:geo_location>Trier, Germany</image:geo_location>
     </image:image>
   </url>
+  
 </urlset>
