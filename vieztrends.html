@@ -90,47 +90,56 @@
         <!-- Kartenvisualisierung -->
         <section>
             <div class="container desktop-width">
-                <div class="card text-white bg-primary mb-3" style="max-width: 20rem;" margin-top: 25px;>
-                    <ul class="list-group list-group-flush">
-                        <div class="list-group-item text-font text-primary" style="font-size: relative;"><b>Wähle ein Wort für die Suchtrends:</b></div>
-                        <select id="selectMenu" class="text-font btn" onchange = "displayGraph()">
-                            <option value="0">Viez</option>
-                            <option value="1">Apfelwein</option>
-                            <option value="2">Cider</option>
-                            <option value="3">Äppelwoi</option>
-                        </select>
-                        </ul>
+                <div class="row">
+                    <div class="col-md-3 gx-5 mb-4">
+                        <div class="card text-white bg-primary mb-3" style="max-width: 13rem;" margin-top: 25px;>
+                            <ul class="list-group list-group-flush">
+                                <div class="list-group-item text-font text-primary" style="font-size: relative;"><b>Was darf es sein?</b></div>
+                                <select id="selectMenu" class="text-font btn" onchange = "displayGraph()">
+                                    <option value="0">Viez</option>
+                                    <option value="1">Apfelwein</option>
+                                    <option value="2">Cider</option>
+                                    <option value="3">Äppelwoi</option>
+                                </select>
+                                </ul>
+                            </div>
                     </div>
+                    <div class="col-md-9 gx-5 mb-4">
+                        <p class="text-font">
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi placerat varius tortor. Ut dolor eros, pharetra vel, imperdiet condimentum, tincidunt ac, urna. Suspendisse ullamcorper ipsum. Duis tempus blandit eros. Aenean a leo. Vivamus posuere magna nec libero. Fusce ut odio. Morbi eget nunc. Maecenas eget ipsum vel pede vulputate adipiscing.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
+
 
         <!--Map Output-->
         <section>
             <div class="container">
                 <br>
                 <div style="display: flex; justify-content: center;">
-                    <iframe src="vieztrends/figV.html" id="map" width= "1200px"; height= "1000px"; border: 0px;></iframe>
+                    <iframe src="vieztrends/figV.html" id="map" width= "1200"; height= "1000"; border: 0px;></iframe>
                 </div>
-            <!-- JavaScript File -->
-            <script src="js/graphs.js"></script>
+                <!-- JavaScript File -->
+                <script src="js/graphs.js"></script>
             </div>
-
-        <div class="container desktop-width">
-            <p class="text-font">
-              <br>
-              <br>
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi placerat varius tortor. Ut dolor eros, pharetra vel, imperdiet condimentum, tincidunt ac, urna. Suspendisse ullamcorper ipsum. Duis tempus blandit eros. Aenean a leo. Vivamus posuere magna nec libero. Fusce ut odio. Morbi eget nunc. Maecenas eget ipsum vel pede vulputate adipiscing.
-            </p>
-        <hr class="my-5" />
-        </div>
         </section>
-        <br>
+
 
 
         <div class="container desktop-width">
+        <hr class="my-5" />
+        <br>
             <div>
                 <h2> Google Trends </h2>
                 <hr style="height:5px;border-width:0;color:#f4623a;background-color:#f4623a; opacity:1;width: 15%;">
+            </div>
+            <br>
+            <div class="card text-white bg-primary mb-3" style="max-width: 16rem;" margin-top: 25px;>
+                <ul class="list-group list-group-flush">
+                    <div class="list-group-item text-font text-primary" style="font-size: 0.95rem;"><b>Diese Karte ist nicht für die mobile Ansicht geeignet.</b></div>
+                </ul>
             </div>
         </div>
         <br>
