@@ -1,7 +1,18 @@
-[{"text":"De Viez, ich son et noch ämohl, hen eß mer liewer als de Wein", "translation":"Der Viez, ich sag' es nocheinmal, der ist mir lieber als der Wein", "author":"Philipp Laven"}, 
-{"text":"Mer kömmt on kömmt net von dem Fleck, bot mer de liewe Viez off'm Desch.", "translation":"", "author":"Philipp Laven"}, 
-{"text":"Wehn ebbes giend de Viez hot, komm, eich schlon hen kreppelich on lahm, folgt mer on haavt de Weinberg om, on planzt mer lauter Aeppelbaam!", "translation":"", "author":"Philipp Laven"},
+[{"text":"De Viez, ich son et noch ämohl, hen eß mer liewer als de Wein.", "translation":"Der Viez, ich sag' es nocheinmal, der ist mir lieber als der Wein.", "author":"Philipp Laven"}, 
+{"text":"Mer kömmt on kömmt net von dem Fleck, hat mer de liewe Viez off'm Desch.", "translation":"Man kommt und kommt nicht vom Fleck, wenn man den lieben Viez auf dem Tisch hat.", 
+    "author":"Philipp Laven"}, 
+{"text":"Wehn ebbes giend de Viez hot, komm, eich schlon hen kreppelich on lahm, folgt mer on haavt de Weinberg om, on planzt mer lauter Aeppelbaam!", 
+    "translation":"Wer etwas gegen Viez hat, kommt, euch schlag' ich krüpplig und lahm, folgt mir und hackt die Weinberge um, und pflanzt mir lauter Apfelbäume!", 
+    "author":"Philipp Laven"},
 {"text":"Den Viez miß man knauen können; de Zenn meesse kraachen.", "translation":"Den Viez muss man kauen können, die Zähne müssen krachen.", "author":"Sprichwort"},
 {"text":"Über die Moselbrücke geht viel, aber es geht nichts über ein gutes Pörzchen Viez.", "author":"Sprichwort"},
-{"text":"Die Plaatz, wo et gude Viez get, die get net verraoten.", "translation":"", "author":"Sprichwort"},
-{"text":"Et aß Viez, ma könnt Kanna damat däafen.", "translation":"Das ist ein Viez mit dem man Kinder taufen könnte.", "author":"Sprichwort"}]
+{"text":"Die Plaatz, wo et gude Viez get, die get net verraoten.", "translation":"Der Ort, wo es guten Viez gibt, wird nicht verraten.", "author":"Sprichwort"},
+{"text":"Et aß Viez, ma könnt Kanna damat däafen.", "translation":"Das ist ein Viez mit dem man Kinder taufen könnte.", "author":"Sprichwort"},
+{"text":"Beim Viez, do eß et net esu, mer trenkt ä ganzen Amer aus, mer lermt on raacht sein Peif derzu, on giht doch noch ganz gut off Haus.", 
+    "translation":"Beim Viez ist das nicht so [wie beim Wein], man trinkt einen ganzen Eimer aus, lärmt und raucht dazu seine Pfeife und kann trotzdem noch problemlos nach Hause gehen.", 
+    "author":"Sprichwort"},
+{"text":"De Viez, dat is ä liewen Trank, hen eß mer liewer als de Wein; wen'n emmer trenkt, de gevt net krank, de werd och emmer monter sein.", 
+    "translation":"Der Viez, das ist ein , der ist mir lieber als Wein; wer ihn immer trinkt wird nicht krank, der wird auch immer munter sein.", "author":"Philipp Laven"},
+    {"text":"Wenns dau beim Viez kanns glöcklich sein, Da plaog deich nöt ze vill vier Wein.", 
+        "translation":"Wenn du beim Viez glücklich sein kannst, strenge dich nicht allzu sehr an, Wein zu bekommen.", "author":"Heinrich Focht"}
+]
