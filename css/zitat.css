@@ -14,7 +14,7 @@
  }
     
   .text{
-    font-size:16px;
+    font-size:15px;
     padding-left:10px;
     transition: 0.5s;
     transition-timing-function: ease-in;
@@ -24,7 +24,7 @@
   }
 
 .translation{
-    font-size:15px;
+    font-size:13px;
     padding-left:10px;
     transition: 0.5s;
     transition-timing-function: ease-in;
@@ -49,7 +49,7 @@ i {
   }
   
   .new-quote{
-      font-size: 16px;
+      font-size: 15px;
       font-family: 'Merriweather Sans', sans-serif;
       border-radius: 20px;
       border: rgb(244, 98, 58);
@@ -78,7 +78,7 @@ i {
   
   .author{
     margin: 10px;
-    font-size: 18px;
+    font-size: 14px;
     transition: 0.5s;
     transition-timing-function: ease-in;
     font-family: 'Merriweather Sans', sans-serif;
