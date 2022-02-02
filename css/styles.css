@@ -12316,8 +12316,14 @@ img {
             align-items: center;
   }
   
-  .slider_section #customCarousel1 {
+  .slider_section #customCarouselDesktop {
     width: 99%;
+    position: unset;
+    background-color: #f8f9fa;
+  }
+
+  .slider_section #customCarouselMobile {
+    width: 97%;
     position: unset;
     background-color: #f8f9fa;
   }
