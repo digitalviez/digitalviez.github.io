@@ -59,51 +59,35 @@
     <lastmod>2022-02-08</lastmod>
   </url>
   <url>
-    <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezfacts</loc>
-    <lastmod>2022-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezrezepte</loc>
-    <lastmod>2022-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezgeschmack</loc>
-    <lastmod>2022-02-08</lastmod>
-  </url>
-  <url>
     <loc>https://digitalviez.github.io/stories.html</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
-    <url>
-    <loc>https://digitalviez.github.io/stories.html#rudi</loc>
+  <url>
+    <loc>https://digitalviez.github.io/interview_gehlen.html</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
-    <url>
-    <loc>https://digitalviez.github.io/stories.html#zapotex</loc>
+  <url>
+    <loc>https://digitalviez.github.io/interview_zapotex.html</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
-    <url>
-    <loc>https://digitalviez.github.io/stories.html#wiltingerviez</loc>
+  <url>
+    <loc>https://digitalviez.github.io/interview_viezstrasse.html</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
-    <url>
-    <loc>https://digitalviez.github.io/stories.html#viezbruder</loc>
+  <url>
+    <loc>https://digitalviez.github.io/interview_viezbruderschaft.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/interview_mueller.html</loc>
+    <lastmod>2022-02-08</lastmod>
+  </url>
+  <url>
+    <loc>https://digitalviez.github.io/interview_wiltinger.html</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
   <url>
     <loc>https://digitalviez.github.io/projekt.html</loc>
-    <lastmod>2022-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://digitalviez.github.io/projekt.html#ueberuns</loc>
-    <lastmod>2022-02-08</lastmod>
-  </url>
-  <url>
-    <loc>https://digitalviez.github.io/projekt.html#dhmethoden</loc>
-    <lastmod>2022-02-08</lastmod>
-  </url>
-   <url>
-    <loc>https://digitalviez.github.io/projekt.html#impressum</loc>
     <lastmod>2022-02-08</lastmod>
   </url>
    <url>
@@ -128,18 +112,6 @@
       <image:loc>https://digitalviez.github.io/porta.jpg</image:loc>
       <image:title>Porta Nigra Trier</image:title>
       <image:geo_location>Trier, Germany</image:geo_location>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/karte.jpg</image:loc>
-      <image:title>Viezkarte</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/viezmuseum.jpg</image:loc>
-      <image:title>Startseite Viezmuseum</image:title>
-    </image:image>
-    <image:image>
-      <image:loc>https://digitalviez.github.io/wordcloud_preview.svg</image:loc>
-      <image:title>Wordcloud</image:title>
     </image:image>
   </url>
 
@@ -203,7 +175,7 @@
   </url>
 
   <url>
-  <loc>https://digitalviez.github.io/viezfaeltigkeit.html#viezrezepte</loc>
+  <loc>https://digitalviez.github.io/viezfaeltigkeit.html</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/</image:loc>
       <image:title></image:title>
@@ -212,7 +184,7 @@
   </url>
 
   <url>
-  <loc>https://digitalviez.github.io/stories.html#gehlen</loc>
+  <loc>https://digitalviez.github.io/stories.html</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/gehlen.jpg</image:loc>
       <image:title>Herr Gehlen vom Weingut Gehlen</image:title>
