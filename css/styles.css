@@ -12531,7 +12531,7 @@ a:link {
 
 .accordionOne .panel .panel-heading a.collapsed {
     color: #f46239;
-    background-color: #f8f9fa ;
+    background-color: #fff ;
     display: block;
     padding: 12px 20px
 }
@@ -12552,7 +12552,7 @@ a:link {
     border-top: 0;
     padding-top: 0;
     padding: 20px 20px 20px 30px;
-    background: #f8f9fa;
+    background: #fff;
     color: #fff;
     font-size: 14px;
     line-height: 24px;
@@ -12562,7 +12562,7 @@ a:link {
 .accordionOne .panel .panel-heading a:after {
     content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
     color: #e9ecef;
-    background: #f8f9fa
+    background: #fff;
 }
 
 .accordionOne .panel .panel-heading a:after,
@@ -12583,7 +12583,7 @@ a:link {
 .accordionOne .panel .panel-heading a.collapsed:after {
     content: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M2 5l6 6 6-6'/%3e%3c/svg%3e");
     color: #404342;
-    background-color: #f8f9fa
+    background-color: #fff;
 }
 
 .accordionOne .panel .panel-heading a:after {
