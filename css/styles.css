@@ -12133,9 +12133,10 @@ img {
 }
 
 .sprachbox1:hover{
-    background-color: #fdb373;
+    background-image: url("../assets/img/viezNetzwerk_Vorschau.jpg");
+    background-size: 800px 350px;
     cursor: pointer;
-    color: white;
+    color: transparent;
 }
 
 
@@ -12152,7 +12153,7 @@ img {
     background-image: url("../assets/img/preview_GT_oranges.png");
     background-size: 760px 350px;
     cursor: pointer;
-    color: white;
+    color: transparent;
 }
 
 .sprachbox3{
