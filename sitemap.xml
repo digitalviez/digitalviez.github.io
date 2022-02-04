@@ -175,16 +175,59 @@
   </url>
 
   <url>
-  <loc>https://digitalviez.github.io/viezfaeltigkeit.html</loc>
+  <loc>https://digitalviez.github.io/sprache.html</loc>
     <image:image>
-      <image:loc>https://digitalviez.github.io/</image:loc>
-      <image:title></image:title>
-      <image:geo_location>Trier, Germany</image:geo_location>
+      <image:loc>https://digitalviez.github.io/viezNetzwerk_Vorschau.jpg</image:loc>
+      <image:title>Vorschau des Vieznetzwerks</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/googleTrends_vorschau.png</image:loc>
+      <image:title>Vorschau des Lineplots der Google Trends zu Viez</image:title>
     </image:image>
   </url>
 
   <url>
-  <loc>https://digitalviez.github.io/stories.html</loc>
+  <loc>https://digitalviez.github.io/textkorpus.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloud.svg</image:loc>
+      <image:title>Wordcloud zu Viez</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloudV.svg</image:loc>
+      <image:title>Wordcloud zu Viez</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloudI.svg</image:loc>
+      <image:title>Wordcloud zu Viez</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloudE.svg</image:loc>
+      <image:title>Wordcloud zu Viez</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/wordcloudZ.svg</image:loc>
+      <image:title>Wordcloud zu Viez</image:title>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/wortherkunft.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/etymWordcloud.svg</image:loc>
+      <image:title>Wordcloud der Etymologie von Viez</image:title>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/viezfaeltigkeit.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezbot.png</image:loc>
+      <image:title>Vorschau des Viezbots</image:title>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/interview_gehlen.html</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/gehlen.jpg</image:loc>
       <image:title>Herr Gehlen vom Weingut Gehlen</image:title>
@@ -198,34 +241,72 @@
   </url>
 
     <url>
-  <loc>https://digitalviez.github.io/stories.html#zapotex</loc>
+  <loc>https://digitalviez.github.io/interview_zapotex.html</loc>
     <image:image>
-      <image:loc>https://digitalviez.github.io/</image:loc>
-      <image:title></image:title>
+      <image:loc>https://digitalviez.github.io/gehlen.jpg</image:loc>
+      <image:title>Herr Gehlen vom Weingut Gehlen</image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    <image:image>
+    </image:image>
+      <image:loc>https://digitalviez.github.io/gehlen_viezdeckel.jpg</image:loc>
+      <image:title>Viezdeckel auf dem Weingut Gehlen</image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+    <url>
+  <loc>https://digitalviez.github.io/interview_viezstrasse.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezstrasse.jpg</image:loc>
+      <image:title>Herr Schmitt der Viezstrasse</image:title>
+      <image:geo_location>Weingut Schmitt, Germany</image:geo_location>
+    <image:image>
+    </image:image>
+      <image:loc>https://digitalviez.github.io/viezstrasse_logo.jpg</image:loc>
+      <image:title>Logo der Viezstrasse</image:title>
+      <image:geo_location>Weingut Schmitt, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+    <url>
+  <loc>https://digitalviez.github.io/interview_viezbruderschaft.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezbruderschaft.jpg</image:loc>
+      <image:title>Viezbruderschaft</image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    <image:image>
+    </image:image>
+      <image:loc>https://digitalviez.github.io/viezfest.jpg</image:loc>
+      <image:title>Viezfest der Viezbruderschaft</image:title>
       <image:geo_location>Trier, Germany</image:geo_location>
     </image:image>
   </url>
 
     <url>
-  <loc>https://digitalviez.github.io/stories.html#viezstrasse</loc>
+  <loc>https://digitalviez.github.io/interview_mueller.html</loc>
     <image:image>
-      <image:loc>https://digitalviez.github.io/</image:loc>
-      <image:title></image:title>
-      <image:geo_location>Trier, Germany</image:geo_location>
+      <image:loc>https://digitalviez.github.io/gehlen.jpg</image:loc>
+      <image:title>Herr Gehlen vom Weingut Gehlen</image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    <image:image>
+    </image:image>
+      <image:loc>https://digitalviez.github.io/gehlen_viezdeckel.jpg</image:loc>
+      <image:title>Viezdeckel auf dem Weingut Gehlen</image:title>
+      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
   </url>
 
     <url>
-  <loc>https://digitalviez.github.io/stories.html#viezbruder</loc>
+  <loc>https://digitalviez.github.io/interview_wiltiger.html</loc>
     <image:image>
-      <image:loc>https://digitalviez.github.io/</image:loc>
-      <image:title></image:title>
-      <image:geo_location>Trier, Germany</image:geo_location>
-    </image:image>
+      <image:loc>https://digitalviez.github.io/wiltiger.JPG</image:loc>
+      <image:title>Wiltiger Viez e.V.</image:title>
+      <image:geo_location>Germany</image:geo_location>
+    <image:image>
   </url>
 
   <url>
-    <loc>https://digitalviez.github.io/projekt.html#ueberuns</loc>
+    <loc>https://digitalviez.github.io/projekt.html</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/projektgruppe.jpg</image:loc>
       <image:title>Projektgruppe beim Arbeiten</image:title>

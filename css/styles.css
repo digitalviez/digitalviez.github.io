@@ -100,6 +100,13 @@
     text-align: justify;
 }
 
+.text-font-imgcaption{
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    text-align: justify;
+}
+
 .text-font-small-noblock{
     font-family: Roboto, sans-serif;
     font-weight: 400;
@@ -12150,7 +12157,7 @@ img {
 }
 
 .sprachbox2:hover{
-    background-image: url("../assets/img/preview_GT_oranges.png");
+    background-image: url("../assets/img/googleTrends_vorschau.png");
     background-size: 760px 350px;
     cursor: pointer;
     color: transparent;
