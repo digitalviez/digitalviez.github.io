@@ -180,7 +180,7 @@
        
         <!--Digital Humanities Methoden-->
         <section class="page-section" id="dhmethoden">
-                <div class="container">
+                <div class="container desktop-width">
                     <div>
                         <h2 style="text-align: right;"> Digital Humanities Methoden </h2>
                         <hr style="height:5px;border-width:0;color:#f4623a;background-color:#f4623a; opacity:1;width: 15%;margin-left: 85%;">
@@ -193,29 +193,43 @@
                                     </h5>
                                 </div>
                                 <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
-                                    <div class="card-body position-relative text-font-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    <div class="card-body position-relative text-font-small">
+                                        Zu Beginn des Projekts wurde der Website-Typ festgelegt. Grundsätzlich unterscheidet man zwischen zwei Website-Typen: <br>
+                                        Bei einer <strong>statischen</strong> Website muss jede Unterseite einzeln geschrieben werden und wird auch jeweils einzeln vom Server geladen. Bei <strong>dynamischen</strong> Websites ist das Grundgerüst immer das selbe und nur der Inhalt wird aus einer Datenbank geladen und dargestellt. 
+                                        Die Entscheidung fiel auf die Erstellung einer <strong>statischen</strong> Website; demnach wurde sich gegen eine dynamische Website mit einem Content Management System (CMS) entschieden. Unsere statische Website wird kostenfrei von <a href="https://pages.github.com/" target="blank">GitHub Pages</a> gehostet und stellt uns eine eigene Domain zur Verfügung. Über das von uns erstellte GitHub Repository (ein Verzeichnis zum Speichern und Verwalten unserer Dateien) ist eine einfache Zusammenarbeit im Team möglich, da alle Zugriff mit eigenen Accounts haben. Außerdem können eigene, für unser Projekt spezifische Inhalte, wie die ViezKarte oder die 3D-Digitalisierung, einfacher eingebunden und Änderungen an Inhalten können direkt im Quellcode vorgenommen werden. 
+                                        <br><br>
+                                        Die Grundstruktur basiert auf einem CSS-Framework von <a href="https://getbootstrap.com/" target="blank">Bootstrap</a>. Das Design wurde auf unser Projekt abgestimmt. <br>#IconText#
+                                        <br><br>
+                                        Darauf aufbauend wurden nach und nach alle Inhalte mittels neuer Html-Seiten und Anpassungen unter anderem in CSS- und JavaScript-Dateien eingefügt. Hierbei wurde besonders darauf geachtet, dass die Inhalte mit all ihren Funktionen benutzerfreundlich eingebunden werden und das Design dabei einheitlich bleibt. Die Website vereint damit die Ergebnisse aller angewandten Digital Humanities-Methoden.
+                                        <br><br>
+                                        Durch die Nutzung eines GitHub Repository ist die Website OpenSource und wird nachhaltig gehostet. Damit wird ein Grundgedanke der Digital Humanities umgesetzt.
+                                       <br><br>
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">3D-Digitalisierung</button>
+                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseOne">Karte</button>
                                     </h5>
                                 </div>
                                 <div id="collapseTwo" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
-                                    <div class="card-body position-relative text-font-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    <div class="card-body position-relative text-font-small">
+                                        <a class="text-font btn btn-primary" href="viezkarte.html"> <i class="bi bi-arrow-right-circle-fill"></i> Zur ViezKarte</a>
+                                        <br>  <br>
                                     </div>
                                 </div>
                             </div>
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">Karte</button>
+                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseOne">3D-Digitalisierung</button>
                                     </h5>
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
-                                    <div class="card-body position-relative text-font-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    <div class="card-body position-relative text-font-small">
+                                        <a class="text-font btn btn-primary" href="3digitalisierung.html"> <i class="bi bi-arrow-right-circle-fill"></i> Zur 3D-Digitalisierung</a>
+                                        <br>  <br>
                                     </div>
                                 </div>
                             </div>
@@ -226,18 +240,34 @@
                                     </h5>
                                 </div>
                                 <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
-                                    <div class="card-body position-relative text-font-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                    <div class="card-body position-relative text-font-small">
+                                        Der ViezBot wurde aus der Idee geboren, einen Bot zu entwerfen, der zum einen ein Quiz zum Thema Viez mit dem*der User*in spielt, zum anderen aber auch in der Lage ist, kleinere ChitChats mit dem*der User*in zu führen. 
+                                        <br>  <br>
+                                        Damit dieser Gedanke in die Tat umgesetzt werden konnte, haben wir damit begonnen einen Flow zu entwerfen, der darstellt, wie der Dialogverlauf aussehen könnte. Dazu benötigten wir dann natürlich auch einige Fragen, die wir zunächst aus bestehenden Literaturquellen zusammengesucht haben. 
+                                        Angefangen haben wir mit zehn verschiedenen Fragen, die wir anschließend auf zwanzig ausweiteten. Davon werden immer zehn zufällig ausgewählt, sodass der*die User*in das Quiz immer wieder spielen kann und es abwechslungsreich bleibt. 
+                                        <br>
+                                        Anschließend haben wir ein graphisches Modell erstellt, damit die Datenbank klar strukturiert aufgebaut werden konnte. 
+                                        <br>  <br>
+                                        Als Grundlage für den ViezBot dient das Ruby on Rails Framework, welches oft zur Gestaltung von Webanwendungen verwendet wird. Gehostet wird unsere Webanwendung auf Heroku. 
+                                        So konnte die Idee des ViezBots realisiert werden und bietet jetzt eine interaktive, spannende Möglichkeit, sich weiter mit dem regionalen Kulturgut Viez auseinanderzusetzen. 
+                                        <br>  <br>
+                                        Wer außerdem am Code interessiert ist, kann gerne auf unserem GitHub Repository vorbeischauen: <a href="https://github.com/Viggitoria/Viezbot" target="blank">https://github.com/Viggitoria/Viezbot</a>
+                                        <br>  <br>
+                                        <a class="text-font btn btn-primary" href="https://viezbot.herokuapp.com/" target="blank"> <i class="bi bi-arrow-right-circle-fill"></i> Zum ViezBot</a>
+                                        <br>  <br>
                                     </div>
                                 </div>
                             </div>  
                             <div class="card">
                                 <div class="card-header" id="headingOne">
                                     <h5 class="mb-0">
-                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseOne">Korpus</button>
+                                        <button class="btn btn-link collapsed" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseOne">ViezSprache</button>
                                     </h5>
                                 </div>
-                                <div id="collapseFour" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
-                                    <div class="card-body position-relative text-font-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur ex sit amet massa scelerisque scelerisque. Aliquam erat volutpat. Aenean interdum finibus efficitur. Praesent dapibus dolor felis, eu ultrices elit molestie.
+                                <div id="collapseFive" class="collapse" aria-labelledby="headingOne" data-bs-parent="#accordion" style="">
+                                    <div class="card-body position-relative text-font-small">
+                                        <a class="text-font btn btn-primary" href="sprache.html"> <i class="bi bi-arrow-right-circle-fill"></i> Zur ViezSprache</a>
+                                        <br>  <br>
                                     </div>
                                 </div>
                             </div>  
@@ -246,10 +276,10 @@
         </section>
 
         
-        <br>
+        <br> <br>
         <!--Impressum-->
         <section class="page-section" id="impressum">
-            <div class="container">
+            <div class="container desktop-width">
                 <div>
                     <h2>Impressum</h2>
                     <hr style="height:5px;border-width:0;color:#623a;background-color:#f4623a; opacity:1;width: 15%;">
@@ -284,7 +314,8 @@
                 </div>
             </div> 
         </section>
-
+        <br>
+        <br>
         
         <!-- Footer-->
         <footer class="bg-light py-5">

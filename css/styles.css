@@ -11907,8 +11907,6 @@ img {
 .accordion-style .card-body:before {
     position: absolute;
     content: "";
-    border-style: dashed;
-    border-width: 0 0 0 1.2px;
     border-color: #f46239;
     left: 20px;
     top: 0;
