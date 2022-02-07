@@ -280,14 +280,14 @@
     <url>
   <loc>https://digitalviez.github.io/interview_mueller.html</loc>
     <image:image>
-      <image:loc>https://digitalviez.github.io/gehlen.jpg</image:loc>
-      <image:title>Herr Gehlen vom Weingut Gehlen</image:title>
-      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+      <image:loc>https://digitalviez.github.io/mueller.jpg</image:loc>
+      <image:title>Apfel- und Viezgut Müller</image:title>
+      <image:geo_location>Apfel- und Viezgut Müller, Pluwig, Germany</image:geo_location>
     <image:image>
     </image:image>
-      <image:loc>https://digitalviez.github.io/gehlen_viezdeckel.jpg</image:loc>
-      <image:title>Viezdeckel auf dem Weingut Gehlen</image:title>
-      <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+      <image:loc>https://digitalviez.github.io/mueller_apfel.jpg</image:loc>
+      <image:title>Äpfel auf einem Anhänger des Viezguts Müller</image:title>
+      <image:geo_location>Apfel- und Viezgut Müller, Pluwig, Germany</image:geo_location>
     </image:image>
   </url>
 
@@ -295,8 +295,8 @@
   <loc>https://digitalviez.github.io/interview_wiltiger.html</loc>
     <image:image>
       <image:loc>https://digitalviez.github.io/wiltiger.JPG</image:loc>
-      <image:title>Wiltiger Viez e.V.</image:title>
-      <image:geo_location>Germany</image:geo_location>
+      <image:title>Wiltinger Viez e.V.</image:title>
+      <image:geo_location>Wiltingen, Germany</image:geo_location>
     <image:image>
   </url>
 
