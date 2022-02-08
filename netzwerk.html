@@ -119,15 +119,36 @@
 
         <div class="container desktop-width">
             <p class="text-font">
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
+                Hat man sich einmal die Mühe gemacht, eine eigene digitale Textsammlung  zu erstellen, kann man darauf die unterschiedlichsten Analysen durchführen. Wie das ViezKorpus, eine Sammlung aus Texten rund um das Thema Viez, entstanden ist, kannst Du <a href="textkorpus.html">hier</a> nachlesen.
                 <br>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut.
+                Das ViezNetzwerk ist durch das Zusammenspiel von  <a href="https://github.com/noduslabs/infranodus" target="blank">InfraNodus</a>, einer in JavaScript geschriebenen Open-Source-Software und <a href="https://github.com/vasturiano/3d-force-graph" target="blank">3d-force-graph</a>, einer Webkomponente für die Darstellung von Graphen im dreidimensionalen Raum entstanden. (Webkomponenten ermöglichen die Erstellung wiederverwendbarer Elemente für Webseiten.)
+                <br><br>
+                Um die Visualisierung übersichtlicher zu gestalten (sowie aus praktischen Gründen), wurde das ViezKorpus für diese Analyse grob in folgende Themenbereiche aufgeteilt: Geschichte, Etymologie, Herstellung und Obstanbau, Porz, Erzählungen, Poesie und Sonstiges. Jeder dieser Bereiche bildet ein separates Netzwerk und wurde durch ein weiteres, von InfraNodus anhand der Suchergebnisse für „Viez” erstelltes, ergänzt. 
+                <br>
+                Importiert man die zu untersuchenden Texte in InfraNodus, führt die Software zunächst hinter den Kulissen die üblichen Schritte der computergestützten Textverarbeitung durch: die Texte werden lemmatisiert, d.h. auf ihre Wörterbuchform reduziert, Satzzeichen und sog. Stoppwörter werden entfernt. Stoppwörter sind Wörter, die in einer Sprache zwar sehr häufig vorkommen, aber keine oder kaum Bedeutung in sich tragen. Im Deutschen sind das z. B. Artikel oder Präpositionen wie „an”, „in“ oder „von“. Nach diesen Schritten liegen die Texte also als eine Reihe von Wörtern in ihrer Stammform vor. Aus dieser erstellt die Software dann einen gerichteten Graphen, in dem die Wörter die Knoten sind. Wenn sie gemeinsam vorkommen, sind sie durch Kanten miteinander verbunden. Bei diesem Schritt werden allerdings nicht nur direkt nebeneinander vorgefundene Wörter (sogenannte Bigramme), sondern jeweils 4 aufeinander folgende Begriffe (sog. 4-Gramme) berücksichtigt. 
+                <br>
+                An dieser Stelle wird auch die Gewichtung, die später die Linienstärke der Kanten in der Visualisierung bestimmt, berechnet. Je öfter und je dichter Wörter aufeinander folgen, umso dicker wird die Kante angezeigt. Knoten, die am häufigsten auf den kürzesten Pfaden zwischen zwei beliebigen, zufällig ausgewählten Knoten im Netzwerk erscheinen, werden als wichtige Begriffe identifiziert und hervorgehoben. Man kann auch erkennen, dass sich bei dem ViezKorpus – und somit auch im ViezNetzwerk – wirklich alles um Viez dreht.
+                <br><br>
+                Als nächstes werden mithilfe eines Algorithmus Gruppen von Knoten aufgespürt, die dichter miteinander verbunden sind als mit dem Rest des Netzwerks. Dabei handelt es sich um Gruppen von Wörtern, die dazu tendieren, im Text gemeinsam aufzutreten: sog. thematische Cluster bzw. Topics. Diese sind im ViezNetzwerk an ihrer Farbe erkennbar. (Achtung: Gleiche Farben in den unterschiedlichen Themen-Graphen haben keine Bedeutung.) Die bereits identifizierten Stichwörter dienen auch als Verbindungsglied zwischen diesen thematischen Clustern. 
+                (InfraNodus bietet auch eine weitere Art, diese Themen zu bestimmen (also des Topic Modelings) und einige weitere Funktionen, allerdings aktuell (Stand: Februar 2022) nur für die englische Sprache.)
+                <br>
+                Einer der größten Vorteile, die man als (Geistes-)Wissenschaftler*in mit Programmierkenntnissen hat, ist, dass man nicht gezwungen ist, sich auf die Funktionalitäten existierender Softwarelösungen zu verlassen und auch die Möglichkeit hat, verschiedene Tools miteinander zu verbinden. Das <em>Digital Viez</em>-Team fand die so erstellte Visualisierung nicht intuitiv genug und hat sich mehr Kontrolle über die Darstellung gewünscht. Deshalb wurden die Daten aus InfraNodus mit einem Skript in der Programmiersprache Python in das benötigte Format umgewandelt und schließlich mit 3d-force-graph die gewünschte Visualisierung erstellt.
               </p>
         </div>
        
      
            
         
+        <br>
+        <br>
+        <div class="container desktop-width">
+            <p class="text-footer">
+            <i class="bi bi-bookmarks"></i>
+            Quellen: <br>
+            Dmitry Paranyushkin. 2019. InfraNodus: Generating Insight Using Text Network Analysis. In The World Wide Web Conference (WWW '19). Association for Computing Machinery, New York, NY, USA, 3584–3589. DOI:<a href="https://doi.org/10.1145/3308558.3314123" target="blank">10.1145/3308558.3314123</a>.
+            <br>
+            </p>
+        </div>
 
         <br>
         <br>
