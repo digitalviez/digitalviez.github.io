@@ -91,7 +91,7 @@
         <br>
         <div class="container desktop-width">
             <div>
-                <h2> Suchtrends </h2>
+                <h3> Suchtrends </h3>
                 <hr style="height:5px;border-width:0;color:#f4623a;background-color:#f4623a; opacity:1;width: 15%;">
             </div>
         </div>
@@ -101,7 +101,15 @@
         <section>
             <div class="container desktop-width">
                 <div class="row">
+                    <p class="text-font">
+                        Wo befinden sich eigentlich die Menschen, die sich für Viez interessieren? In unserem digitalen Zeitalter ist diese Frage anschaulich anhand von Googles Suchtrends zu beantworten, die ihre für Werbezwecke gesammelten Daten teilweise der Öffentlichkeit zur Verfügung stellen. Die auf dieser Seite sichtbare Karte zeigt das Interesse an Viez in allen deutschen Bundesländern und Luxemburg der letzten 20 Jahre auf einer Skala von 1 bis 100. Zu beachten ist, dass die von Google bereitgestellten Daten nicht den absoluten Suchanfragen in dem gewählten Zeitraum entsprechen, sondern das relative Suchvolumen über diesen repräsentieren, welches das Interesse an einem Suchbegriff verdeutlichen soll.
+                    </p>
+                </div>
+                <div class="row">
                     <div class="col-md-3 gx-5 mb-4">
+                        <br>
+                        <br>
+                        <br>
                         <div class="card text-white bg-primary mb-3" style="max-width: 13rem;" margin-top: 25px;>
                             <ul class="list-group list-group-flush">
                                 <div class="list-group-item text-font text-primary" style="font-size: relative;"><b>Was darf es sein?</b></div>
@@ -116,10 +124,10 @@
                     </div>
                     <div class="col-md-9 gx-5 mb-4">
                         <p class="text-font">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi placerat varius tortor. Ut dolor eros, pharetra vel, imperdiet condimentum, tincidunt ac, urna. Suspendisse ullamcorper ipsum. Duis tempus blandit eros. Aenean a leo. Vivamus posuere magna nec libero. Fusce ut odio. Morbi eget nunc. Maecenas eget ipsum vel pede vulputate adipiscing.
+                            Um die Anfragehäufigkeit zum Thema Viez etwas anschaulicher darzustellen wurden vier Schlagworte als Vergleichswerte gewählt, die die geographische und historische Verbreitung von Viez kontextualisieren sollen. Apfelwein und Cider sind im Standarddeutschen gebräuchliche Begriffe, die überregional in Verwendung sind, was sich auch in den konstant höheren Interessenswerten widerspiegelt. Äppelwoi dagegen ist ein mundartlicher Begriff, der folglich – ähnlich wie Viez – in seiner Verbreitung geographisch eingeschränkt ist. Zu beobachten ist, dass sich das Interesse an Äppelwoi und Apfelwein in Hessen konzentriert. Wie man an der Karte erkennen kann, ist das Interesse an Viez aber durchaus nicht nur auf Regionen mit historisch moselfränkisch geprägtem Hintergrund beschränkt, sondern auch in einigen anderen Bundesländern präsent. Auffällig ist hier etwa das vergleichsweise große Interesse in Sachsen oder Bayern, wo keine sprachliche Verbindung zu Viez besteht.
                         </p>
                     </div>
-                </div>
+                </div>    
             </div>
         </section>
 
@@ -136,18 +144,39 @@
             </div>
         </section>
 
+        <div class="bg-light">
+            <div class="container desktop-width">
+                <p class="text-font">
+                    <br>
+                    Die auf dieser Seite sichtbaren Visualisierungen wurden mit den Python-Bibliotheken PyTrends und Plotly erstellt. Mit PyTrends kann in einem Schritt auf große Mengen an Google Trends-Daten nach eigens definierten Parametern zugegriffen werden. Für dieses Projekt wurde ein Datensatz aus den historisch verfügbaren Daten – bei Google Trends bedeutet das ab dem Jahr 2004 – aller deutschen Bundesländer sowie Luxemburg für jeden der gewählten Suchterme bis Oktober 2021 erstellt. Der Endpunkt stimmt  mit dem Projektstart überein, um die Resultate nicht durch Recherchearbeiten unseres Teams zu verzerren.
+                    <br>
+                    Google Trends selbst bietet zwar den Vergleich mehrerer Suchterme an, deren Trendindex wird allerdings in Relation zueinander berechnet. Das kann zur Folge haben, dass weniger beliebte Suchterme (wie Viez oder Äppelwoi) im direkten Vergleich zu frequenteren Termen wie Apfelwein oder Cider untergehen und keine aussagekräftigen Ergebnisse resultieren.
+                    <br>
+                    Der Einsatz von PyTrends erlaubt es, in einem Schritt die korrekten Daten jeder einzelnen Region im Laufe der Zeit in maschinenlesbarer Form zu erhalten und für die Weiterverarbeitung zu formatieren. Zugunsten der Visualisierung wurden die in monatlichen Abständen vorliegenden Datenpunkte in jährliche Abschnitte zusammengefasst, wobei der jeweils höchste Wert innerhalb dieser Zeitspanne gewählt wurde.
+                   <br>
+                    Zu beachten ist auch, dass semantische Unterschiede bei den Suchtermen in diesen Daten nicht berücksichtigt werden. So erklärt sich auch das hohe Interesse in Mecklenburg-Vorpommern, wo es Ortsnamen  wie „Viez“ oder „Viezen“ gibt, die allerdings nichts mit dem Getränk zu tun haben.
+                    <br>
+                    Die geographische Verteilung der Suchanfragen wurde mittels Plotly Express Choropleth Mapbox umgesetzt, das bei korrekt aufbereiteten Daten auch animierte Darstellungen ermöglicht. Mit dieser Funktionalität wurde auch der zeitbasierte Slider erstellt, der die Daten zeitlich gruppiert darstellt.
+                </p>
+                </div>
+                <br>
+            </div>
 
+            <br>
 
         <div class="container desktop-width">
-        <hr class="my-5" />
         <br>
             <div>
-                <h2> Google Trends </h2>
+                <h3> Der etwas andere Blick auf die Daten - das Liniendiagramm </h3>
                 <hr style="height:5px;border-width:0;color:#f4623a;background-color:#f4623a; opacity:1;width: 15%;">
             </div>
-            <br>
+            <p class="text-font">
+                <br>
+                Wem der Jahresüberblick in der Kartenvisualisierung noch nicht reicht, der kann sich das konkrete monatliche Interesse je Bundesland in diesem, mittels Plotly Express umgesetzten, Liniendiagramm genauer ansehen. Für jede einzelne Region bekommt man den direkten Vergleich zwischen den einzelnen Suchworten. Anders als in der Kartenansicht sind hier nicht alle Bundesländer vertreten, sondern nur diejenigen, deren Datenlage bei allen vier Schlagworten ausreichend ist. Liegt das Interesse an einem Suchbegriff in einer Region unter einem bestimmten Schwellenwert, sind keine differenzierten Daten verfügbar. Als Heimatbundesland von Viez ist es nicht überraschend, dass in Rheinland-Pfalz auch konsistent am meisten nach Viez gesucht wird. Die Höhepunkte der Suchanfragen sind meist entweder im Hochsommer oder den Herbstmonaten September und Oktober, der Saison für die Viezherstellung, angesiedelt. An der verstärkten Nachfrage während des Sommers hat wohl das alle zwei Jahre stattfindende Viezfest in Trier maßgeblichen Anteil.
+                <br>
+                Interessiert man sich näher für einen konkreten Zeitpunkt, kann man mit der Maus über die jeweilige Linie fahren, um die genauen Daten zu sehen.
+            </p>
         </div>
-        <br>
 
         <!-- lineTrends -->
         <section>
