@@ -16,24 +16,39 @@
 <div id="3d-graph"></div>
 
 <script>
+    let toggleFilter = false
     const Graph = ForceGraph3D()
     (document.getElementById('3d-graph'))
-        .backgroundColor('#f8f9fa')
-        .showNavInfo(false)
-        .jsonUrl("json/ViezKorpus.json")
-        .nodeAutoColorBy("name") //!!change to "group"
-        .nodeThreeObject(node => {
+    Graph.backgroundColor('#f8f9fa')
+    Graph.jsonUrl("json/ViezKorpus.json")
+    Graph.showNavInfo(false)
+    Graph.nodeLabel('')
+    Graph.nodeThreeObject(node => {
             const sprite = new SpriteText(node.name);
             sprite.material.depthWrite = false;
-            sprite.color = node.color;
-            sprite.textHeight = 40;
+            sprite.color =  node.group;
+            sprite.textHeight = node.val;
             return sprite;
         })
-        .linkAutoColorBy("source")
-        .linkWidth("weight")
-        .linkOpacity(0.1)
-    // Spread nodes a little wider
-    Graph.d3Force('charge').strength(-1000);
+    Graph.linkColor(link => link.group)
+    Graph.linkWidth("weight")
+    Graph.linkOpacity(0.2)
+    Graph.onNodeClick(node => {
+        if (toggleFilter) {
+            Graph.nodeVisibility(true)
+            Graph.linkVisibility(true)
+        } else {
+            const color = node.group;
+            const{ nodes, links } = Graph.graphData();
+            let filteredNodes = nodes.filter(n => n.group === color);
+            let filteredLinks = links.filter(l => l.group === color);
+            Graph.nodeVisibility(node => filteredNodes.some(el => el === node));
+            Graph.linkVisibility(link => filteredLinks.some(el => (el.source === link.source && el.target === link.target)))
+        }
+        toggleFilter = !toggleFilter;
+    });
+            // Spread nodes a little wider
+    Graph.d3Force('charge').strength(-150);
 </script>
 
 </body>
