@@ -104,6 +104,14 @@
     <url>
     <loc>https://digitalviez.github.io/index.html</loc>
     <image:image>
+      <image:loc>https://digitalviez.github.io/logo-white-Variante2.png</image:loc>
+      <image:title>Das Logo von Digital Viez</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/original-orange.png</image:loc>
+      <image:title>Das Favicon von Digital Viez</image:title>
+    </image:image>
+    <image:image>
       <image:loc>https://digitalviez.github.io/aepfel_porze.jpg</image:loc>
       <image:title>Äpfel und Porze</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
@@ -166,6 +174,32 @@
       <image:loc>https://digitalviez.github.io/streuobstwiese_mit_apfelbaeumen.jpg</image:loc>
       <image:title>Streuobstwiese mit Apfelbäumen</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/timeline.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/apfelpresse.jpg</image:loc>
+      <image:title>Apfelpresse in der Viezproduktion</image:title>
+      <image:geo_location>Apfel- und Viezgut Müller, Pluwig, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/3digitalisierung.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/kelter.jpg</image:loc>
+      <image:title>Kelter der Viezproduktion</image:title>
+      <image:geo_location>Gut Avelsbach, Trier, Germany</image:geo_location>
+    </image:image>
+  </url>
+
+  <url>
+  <loc>https://digitalviez.github.io/streuobst.html</loc>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/streuobstwiese.jpeg</image:loc>
+      <image:title>Streuobstwiese im Sommer</image:title>
     </image:image>
   </url>
 
