@@ -3154,7 +3154,7 @@ fieldset:disabled .btn {
 
 .btn-check:focus+.btn-img,
 .btn-img:focus {
-    color: #fff;
+    color: #f46239;
     background-color: white;
     border-color: white;
     box-shadow: 0 0 0 0.25rem white;
@@ -3165,7 +3165,7 @@ fieldset:disabled .btn {
 .btn-img:active,
 .btn-img.active,
 .show>.btn-img.dropdown-toggle {
-    color: #fff;
+    color: #f46239;
     background-color: white;
     border-color: white;
 }
