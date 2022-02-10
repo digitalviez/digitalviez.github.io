@@ -99,7 +99,7 @@ var canvas = document.getElementById('bar-chart');
 new Chart(canvas, {
   type: 'line',
   data: {
-    labels: ['RömerViez', 'FrancoViez', 'WiltingerViez', 'WeyandsViez', 'Weingut Gehlen'],
+    labels: ['Römerviez', 'FrancoViez', 'WiltingerViez', 'WeyandsViez', 'Weingut Gehlen'],
     datasets: [{
       label: 'A',
       yAxesID: 'A',
@@ -110,8 +110,8 @@ new Chart(canvas, {
       label: 'B',
       yAxesID: 'B',
       data: [3, 4, 5, 6, 2],
-      borderColor: "#c97a38",
-      backgroundColor: "rgba(201, 122, 56,0.2)"
+      borderColor: "#f46239",
+      backgroundColor: "rgba(244, 98, 57,0.2)"
     },
     {
         label: 'C',
@@ -119,6 +119,48 @@ new Chart(canvas, {
         data: [7, 8, 9, 10, 10],
         borderColor: "#503ade",
         backgroundColor: "rgba(80, 58, 222,0.2)"
+      },
+      {
+        label: 'D',
+        yAxesID: 'D',
+        data: [1, 2, 6, 2, 8],
+        borderColor: "#f04232",
+        backgroundColor: "rgba(201, 122, 56,0.2)"
+      },
+      {
+        label: 'E',
+        yAxesID: 'E',
+        data: [4, 1, 0, 9, 5],
+        borderColor: "#10ff08",
+        backgroundColor: "rgba(16, 255, 8,0.2)"
+      },
+      {
+        label: 'F',
+        yAxesID: 'F',
+        data: [1, 1, 4, 5, 3],
+        borderColor: "#f5d836",
+        backgroundColor: "rgba(245, 216, 54,0.2)"
+      },
+      {
+        label: 'G',
+        yAxesID: 'G',
+        data: [7, 2, 1, 6, 7],
+        borderColor: "#5cd6f7",
+        backgroundColor: "rgba(92, 214, 247,0.2)"
+      },
+      {
+        label: 'H',
+        yAxesID: 'H',
+        data: [3, 4, 5, 6, 2],
+        borderColor: "#ff08d6",
+        backgroundColor: "rgba(255, 8, 214,0.2)"
+      },
+      {
+        label: 'I',
+        yAxesID: 'I',
+        data: [1, 8,4, 4, 9],
+        borderColor: "#321e54",
+        backgroundColor: "rgba(50, 30, 84,0.2)"
       }]
   },
   options: {
