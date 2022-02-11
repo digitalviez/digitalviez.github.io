@@ -238,7 +238,7 @@ new Chart(document.getElementById("bar-chart-2"), {
         {
           label: "Mild (10) - Sauer (0)",
           backgroundColor: ["#fbb373", "#f46239","#a73616","#e8c3b9","#c45850","#fbb373", "#f46239","#a73616","#e8c3b9","#c45850"],
-          data: [31,39,70,62,88,15,57,49,56,83]
+          data: [3.1,3.9,7,6.2,8.8,1.5,5.7,4.9,5.6,8.3]
         }
       ]
     },
@@ -247,7 +247,7 @@ new Chart(document.getElementById("bar-chart-2"), {
       scales: {
           yAxes: [{
             ticks:{
-                max:90,
+                max:10,
                 min:0
             }
           }]
