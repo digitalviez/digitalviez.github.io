@@ -193,6 +193,10 @@
       <image:title>Kelter der Viezproduktion</image:title>
       <image:geo_location>Gut Avelsbach, Trier, Germany</image:geo_location>
     </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/kelter_digitalisiert.jpg</image:loc>
+      <image:title>Digitalisierter Kelter in Farbe</image:title>
+    </image:image>
   </url>
 
   <url>
