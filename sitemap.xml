@@ -175,6 +175,14 @@
       <image:title>Streuobstwiese mit Apfelbäumen</image:title>
       <image:geo_location>Weingut Gehlen, Trier, Germany</image:geo_location>
     </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezbruderlied_yt.png</image:loc>
+      <image:title>Vorschau Viezbruderlied der Trierer Viezbruderschaft</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezaufhawaii_yt.png</image:loc>
+      <image:title>Vorschau Lied Viez auf Hawaii</image:title>
+    </image:image>
   </url>
 
   <url>
