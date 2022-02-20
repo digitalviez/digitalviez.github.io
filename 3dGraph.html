@@ -48,12 +48,13 @@
             const sprite = new SpriteText(node.name);
             sprite.material.depthWrite = false;
             sprite.color =  node.group;
-            sprite.textHeight = node.val;
+            sprite.textHeight = 1.5*parseFloat(node.val);
             return sprite;
         })
         Graph.linkColor(link => link.group)
         Graph.linkWidth("weight")
         Graph.linkOpacity(0.2)
+
         Graph.onNodeClick(node => {
             if (toggleFilter) {
                 Graph.nodeVisibility(true)
@@ -69,7 +70,7 @@
             toggleFilter = !toggleFilter;
         });
         // Spread nodes a little wider
-        Graph.d3Force('charge').strength(-150);
+        Graph.d3Force('charge').strength(-350);
     }
     displayGraph('Erzaehlung')
 </script>
