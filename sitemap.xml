@@ -261,6 +261,11 @@
       <image:loc>https://digitalviez.github.io/viezbot.png</image:loc>
       <image:title>Vorschau des Viezbots</image:title>
     </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/viezsorten.jpg</image:loc>
+      <image:title>Projektgruppe beim Arbeiten</image:title>
+      <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
   </url>
 
   <url>
@@ -345,14 +350,13 @@
   <url>
     <loc>https://digitalviez.github.io/projekt.html</loc>
     <image:image>
-      <image:loc>https://digitalviez.github.io/viezsorten.jpg</image:loc>
-      <image:title>Projektgruppe beim Arbeiten</image:title>
-      <image:geo_location>Trier, Germany</image:geo_location>
-    </image:image>
-    <image:image>
       <image:loc>https://digitalviez.github.io/projektgruppe_mit_gluehviez.jpg</image:loc>
       <image:title>Projektgruppe mit Glühviez</image:title>
       <image:geo_location>Trier, Germany</image:geo_location>
+    </image:image>
+    <image:image>
+      <image:loc>https://digitalviez.github.io/projektgruppe.jpg</image:loc>
+      <image:title>Projektgruppe</image:title>
     </image:image>
   </url>
   
