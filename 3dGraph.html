@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
+    <title>Digital Viez - ViezKorpus als Netzwerk</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/img/icons/faviconOrange/original-orange.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icons/faviconOrange/apple-touch-icon.png">
@@ -17,10 +18,10 @@
 
 <div id="3d-graph"></div>
 <div style="position: absolute;
-            top: 0px;
-            right: 0px;
+            top: 0;
+            right: 0;
             padding: 10px;">
-    <select id="selectMenu" class="btn btn-primary" onchange = "displayGraph()">
+    <label for="selectMenu"></label><select id="selectMenu" class="btn btn-primary" onchange = "displayGraph()">
         <option value="Erzaehlung" selected="selected">Erzählungen und Interviews</option>
         <option value="Etymologie">Etymologie</option>
         <option value="Geschichte">Geschichte</option>
@@ -40,7 +41,7 @@
         let toggleFilter = false
         const Graph = ForceGraph3D({ rendererConfig: { antialias: true }})
         (document.getElementById('3d-graph'))
-        Graph.renderer().setPixelRatio( window.devicePixelRatio );
+        Graph.renderer().setPixelRatio(window.devicePixelRatio)
         Graph.backgroundColor('#f8f9fa')
         Graph.jsonUrl('json/'+subCorpus+'.json')
         Graph.showNavInfo(false)
