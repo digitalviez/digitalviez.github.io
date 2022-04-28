@@ -12,14 +12,6 @@ Wenn du ändern willst, welche Informationen über das Element in der Karte ange
 Wenn du die Inhalte der HTML-Datei ausserhalb der OSM-Elemente verändern willst:
 ändere das in der Funktion printhtml.
 
-
-To Dos: - Alle Punkte von OSM in Karte einbringen (z. B. Vereine)
-        - Marker auseinander springen lassen
-        - Suchmöglichkeit einpflegen (falls möglich)
-        - Routenplaner (falls möglich)
-        - CSS für die Pop-Ups
-        - Viezstrassenmitglieder nicht automatisch gleichzeitig in andere Kategorien aufnehmen, nur wenn drink:viez=served oder product=viez
-        - Viezstrassenroute "verschoenern", also mehr Punkte einfügen, damit sie wirklich entlang der Strasse verlaeuft (wenn Zeit ist)
 """
 
 import overpy
